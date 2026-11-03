@@ -1,32 +1,33 @@
 name: Access test
 on: workflow_dispatch
+permissions:
+  contents: read
+  models: read
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect pages
+      - name: Discover
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set +e
-          for u in \
-            "https://assembly.go.kr/portal/bbs/B0000054/list.do?menuNo=600100" \
-            "https://www.president.go.kr/schedule" \
-            "https://www.president.go.kr/briefings" \
-            "https://www.kmcc.go.kr/user.do?boardId=1112&page=A05020000&dc=K05020000"; do
-            echo "=== $u"
-            curl -sL -m 30 -A "Mozilla/5.0" "$u" -o page.html -w "http=%{http_code} size=%{size_download}\n"
-            echo "날짜형 문자열 수: $(grep -oE '20[0-9]{2}[-.][0-9]{2}[-.][0-9]{2}' page.html | wc -l)"
-            grep -m3 -E '20[0-9]{2}[-.][0-9]{2}[-.][0-9]{2}' page.html | cut -c1-200
+          UA="Mozilla/5.0"
+          B="https://www.president.go.kr"
+          for p in briefings schedule; do
+            echo "=== 청와대 $p : 데이터 주소 후보"
+            curl -sL -m 30 -A "$UA" "$B/$p" -o p.html
+            for s in $(grep -oE 'src="[^"]+\.js[^"]*"' p.html | sed 's/src="//;s/"$//' | head -8); do
+              case "$s" in http*) u="$s";; *) u="$B$s";; esac
+              echo "--- $u"
+              curl -sL -m 30 -A "$UA" "$u" | grep -oE "/[A-Za-z0-9_./-]*(api|ajax|briefing|schedule|board)[A-Za-z0-9_./?=&-]*" | sort -u | head -12
+            done
           done
-          echo "=== RSS 후보 (주소는 아직 확인 전인 후보입니다)"
-          for r in \
-            "https://www.yna.co.kr/rss/news.xml" \
-            "https://imnews.imbc.com/rss/news/news_00.xml" \
-            "https://fs.jtbc.co.kr/RSS/newsflash.xml" \
-            "https://www.mediatoday.co.kr/rss/allArticle.xml" \
-            "https://www.pdjournal.com/rss/allArticle.xml" \
-            "http://rss.cnn.com/rss/edition.rss" \
-            "https://edition.cnn.com/"; do
-            curl -sL -m 30 -A "Mozilla/5.0" "$r" -o rss.xml -w "http=%{http_code} items="
-            echo "$(grep -o '<item' rss.xml | wc -l)  $r"
-          done
+          echo "=== 뉴스 검색 RSS"
+          curl -sL -m 30 -A "$UA" "https://news.google.com/rss/search?q=YTN+%EC%B5%9C%EB%8C%80%EC%A3%BC%EC%A3%BC&hl=ko&gl=KR&ceid=KR:ko" -o g.xml -w "http=%{http_code} items="
+          echo "$(grep -o '<item>' g.xml | wc -l)"
+          echo "=== GitHub Models 시험"
+          curl -s -m 60 https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"한국어로 한 문장 인사해줘"}],"max_tokens":60}' | head -c 600
           exit 0
