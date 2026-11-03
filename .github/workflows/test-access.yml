@@ -7,27 +7,22 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Discover
+      - name: Discover2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set +e
           UA="Mozilla/5.0"
           B="https://www.president.go.kr"
-          for p in briefings schedule; do
-            echo "=== 청와대 $p : 데이터 주소 후보"
-            curl -sL -m 30 -A "$UA" "$B/$p" -o p.html
-            for s in $(grep -oE 'src="[^"]+\.js[^"]*"' p.html | sed 's/src="//;s/"$//' | head -8); do
-              case "$s" in http*) u="$s";; *) u="$B$s";; esac
-              echo "--- $u"
-              curl -sL -m 30 -A "$UA" "$u" | grep -oE "/[A-Za-z0-9_./-]*(api|ajax|briefing|schedule|board)[A-Za-z0-9_./?=&-]*" | sort -u | head -12
-            done
-          done
-          echo "=== 뉴스 검색 RSS"
-          curl -sL -m 30 -A "$UA" "https://news.google.com/rss/search?q=YTN+%EC%B5%9C%EB%8C%80%EC%A3%BC%EC%A3%BC&hl=ko&gl=KR&ceid=KR:ko" -o g.xml -w "http=%{http_code} items="
-          echo "$(grep -o '<item>' g.xml | wc -l)"
-          echo "=== GitHub Models 시험"
-          curl -s -m 60 https://models.github.ai/inference/chat/completions \
-            -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
-            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"한국어로 한 문장 인사해줘"}],"max_tokens":60}' | head -c 600
+          echo "=== 청와대 board.js 데이터 호출 부분"
+          curl -sL -m 30 -A "$UA" "$B/type/common/js/board.js" -o board.js
+          grep -nE "ajax|url|fetch|\.json|/api|\.do|getJSON" board.js | cut -c1-220 | head -30
+          echo "=== 청와대 페이지 안에 적힌 주소"
+          curl -sL -m 30 -A "$UA" "$B/briefings" | grep -oE "(\"|')/[A-Za-z0-9_./-]*(api|list|board|briefing|schedule)[A-Za-z0-9_./?=&-]*(\"|')" | sort -u | head -20
+          echo "=== GitHub Models 재시험"
+          curl -s -m 60 -o m.txt -w "http=%{http_code}\n" https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -H "Accept: application/json" \
+            -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"한국어로 한 문장 인사해줘"}],"max_tokens":60}'
+          head -c 700 m.txt
+          echo
           exit 0
