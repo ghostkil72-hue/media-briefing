@@ -1,20 +1,332 @@
 {
-"updated": "2026-11-03 17:12",
+"updated": "2026-11-03 17:56",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
-"items": [],
-"lastOk": "2026-11-03 16:49"
+"items": [
+{
+"title": "기자회견 일정(4일, 수)",
+"date": "2026-11-03",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5288936",
+"summary": ""
+},
+{
+"title": "국회의장 공로장 신청 안내(2027년도 1분기 행사)",
+"date": "2026-11-03",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5288923",
+"summary": ""
+},
+{
+"title": "기자회견 일정(3일, 화)",
+"date": "2026-11-02",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5285268",
+"summary": ""
+},
+{
+"title": "국회의장 상장 신청 안내(2027년도 1분기 행사)",
+"date": "2026-11-02",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5285262",
+"summary": ""
+},
+{
+"title": "기자회견 일정(2일, 월)",
+"date": "2026-10-30",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5281436",
+"summary": ""
+},
+{
+"title": "국회 간행물 발간현황(2026.10월)",
+"date": "2026-10-30",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5281435",
+"summary": ""
+},
+{
+"title": "국회방송 주간편성표 (11월 2일~11월 8일)",
+"date": "2026-10-30",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5281429",
+"summary": ""
+},
+{
+"title": "주간식단표(2026. 11. 2. ~ 11. 8.)",
+"date": "2026-10-30",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5281425",
+"summary": ""
+},
+{
+"title": "기자회견 일정(30일, 금)",
+"date": "2026-10-29",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5277723",
+"summary": ""
+},
+{
+"title": "기자회견 일정(29일, 목)",
+"date": "2026-10-28",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5274058",
+"summary": ""
+},
+{
+"title": "기자회견 일정(28일, 수)",
+"date": "2026-10-27",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5270395",
+"summary": ""
+},
+{
+"title": "기자회견 일정(27일, 화)",
+"date": "2026-10-26",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5266744",
+"summary": ""
+},
+{
+"title": "2027년도 상반기 국회 문화공간조성 기획전(아트갤러리) 추천서 접수 안내",
+"date": "2026-10-26",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5266717",
+"summary": ""
+},
+{
+"title": "국회방송 주간편성표(10월 26일~11월 1일)",
+"date": "2026-10-23",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5262971",
+"summary": ""
+},
+{
+"title": "주간식단표(2026. 10. 26. ~ 11. 1.)",
+"date": "2026-10-23",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5262964",
+"summary": ""
+},
+{
+"title": "기자회견 일정(26일, 월)",
+"date": "2026-10-23",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5262963",
+"summary": ""
+},
+{
+"title": "기자회견 일정(23일, 금)",
+"date": "2026-10-22",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5262904",
+"summary": ""
+},
+{
+"title": "기자회견 일정(22일, 목)",
+"date": "2026-10-21",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5259332",
+"summary": ""
+},
+{
+"title": "2026년도 정부포상(우수공무원) 추천대상자 공개검증",
+"date": "2026-10-20",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5255900",
+"summary": ""
+},
+{
+"title": "기자회견 일정(21일, 수)",
+"date": "2026-10-20",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5255886",
+"summary": ""
+}
+],
+"lastOk": "2026-11-03 17:56"
 },
 "schedule": {
 "label": "청와대 공개일정",
-"items": [],
-"lastOk": "2026-11-03 17:12"
+"items": [
+{
+"title": "09:40 사전 환담 · 10:00 2027년 예산안 대통령 시정연설",
+"date": "2026-11-02",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"09:40 사전 환담",
+"10:00 2027년 예산안 대통령 시정연설"
+]
+}
+],
+"lastOk": "2026-11-03 17:56"
 },
 "briefing": {
 "label": "청와대 브리핑",
-"items": [],
-"lastOk": "2026-11-03 17:12"
+"items": [
+{
+"title": "제47회 국무회의 결과 관련 김성완 대변인 서면 브리핑",
+"date": "2026-11-03",
+"url": "https://www.president.go.kr/briefings/LjE3Vdhs",
+"summary": "이재명 대통령은 오늘 오전 제47회 국무회의를 주재했습니다. 오늘 회의에서는 「공공기관 AI 대전환, 변화되는 국민 일상」, 「교육혁신 선도지역 추진 상황」, 「K-가축 방역 개선 대책」 등 3건의 부처 보고와 함께, 지식재산처가 마련한 「K-브랜드 정부인증제도 국내외 홍보 및 협력 방"
+},
+{
+"title": "이재명 대통령, 에르도안 튀르키예 대통령 국빈 방한 관련 김성완 대변인 서면브리핑",
+"date": "2026-11-03",
+"url": "https://www.president.go.kr/briefings/ND2i0Qlt",
+"summary": "이재명 대통령은 오늘(3일, 화) 국빈 방한하는 에르도안 튀르키예 대통령 부부을 맞아 공식환영식을 시작으로 정상회담과 국빈만찬 등 공식일정을 진행합니다. 정부는 튀르키예 대통령의 국빈방한을 환영하고 양국 간 오랜 우호 관계를 기념하기 위해 다양한 환대와 특별 예우를 준비했습니다. 먼저 "
+},
+{
+"title": "대통령 순방단 개인정보 유출 관련 임광현 비서실장 주재 긴급회의 결과 강유정 수석대변인 서면브리핑",
+"date": "2026-11-03",
+"url": "https://www.president.go.kr/briefings/AtPB25UE",
+"summary": "청와대는 오늘 (11.3) 아침 임광현 대통령 비서실장 주재로 대통령 순방단의 개인정보 유출관련 긴급회의를 개최했습니다. 이에 임 실장은 대통령 순방단의 개인정보 유출은 결코 가볍게 볼 수 없는 중대한 사안임을 지적하고, 유출 경위와 정보 노출의 범위, 실제 피해 여부를 철저히 조사하고"
+},
+{
+"title": "비서실장 주재 수석·보좌관 회의 관련 안귀령 부대변인 서면 브리핑",
+"date": "2026-11-02",
+"url": "https://www.president.go.kr/briefings/HISSYgN9",
+"summary": "임광현 대통령비서실장은 오늘 오후 주재한 수석·보좌관 회의에서 내년도 예산안의 적기 통과 필요성을 강조했습니다. 임광현 비서실장은 내년도 정부 예산안은 ‘더 큰 성장, 더 따뜻한 민생, 더 강한 대한민국’을 위한 국민 예산안이라며, ‘대체불가 대한민국’을 실현하는 ‘성장 예산’이자 성장"
+},
+{
+"title": "‘조제 하무스 오르타’ 동티모르 대통령 공식 방한 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-11-01",
+"url": "https://www.president.go.kr/briefings/8RUdLYMn",
+"summary": "동티모르 「조제 하무스 오르타」 대통령이 11월 5일(목)부터 7일(토)까지 이재명 대통령의 초청으로 한국을 공식 방문합니다. 오르타 대통령의 이번 방한은 2002년 양국 수교 이래 동티모르 정상의 최초 양자 공식방한입니다. 1996년 노벨평화상을 수상한 오르타 대통령은 한국 국민의 민"
+},
+{
+"title": "‘레젭 타입 에르도안’ 튀르키예 대통령 국빈 방한 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-11-01",
+"url": "https://www.president.go.kr/briefings/2i5CwGQS",
+"summary": "튀르키예 「레젭 타입 에르도안」 대통령은 11월 2일(월)부터 4일(수)까지 한국을 국빈 방문합니다. 에르도안 대통령의 이번 방문은 2018년 국빈 방한 이후 8년 만이며, 2025년 11월 우리 정상의 튀르키예 국빈 방문 이후 약 1년 만에 양자 정상회담을 가질 예정입니다. 올해 7월"
+},
+{
+"title": "이재명 대통령, 청송군·영양군 현장 방문 및 주민 간담회 관련 김성완 대변인 서면 브리핑",
+"date": "2026-10-31",
+"url": "https://www.president.go.kr/briefings/3yL0CRPk",
+"summary": "이재명 대통령은 오늘(31일, 토) 오후 농어촌 기본소득 시범지역인 경상북도 청송군과 영양군을 연이어 방문해 농어촌 기본소득 시행 이후 지역에서 체감하는 변화를 직접 시찰하고, 지역 주민 및 소상공인들과 소통하는 시간을 가졌습니다. 경북 청송군과 영양군은 각각 '26년 6월, '25년 "
+},
+{
+"title": "이재명 대통령, 위촉장 및 임명장 수여식 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-30",
+"url": "https://www.president.go.kr/briefings/OwFJ4tAX",
+"summary": "이재명 대통령은 오늘 오전 청와대에서 대통령 직속 위원회의 부·위원장과 특별보좌관에게 위촉장을, 특별감찰관에게 임명장을 수여했습니다. 위촉장 및 임명장 수여 대상자는 아래와 같습니다. 1. 계승균 국가지식재산위원회 위원장(위촉) 2. 하정우 국가인공지능전략위원회 부위원장(위촉) 3. 김"
+},
+{
+"title": "현안 관련 위성락 국가안보실장 기자 간담회 모두발언",
+"date": "2026-10-30",
+"url": "https://www.president.go.kr/briefings/i0O6djIg",
+"summary": "우선 MDL 관련 사안인데, 지난달 서부전선 비무장지대 MDL 이남 지점에서 작전을 수행하던 우리 장병들이 북한이 설치한 지뢰의 폭발로 큰 부상을 입었습니다. 사고 이후에 유엔사와 함께 조사를 했고, 최종 조사 결과 발표를 통해서 북한군의 지뢰가 정전협정 위반임을 밝히고, 북한의 사과와"
+},
+{
+"title": "한-사우디 정상 통화 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-29",
+"url": "https://www.president.go.kr/briefings/JbdsGY9Z",
+"summary": "이재명 대통령은 오늘(10.29, 목) 저녁, 사우디 측의 요청으로 「모하메드 빈 살만 빈 압둘아지즈 알사우드(Mohammed bin Salman bin Abdulaziz Al Saud)」 사우디아라비아 왕국 왕세자 겸 총리와 통화를 했습니다. 이 대통령은 중동전쟁으로 인해 사우디의 민"
+},
+{
+"title": "한-독일 정상회담 결과 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-29",
+"url": "https://www.president.go.kr/briefings/0JwUqCKn",
+"summary": "이재명 대통령은 10월 29일(목) 오후 청와대에서 「프리드리히 메르츠(Friedrich Merz)」독일 총리와 정상회담을 갖고, 양국 간 실질협력 확대 방안과 주요 지역·국제 정세 등에 대해 심도 있게 논의했습니다. 이번 공식 방한은 메르츠 총리의 취임 후 첫 방한입니다. 독일은 우리"
+},
+{
+"title": "이재명 대통령, ‘메르츠’ 독일 총리 공식방한 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-29",
+"url": "https://www.president.go.kr/briefings/CuLhpO1q",
+"summary": "이재명 대통령은 오늘(29일, 목) 오후 청와대에서 공식 방한한 메르츠 독일 총리와 정상회담을 갖고, 공동언론발표와 공식만찬을 진행할 예정입니다. 이번 방한은 메르츠 총리 취임 후 첫 방한이자, 독일 총리의 양자 방한으로는 3년 만입니다. 양 정상은 지난 6월 프랑스에서 개최된 G7 정"
+},
+{
+"title": "더불어민주당 5선이상 중진 의원 만찬 관련 홍익표 정무수석 서면브리핑",
+"date": "2026-10-28",
+"url": "https://www.president.go.kr/briefings/Ifh8nUog",
+"summary": "이재명 대통령은 여러 고비마다 당과 국회를 이끌어 온 더불어민주당 5선 이상 중진 국회의원들을 초청해 만찬을 함께하고, 참석자들에게 감사의 뜻을 전했습니다. 이 대통령은 국민 삶의 어려움이 가중되는 상황에서 당과 청와대가 긴밀히 소통하고 협력해 실질적인 해법을 찾아야 한다고 강조했습니다"
+},
+{
+"title": "임광현 비서실장, 진우스님 예방 관련 안귀령 부대변인 서면 브리핑",
+"date": "2026-10-28",
+"url": "https://www.president.go.kr/briefings/tNBfidHE",
+"summary": "임광현 대통령비서실장은 오늘(28일) 오전, 조계사를 방문해 대한불교조계종 총무원장 진우스님을 예방했습니다. 임광현 비서실장은 “연임되신 진우스님께 대통령님과 정부를 대표해 축하의 말씀을 드린다”고 인사했습니다. 이에 진우스님은 “중책을 맡으셨다”며 “대통령님의 국정 방향과 정책을 옆에"
+},
+{
+"title": "제46회 국무회의 결과 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-27",
+"url": "https://www.president.go.kr/briefings/mg4nvBz8",
+"summary": "이재명 대통령은 오늘 오전, 제46회 국무회의를 주재했습니다. 오늘 회의에서는 「불법사금융 근절 대책 성과 및 향후 계획」, 「지방세입 체납관리단 운영성과 및 향후 추진계획」, 「제2회 코리아 그랜드 페스티벌 추진계획」 등 3건의 부처 보고와 함께, 산림청이 마련한 「가을철 산불방지 대"
+},
+{
+"title": "이재명 대통령, 우원식 전 국회의장 초청 오찬 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-26",
+"url": "https://www.president.go.kr/briefings/2iPUwGQS",
+"summary": "이재명 대통령은 오늘 우원식 전 국회의장을 청와대로 초청해 낮 12시부터 약 90분 간 함께 오찬을 가졌습니다. 오늘 오찬은 제22대 국회 전반기 국회의장으로서 헌신해온 우 전 의장의 노고에 감사를 전하기 위해 마련됐으며, 임광현 비서실장이 함께 했습니다. 이 대통령과 우 전 의장은 국"
+},
+{
+"title": "김혜경 여사, 오월어머니집 전·현직 임원 초청 오찬 간담회 관련 안귀령 부대변인 서면브리핑",
+"date": "2026-10-26",
+"url": "https://www.president.go.kr/briefings/Ow7D4tAX",
+"summary": "김혜경 여사는 오늘(26일) 오후 청와대 상춘재에서 오월어머니집 전·현직 임원들을 초청해 오찬 간담회를 가졌습니다. 오월어머니집은 5·18민주화운동 당시 직접 활동하거나 구속된 가족을 찾기 위해 나섰던 여성들, 희생된 가족의 명예회복을 위해 활동해온 여성들이 모여 2006년 설립한 사단"
+},
+{
+"title": "프리드리히 메르츠 독일 총리 공식 방한 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-23",
+"url": "https://www.president.go.kr/briefings/p1V5Ic0N",
+"summary": "독일 ‘프리드리히 메르츠’ 총리는 서울에서 개최되는 제19회 독일 아시아·태평양 비즈니스 컨퍼런스(APK 2026, 10.29-31) 참석차 오는 10월 29일(목)부터 10월 30일(금) 까지 공식 방한합니다. 메르츠 총리의 이번 방한은 독일 총리로서 3년만의 양자 공식 방한이자 메르"
+},
+{
+"title": "이재명 대통령, 한일 재계회의 일본측 대표단 접견 관련 김성완 대변인 서면 브리핑",
+"date": "2026-10-23",
+"url": "https://www.president.go.kr/briefings/JbioGY9Z",
+"summary": "이재명 대통령은 오늘(23일) 오후 청와대에서 츠츠이 요시노부 일본경제단체연합회 회장을 비롯한 한일 재계회의 일본 측 대표단을 접견하고, 경제협력 확대 방안 등에 대해 논의했습니다. 먼저 이 대통령은 양국 재계가 끈끈한 유대와 협력을 통해 양국의 경제 성장에 기여해 왔음을 평가하고, 기"
+},
+{
+"title": "김혜경 여사, 제1회 한식의 날 기념식 및 한식대축제 참석 관련 안귀령 부대변인 서면브리핑",
+"date": "2026-10-23",
+"url": "https://www.president.go.kr/briefings/uFjM1oOc",
+"summary": "김혜경 여사는 오늘(23일) 오후 서울 용산구 국립중앙박물관에서 열린 ‘제1회 한식의 날 기념식’에 참석해 한식의 날이 법정기념일로 지정된 의미를 되새기고, 한식의 계승과 발전을 위해 노력해온 관계자들을 격려했습니다. 이어 ‘2026 한식대축제’ 현장을 찾아 한식의 다양한 가능성을 확인"
+},
+{
+"title": "이재명 대통령 주재 초안전사회 범정부 대응회의 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-23",
+"url": "https://www.president.go.kr/briefings/i0BwdjIg",
+"summary": "최근 관계성 범죄가 잇따르고 국민 불안이 커지면서 이재명 대통령은 지난 15일 “전쟁을 선포한다는 각오로 특단의 대책을 조속하게 수립”하라고 지시했습니다. 이에 하준경 정책실장이 관계 부처 합동 '이상동기·관계성·사회적 약자 범죄 대책 회의'를 열고, 한성숙 국무총리가 관계부처 회의를 "
+},
+{
+"title": "제50차 대통령 주재 수석보좌관 회의 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-22",
+"url": "https://www.president.go.kr/briefings/AtMl25UE",
+"summary": "이재명 대통령은 오늘(22일, 목) 오후 수석보좌관회의를 주재하고, 잠재성장률 반등과 대·중소기업 상생협력, 가을철 국민안전 대책 마련을 강조했습니다. 이 대통령은 국제통화기금이 우리나라의 잠재성장률을 40년 만에 처음으로 2년 연속 상승할 것으로 전망한 데에 대해 어려운 대외 여건 속"
+},
+{
+"title": "이 대통령, 익산 왕궁초등학교 가을운동회 깜짝 방문 관련 김성완 대변인 서면 브리핑",
+"date": "2026-10-22",
+"url": "https://www.president.go.kr/briefings/MKCWT9SG",
+"summary": "이재명 대통령은 오늘(10.22, 목) 오전, 전북 익산 소재 왕궁초등학교의 가을운동회에 참여했습니다. 왕궁초등학교는 1925년 개교해 올해 초 100회 졸업생을 배출한 유서 깊은 학교입니다. 이 대통령은 학생, 학부모, 교직원들과 가을운동회에 참여해 아이들이 뛰어노는 현장을 함께하는 "
+},
+{
+"title": "김혜경 여사, 2026 한복문화주간 기념행사 관련 안귀령 부대변인 서면브리핑",
+"date": "2026-10-21",
+"url": "https://www.president.go.kr/briefings/XvlRtZbh",
+"summary": "김혜경 여사는 오늘(21일) 오후 서울 용산구 국립중앙박물관 열린마당에서 열린 ‘2026 한복문화주간 기념행사’에 참석해 한복의 아름다움과 문화적 가치를 알리고, 한복문화의 계승과 발전을 위해 힘써온 관계자들을 격려했습니다. 한복문화주간은 한복의 날(10월 21일)을 맞아 우리의 멋과 "
+},
+{
+"title": "이재명 대통령, 테드로스 아드하놈 게브레예수스 WHO 사무총장 접견 관련 김성완 대변인 서면 브리핑",
+"date": "2026-10-21",
+"url": "https://www.president.go.kr/briefings/cm5VXOZ1",
+"summary": "이재명 대통령은 오늘(21일) 오후 청와대에서 테드로스 아드하놈 게브레예수스(Tedros Adhanom Ghebreyesus) 세계보건기구(WHO) 사무총장을 접견했습니다. 양측은 오늘 대한민국과 WHO가 공동 개최한 ‘세계 바이오 서밋’에서 발표한 서울 선언을 높이 평가했습니다. 이어"
+},
+{
+"title": "이재명 대통령, 계양산전통시장 방문 및 민생현장 목소리 청취 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-20",
+"url": "https://www.president.go.kr/briefings/JbtxGY9Z",
+"summary": "이재명 대통령은 3기 신도시 주택공급 현장 간담회를 마친 뒤, 인천 계양구에 위치한 계양산전통시장을 방문해 물가와 경기 상황을 점검하고, 지역 골목상권의 목소리를 듣기 위한 상인 간담회를 가졌습니다. 계양산전통시장은 이 대통령이 계양에 거주할 때 자주 찾았던 시장으로 의류와 식자재, 식"
+},
+{
+"title": "이재명 대통령, 3기 신도시 현장 시찰 및 주택공급 현장 간담회 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-20",
+"url": "https://www.president.go.kr/briefings/jC6nWAqC",
+"summary": "이재명 대통령은 오늘(20일, 화) 오후 인천 계양지구를 찾아 3기 신도시 조성 현장을 점검하고 입주예정자 및 도시·교통 전문가들과 주택공급 현장 간담회를 가졌습니다. 이번 방문은 이재명 정부가 추진 중인 주택공급 대책의 이행 상황을 점검하고, 현장의 목소리를 직접 듣기 위해 마련되었습"
+},
+{
+"title": "제45회 국무회의 결과 관련 강유정 수석대변인 서면 브리핑",
+"date": "2026-10-20",
+"url": "https://www.president.go.kr/briefings/Lj9WVdhs",
+"summary": "이재명 대통령은 오늘 오전 제45회 국무회의를 주재했습니다. 오늘 회의에서는 「누리호 5차 발사 성과 및 향후 계획」, 「재해조사 대상 사망사고 통계 보고」, 「2027학년도 수능 당일 안정적 시험 시행 지원대책」 등 3건의 부처보고와 함께 보건복지부가 마련한 「청년 생애 첫 보험료 지"
+},
+{
+"title": "임광현 비서실장, 직원과의 대화 관련 안귀령 부대변인 서면브리핑",
+"date": "2026-10-19",
+"url": "https://www.president.go.kr/briefings/AtF525UE",
+"summary": "임광현 대통령비서실장은 오늘(19일) 오후 청와대 영빈관에서 ‘직원과의 대화’를 개최해 직원들과 소통하고, 청와대의 역할과 공직자로서의 자세를 강조했습니다. 임광현 비서실장은 “저도 행정관 출신입니다”라고 인사하며 노무현 정부 청와대 근무 경험을 공유하고, 직원들과 가까이에서 소통하며 "
+},
+{
+"title": "이재명 대통령, 임명장 수여식 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-10-19",
+"url": "https://www.president.go.kr/briefings/wdTMcXDE",
+"summary": "이재명 대통령은 오늘 오후 청와대에서 장관급 인사 7명 및 중대범죄수사청장에게 임명장을 수여했습니다. 대상자는 아래와 같습니다. 1. 송두환 10·29 이태원참사 진상규명과 재발 방지를 위한 특별조사위원회 위원장(임명) 2. 이형일 부총리 겸 재정경제부 장관(임명) 3. 강신철 국방부 "
+}
+],
+"lastOk": "2026-11-03 17:56"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -23,6 +335,11 @@
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
 "date": "2026-11-03",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
+},
+{
+"title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
+"date": "2026-11-03",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
 },
 {
 "title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
@@ -35,6 +352,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
 },
 {
+"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-10-30",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
@@ -45,9 +372,24 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-121호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
+"date": "2026-10-29",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -55,9 +397,19 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-28",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
 "date": "2026-10-26",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
+"date": "2026-10-26",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
@@ -65,12 +417,22 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-23",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-10-22",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-22",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
 }
 ],
-"lastOk": "2026-11-03 16:49"
+"lastOk": "2026-11-03 17:56"
 },
 "cnn": {
 "label": "CNN",
@@ -214,6 +576,18 @@
 "summary": "Greenland’s new airport is for tourists. But it could also support a future independent state&nbsp;&nbsp;CNN"
 },
 {
+"title": "KFile: GOP Senate nominee’s abortion comments raise questions about real position",
+"date": "2026-11-03",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSGNpY0h5bHlxSjQ5ZlNCMk9wSjVTWHpZclZfRFV1NWxZV2RoQWRPQ25GeWl0djRXRk5tVG1sV1BkbGNkQlY0ZEE1VDcwWmYxbmdjOEtVNlRLNjdNdThDdGZZTTBTSzYzcllobzVOeWdrWjBkV0RzTTZfTFNCUHVQY0M0UHpfRVFfU21ZSkdOT1JFM21VZWphWkY0eE1ZUk9RamZCZEVPSG5Cckk5RUZ0eg?oc=5",
+"summary": "KFile: GOP Senate nominee’s abortion comments raise questions about real position&nbsp;&nbsp;CNN"
+},
+{
+"title": "US concerned by close ties between Nvidia CEO and Chinese Businesswoman",
+"date": "2026-11-03",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTWN6QVVITlFCUldTUk1RLUpNeWRBdTlPaUJLNmwwUWlwUVAzSWctR2pPT0dDbGlDVnF1Tkw2WGNDXzdJRnlEeS1kSlJnQ05La1RNQ185VWRvQ2RuREl4OFIxaTdaSmNUeTFURmluMUFJeG50QkNCRkhLdWNScXpQZXRXclQ?oc=5",
+"summary": "US concerned by close ties between Nvidia CEO and Chinese Businesswoman&nbsp;&nbsp;CNN"
+},
+{
 "title": "20-year-old co-pilot and a Texas couple and their 2 young children among victims in Florida Learjet crash",
 "date": "2026-11-02",
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NdmNVeVFSZ3BGbGJNblRsQmsxN1dON2hKdl9VZHRjSDZqLUpjQWdqUlU2bG5vcTNESVpYYkROY0hqSm4wbFVNZ1ZKQzhxcWFDYnByWGJ1bnFoQi01R0V5ejlCRTFDSFk2THVtUmxFWUZSb0NRblAw?oc=5",
@@ -262,7 +636,7 @@
 "summary": "Lindsay Clancy’s judge eyes March 2027 for retrial – if there is one&nbsp;&nbsp;CNN"
 }
 ],
-"lastOk": "2026-11-03 17:12"
+"lastOk": "2026-11-03 17:56"
 },
 "bbc": {
 "label": "BBC",
@@ -502,7 +876,7 @@
 "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
 }
 ],
-"lastOk": "2026-11-03 17:12"
+"lastOk": "2026-11-03 17:56"
 }
 }
 }
