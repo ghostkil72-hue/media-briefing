@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>매일 아침 브리핑</title>
+<meta name="theme-color" content="#0f172a">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  :root {
+    --bg: #f5f6f8; --card: #ffffff; --ink: #0f172a; --muted: #64748b; --line: #e5e7eb;
+    --accent: #2563eb; --accent2: #7c3aed;
+    --c0: #2563eb; --c1: #7c3aed; --c2: #0891b2; --c3: #d97706; --c4: #16a34a; --c5: #dc2626;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b1220; --card: #121a2b; --ink: #e6e9f0; --muted: #94a3b8; --line: #263045; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  a { color: inherit; }
+  .muted { color: var(--muted); }
+
+  .lock { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg, var(--bg) 0%, color-mix(in srgb, var(--accent) 6%, var(--bg)) 100%); padding: 24px; z-index: 50; }
+  .lock.off { display: none; }
+  .lock-box { width: 100%; max-width: 360px; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 2em 1.6em; display: flex; flex-direction: column; gap: .8em; align-items: center; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,.08); }
+  .lock-box h1 { font-size: 1.25em; margin: .2em 0 0; }
+  .lock-box input { width: 100%; font: inherit; font-size: 1.05em; min-height: 48px; padding: 0 1em; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); text-align: center; letter-spacing: .06em; }
+  .lock-box button { width: 100%; font: inherit; font-weight: 800; min-height: 48px; border-radius: 12px; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
+  .lock-err { color: #dc2626; font-size: .88em; min-height: 1.2em; margin: 0; }
+  .logo-big { font-size: 2.2em; }
+
+  .app { display: none; min-height: 100vh; padding-bottom: 72px; }
+  .app.on { display: block; }
+  header.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding: .9em 1.1em; display: flex; align-items: center; justify-content: space-between; gap: 1em; }
+  header.top h1 { font-size: 1.05em; margin: 0; }
+  header.top .sub { font-size: .78em; color: var(--muted); }
+  header.top button { font: inherit; font-size: .82em; font-weight: 700; border: 1px solid var(--line); background: var(--card); color: var(--muted); border-radius: 10px; padding: .4em .8em; cursor: pointer; }
+
+  main { max-width: 760px; margin: 0 auto; padding: 1em 1em 2em; }
+
+  .nav { display: flex; gap: .4em; overflow-x: auto; padding: .2em 0 .6em; -webkit-overflow-scrolling: touch; }
+  .nav button { flex: 0 0 auto; font: inherit; font-weight: 800; font-size: .88em; min-height: 40px; padding: 0 1.1em; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--muted); cursor: pointer; white-space: nowrap; }
+  .nav button[aria-selected="true"] { background: var(--tc, var(--accent)); border-color: var(--tc, var(--accent)); color: #fff; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1em 1.1em; margin-bottom: .7em; box-shadow: 0 1px 2px rgba(16,24,40,.04); }
+  .card .row1 { display: flex; align-items: baseline; gap: .6em; justify-content: space-between; }
+  .card .date { font-size: .78em; font-weight: 800; color: var(--tc, var(--accent)); white-space: nowrap; }
+  .card .title { font-weight: 800; font-size: 1.02em; line-height: 1.45; margin: .25em 0 0; }
+  .card .title a { text-decoration: none; }
+  .card .title a:hover { text-decoration: underline; }
+  .card .meta { font-size: .8em; color: var(--muted); margin-top: .3em; }
+  .card .summary { font-size: .88em; color: var(--muted); margin-top: .5em; line-height: 1.6; }
+  .card ul.sched { margin: .4em 0 0; padding-left: 1.1em; }
+  .card ul.sched li { margin: .15em 0; font-size: .92em; }
+  .card a.src { display: inline-block; margin-top: .5em; font-size: .8em; font-weight: 700; color: var(--tc, var(--accent)); text-decoration: none; }
+  .card a.src::after { content: ' →'; }
+
+  .empty { text-align: center; color: var(--muted); padding: 3em 1em; font-size: .92em; }
+  .lastok { font-size: .74em; color: var(--muted); margin-bottom: .6em; }
+
+  footer.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: none; background: color-mix(in srgb, var(--card) 96%, transparent); backdrop-filter: blur(10px); border-top: 1px solid var(--line); padding: .3em .2em calc(.3em + env(safe-area-inset-bottom)); }
+  @media (max-width: 720px) {
+    footer.bottom { display: flex; justify-content: space-around; }
+    footer.bottom button { flex: 1; display: flex; flex-direction: column; align-items: center; gap: .15em; font: inherit; font-size: .64em; font-weight: 700; color: var(--muted); background: transparent; border: 0; padding: .4em 0; cursor: pointer; }
+    footer.bottom button[aria-selected="true"] { color: var(--tc, var(--accent)); }
+    footer.bottom .ic { font-size: 1.25em; line-height: 1; }
+    .nav { display: none; }
+    main { padding-bottom: .5em; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lock" id="lock">
+  <form class="lock-box" id="lockForm" autocomplete="off">
+    <span class="logo-big" aria-hidden="true">🗞️</span>
+    <h1>매일 아침 브리핑</h1>
+    <p class="muted" style="margin:0">국회·청와대·방미통위·해외뉴스 통합 모니터링<br>비밀번호를 입력해 주세요.</p>
+    <input id="pw" type="password" aria-label="비밀번호" autofocus>
+    <button type="submit">들어가기</button>
+    <p class="lock-err" id="err" role="alert"></p>
+  </form>
+</div>
+
+<div class="app" id="app">
+  <header class="top">
+    <div>
+      <h1>매일 아침 브리핑</h1>
+      <div class="sub">마지막 갱신: <b id="updated">—</b></div>
+    </div>
+    <button id="logout" type="button">잠그기</button>
+  </header>
+  <nav class="nav" id="nav"></nav>
+  <main id="main"></main>
+  <footer class="bottom" id="bottomNav"></footer>
+</div>
+
+<script>
+(() => {
+  const TABS = [
+    { id: 'assembly', label: '국회', icon: '🏛️', color: '--c0' },
+    { id: 'schedule', label: '청와대 일정', icon: '📅', color: '--c1' },
+    { id: 'briefing', label: '청와대 브리핑', icon: '📣', color: '--c2' },
+    { id: 'kmcc', label: '방미통위', icon: '📺', color: '--c3' },
+    { id: 'cnn', label: 'CNN', icon: '🌎', color: '--c5' },
+    { id: 'bbc', label: 'BBC', icon: '🌍', color: '--c4' },
+  ];
+  const STORE = 'mb-pass';
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const store = { get: () => { try { return localStorage.getItem(STORE); } catch (e) { return null; } }, set: (v) => { try { localStorage.setItem(STORE, v); } catch (e) {} }, del: () => { try { localStorage.removeItem(STORE); } catch (e) {} } };
+  const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+  const link = (u, t, cls) => { const a = el('a', cls, t); if (typeof u === 'string' && /^https?:\/\//.test(u)) { a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; } return a; };
+  const fmtDate = (s) => { const m = String(s || '').match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? `${Number(m[2])}.${Number(m[3])}` : (s || ''); };
+
+  async function decrypt(pw, file) {
+    const res = await fetch((file || 'data.enc.json') + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('load');
+    const enc = await res.json();
+    const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']);
+    const key = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
+    const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64(enc.iv) }, key, b64(enc.ct));
+    return JSON.parse(new TextDecoder().decode(plain));
+  }
+
+  let PW = null, D = null, CUR = TABS[0].id;
+
+  function renderNav() {
+    const nav = $('nav'); nav.replaceChildren();
+    const bn = $('bottomNav'); bn.replaceChildren();
+    TABS.forEach((t) => {
+      const cnt = (D && D.sources[t.id] && D.sources[t.id].items || []).length;
+      const b = el('button', '', t.label + (cnt ? ' ' + cnt : ''));
+      b.type = 'button'; b.style.setProperty('--tc', `var(${t.color})`);
+      b.setAttribute('aria-selected', String(CUR === t.id));
+      b.addEventListener('click', () => { CUR = t.id; render(); });
+      nav.append(b);
+
+      const bb = el('button'); bb.type = 'button'; bb.style.setProperty('--tc', `var(${t.color})`);
+      bb.setAttribute('aria-selected', String(CUR === t.id));
+      bb.append(el('span', 'ic', t.icon), el('span', '', t.label));
+      bb.addEventListener('click', () => { CUR = t.id; render(); });
+      bn.append(bb);
+    });
+  }
+
+  function renderList(src) {
+    const main = $('main'); main.replaceChildren();
+    if (!src) { main.append(el('p', 'empty', '아직 수집된 자료가 없습니다.')); return; }
+    const tab = TABS.find((t) => t.id === CUR);
+    if (src.lastOk) main.append(el('p', 'lastok', '이 출처 마지막 수집: ' + src.lastOk));
+    else if (src.lastOk === null) main.append(el('p', 'lastok', '⚠ 최근 수집이 실패했습니다. 이전 자료만 표시됩니다.'));
+    const items = src.items || [];
+    if (!items.length) { main.append(el('p', 'empty', '표시할 항목이 없습니다.')); return; }
+    items.forEach((it) => {
+      const card = el('div', 'card'); card.style.setProperty('--tc', `var(${tab.color})`);
+      const row1 = el('div', 'row1');
+      row1.append(el('span', 'date', fmtDate(it.date)));
+      row1.append(document.createTextNode(''));
+      card.append(row1);
+      const h = el('p', 'title'); h.append(link(it.url, it.title)); card.append(h);
+      if (it.items && it.items.length > 1) {
+        const ul = el('ul', 'sched'); it.items.forEach((x) => ul.append(el('li', '', x))); card.append(ul);
+      }
+      if (it.dept) card.append(el('p', 'meta', it.dept));
+      if (it.summary) card.append(el('p', 'summary', it.summary));
+      if (it.url && /^https?:\/\//.test(it.url)) card.append(link(it.url, '원문 보기', 'src'));
+      main.append(card);
+    });
+  }
+
+  function render() {
+    renderNav();
+    renderList(D && D.sources[CUR]);
+  }
+
+  async function unlock(pw, silent) {
+    $('err').textContent = silent ? '' : '확인 중입니다…';
+    try {
+      D = await decrypt(pw);
+      PW = pw;
+      store.set(pw);
+      $('lock').classList.add('off'); $('app').classList.add('on');
+      $('updated').textContent = D.updated || '—';
+      render();
+    } catch (e) {
+      store.del();
+      $('err').textContent = silent ? '' : (e.message === 'load' ? '자료를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '비밀번호가 맞지 않습니다.');
+    }
+  }
+  $('lockForm').addEventListener('submit', (e) => { e.preventDefault(); unlock($('pw').value.trim(), false); });
+  $('logout').addEventListener('click', () => { store.del(); location.reload(); });
+  const saved = store.get(); if (saved) unlock(saved, true);
+})();
+</script>
+</body>
+</html>
