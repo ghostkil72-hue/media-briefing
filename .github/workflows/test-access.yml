@@ -4,17 +4,29 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Check URLs
+      - name: Inspect pages
         run: |
           set +e
           for u in \
             "https://assembly.go.kr/portal/bbs/B0000054/list.do?menuNo=600100" \
             "https://www.president.go.kr/schedule" \
             "https://www.president.go.kr/briefings" \
-            "https://www.kmcc.go.kr/user.do?boardId=1112&page=A05020000&dc=K05020000" \
-            "https://feeds.bbci.co.uk/news/rss.xml" \
-            "https://rss.cnn.com/rss/edition.rss"; do
-            code=$(curl -s -o /dev/null -m 20 -A "Mozilla/5.0" -w "%{http_code}" "$u")
-            echo "http=$code curl_rc=$?  $u"
+            "https://www.kmcc.go.kr/user.do?boardId=1112&page=A05020000&dc=K05020000"; do
+            echo "=== $u"
+            curl -sL -m 30 -A "Mozilla/5.0" "$u" -o page.html -w "http=%{http_code} size=%{size_download}\n"
+            echo "날짜형 문자열 수: $(grep -oE '20[0-9]{2}[-.][0-9]{2}[-.][0-9]{2}' page.html | wc -l)"
+            grep -m3 -E '20[0-9]{2}[-.][0-9]{2}[-.][0-9]{2}' page.html | cut -c1-200
+          done
+          echo "=== RSS 후보 (주소는 아직 확인 전인 후보입니다)"
+          for r in \
+            "https://www.yna.co.kr/rss/news.xml" \
+            "https://imnews.imbc.com/rss/news/news_00.xml" \
+            "https://fs.jtbc.co.kr/RSS/newsflash.xml" \
+            "https://www.mediatoday.co.kr/rss/allArticle.xml" \
+            "https://www.pdjournal.com/rss/allArticle.xml" \
+            "http://rss.cnn.com/rss/edition.rss" \
+            "https://edition.cnn.com/"; do
+            curl -sL -m 30 -A "Mozilla/5.0" "$r" -o rss.xml -w "http=%{http_code} items="
+            echo "$(grep -o '<item' rss.xml | wc -l)  $r"
           done
           exit 0
