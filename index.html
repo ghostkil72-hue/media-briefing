@@ -98,6 +98,7 @@
 <script>
 (() => {
   const TABS = [
+    { id: 'home', label: '홈', icon: '🏠', color: '--accent' },
     { id: 'assembly', label: '국회', icon: '🏛️', color: '--c0' },
     { id: 'schedule', label: '청와대 일정', icon: '📅', color: '--c1' },
     { id: 'briefing', label: '청와대 브리핑', icon: '📣', color: '--c2' },
@@ -123,7 +124,17 @@
     return JSON.parse(new TextDecoder().decode(plain));
   }
 
-  let PW = null, D = null, CUR = TABS[0].id;
+  let PW = null, D = null, CUR = 'home';
+  const TR_CACHE = {};
+  const TR_TABS = new Set(['cnn', 'bbc']);
+
+  async function translateText(text) {
+    if (!text) return '';
+    const res = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=' + encodeURIComponent(text));
+    if (!res.ok) throw new Error('fail');
+    const data = await res.json();
+    return (data[0] || []).map((seg) => seg[0]).join('');
+  }
 
   function renderNav() {
     const nav = $('nav'); nav.replaceChildren();
@@ -152,6 +163,7 @@
     else if (src.lastOk === null) main.append(el('p', 'lastok', '⚠ 최근 수집이 실패했습니다. 이전 자료만 표시됩니다.'));
     const items = src.items || [];
     if (!items.length) { main.append(el('p', 'empty', '표시할 항목이 없습니다.')); return; }
+    const canTranslate = TR_TABS.has(CUR);
     items.forEach((it) => {
       const card = el('div', 'card'); card.style.setProperty('--tc', `var(${tab.color})`);
       const row1 = el('div', 'row1');
@@ -164,14 +176,78 @@
       }
       if (it.dept) card.append(el('p', 'meta', it.dept));
       if (it.summary) card.append(el('p', 'summary', it.summary));
+      if (canTranslate) {
+        const trBox = el('p', 'summary tr-box');
+        trBox.style.display = 'none';
+        const trBtn = el('button', 'tr-btn', '한국어로 보기');
+        trBtn.type = 'button';
+        trBtn.style.cssText = 'margin-top:.5em;font:inherit;font-size:.8em;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--tc,var(--accent));border-radius:8px;padding:.3em .7em;cursor:pointer;';
+        const key = item_key_js(it);
+        trBtn.addEventListener('click', async () => {
+          if (trBox.style.display !== 'none') { trBox.style.display = 'none'; trBtn.textContent = '한국어로 보기'; return; }
+          trBox.style.display = 'block'; trBtn.textContent = '번역 중…'; trBtn.disabled = true;
+          try {
+            if (!TR_CACHE[key]) {
+              const [tTitle, tSummary] = await Promise.all([translateText(it.title), translateText(it.summary || '')]);
+              TR_CACHE[key] = tTitle + (tSummary ? '\n' + tSummary : '');
+            }
+            trBox.textContent = '🇰🇷 ' + TR_CACHE[key];
+            trBtn.textContent = '원문만 보기';
+          } catch (e) {
+            trBox.textContent = '번역에 실패했습니다. 잠시 후 다시 시도해 주세요.';
+            trBtn.textContent = '한국어로 보기';
+          }
+          trBtn.disabled = false;
+        });
+        card.append(trBtn, trBox);
+      }
       if (it.url && /^https?:\/\//.test(it.url)) card.append(link(it.url, '원문 보기', 'src'));
+      main.append(card);
+    });
+  }
+  function item_key_js(it) { return (it.url || '') + '|' + (it.title || ''); }
+
+  function renderHome() {
+    const main = $('main'); main.replaceChildren();
+    if (!D) { main.append(el('p', 'empty', '아직 수집된 자료가 없습니다.')); return; }
+    const grid = el('div', 'home-grid');
+    grid.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6em;margin-bottom:1.1em;';
+    TABS.filter((t) => t.id !== 'home').forEach((t) => {
+      const s = D.sources[t.id];
+      const cnt = (s && s.items || []).length;
+      const ok = s ? s.lastOk !== null : null;
+      const box = el('button', 'home-tile'); box.type = 'button';
+      box.style.cssText = `text-align:left;border:1px solid var(--line);border-radius:14px;padding:.8em .9em;background:var(--card);cursor:pointer;border-left:4px solid var(${t.color});`;
+      box.append(el('div', '', t.icon + ' ' + t.label));
+      box.append(el('div', 'muted', cnt + '건' + (ok === false ? ' · ⚠ 수집 실패' : '')));
+      box.addEventListener('click', () => { CUR = t.id; render(); });
+      grid.append(box);
+    });
+    main.append(grid);
+    main.append(el('p', 'lastok', '전체 마지막 갱신: ' + (D.updated || '—')));
+    main.append(el('h2', '', '최신 소식'));
+    const all = [];
+    TABS.filter((t) => t.id !== 'home').forEach((t) => {
+      const s = D.sources[t.id];
+      (s && s.items || []).forEach((it) => all.push({ ...it, _tab: t }));
+    });
+    all.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    if (!all.length) { main.append(el('p', 'empty', '표시할 항목이 없습니다.')); return; }
+    all.slice(0, 10).forEach((it) => {
+      const card = el('div', 'card'); card.style.setProperty('--tc', `var(${it._tab.color})`);
+      const row1 = el('div', 'row1');
+      row1.append(el('span', 'date', fmtDate(it.date)));
+      row1.append(el('span', 'meta', it._tab.icon + ' ' + it._tab.label));
+      card.append(row1);
+      const h = el('p', 'title'); h.append(link(it.url, it.title)); card.append(h);
       main.append(card);
     });
   }
 
   function render() {
     renderNav();
-    renderList(D && D.sources[CUR]);
+    if (CUR === 'home') renderHome();
+    else renderList(D && D.sources[CUR]);
   }
 
   async function unlock(pw, silent) {
