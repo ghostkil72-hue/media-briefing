@@ -1,0 +1,53 @@
+name: Daily briefing
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # UTC 22:00 = KST 07:00 (다음날)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check requests beautifulsoup4 cryptography
+
+      - name: Collect sources
+        run: python3 tools/collector.py state.json
+
+      - name: Encrypt for the site
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          if [ -z "$SITE_PASSWORD" ]; then
+            echo "::error::SITE_PASSWORD secret이 설정돼 있지 않습니다 (저장소 Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+          python3 tools/encrypt_json.py "$SITE_PASSWORD" state.json data.enc.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "daily-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json data.enc.json
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음 — 커밋하지 않습니다."
+          else
+            git commit -m "자동 수집: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
