@@ -1,0 +1,18 @@
+name: Access test
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check URLs
+        run: |
+          for u in \
+            "https://assembly.go.kr/portal/bbs/B0000054/list.do?menuNo=600100" \
+            "https://www.president.go.kr/schedule" \
+            "https://www.president.go.kr/briefings" \
+            "https://www.kmcc.go.kr/user.do?boardId=1112&page=A05020000&dc=K05020000" \
+            "https://feeds.bbci.co.uk/news/rss.xml" \
+            "https://rss.cnn.com/rss/edition.rss"; do
+            code=$(curl -s -o /dev/null -m 20 -A "Mozilla/5.0" -w "%{http_code}" "$u")
+            echo "$code  $u"
+          done
