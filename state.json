@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-03 16:49",
+"updated": "2026-11-03 17:12",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
@@ -9,12 +9,12 @@
 "schedule": {
 "label": "청와대 공개일정",
 "items": [],
-"lastOk": "2026-11-03 16:49"
+"lastOk": "2026-11-03 17:12"
 },
 "briefing": {
 "label": "청와대 브리핑",
 "items": [],
-"lastOk": "2026-11-03 16:49"
+"lastOk": "2026-11-03 17:12"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -208,6 +208,12 @@
 "summary": "Judge dismisses case against former FBI officials who DOJ believes hampered Biden family corruption probe&nbsp;&nbsp;CNN"
 },
 {
+"title": "Greenland’s new airport is for tourists. But it could also support a future independent state",
+"date": "2026-11-03",
+"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPS3BGRXgyWV9FVmxzVV9kdEtOTlF3LXJnQzFmSmNrdTJfOTNMbW55Yy1yaHNmYmhJZGYzN1hWbjk5bGp1RTVHYnlhR1lmRktQeGJmbjNSbEV6V1ZoNURzUkNMTl9peWd3Vy1PM2E1Z1BUMDZtcThHUGxIRHRQTXd3YTZsWFBFV0d0eGc?oc=5",
+"summary": "Greenland’s new airport is for tourists. But it could also support a future independent state&nbsp;&nbsp;CNN"
+},
+{
 "title": "20-year-old co-pilot and a Texas couple and their 2 young children among victims in Florida Learjet crash",
 "date": "2026-11-02",
 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NdmNVeVFSZ3BGbGJNblRsQmsxN1dON2hKdl9VZHRjSDZqLUpjQWdqUlU2bG5vcTNESVpYYkROY0hqSm4wbFVNZ1ZKQzhxcWFDYnByWGJ1bnFoQi01R0V5ejlCRTFDSFk2THVtUmxFWUZSb0NRblAw?oc=5",
@@ -256,7 +262,7 @@
 "summary": "Lindsay Clancy’s judge eyes March 2027 for retrial – if there is one&nbsp;&nbsp;CNN"
 }
 ],
-"lastOk": "2026-11-03 16:49"
+"lastOk": "2026-11-03 17:12"
 },
 "bbc": {
 "label": "BBC",
@@ -364,6 +370,48 @@
 "summary": "Dozens of supermarkets in seven European countries dumped huge quantities of food after refrigerators and freezers were targeted in a cyber-attack."
 },
 {
+"title": "Americans head to the polls for elections that could define Trump's closing chapter",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
+"summary": "The midterms will shape Congress for the last years of his presidency, writes Sarah Smith, but they are also a test of what politics may look like without him."
+},
+{
+"title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
+"summary": "The 2027 Asian Cup in Saudi Arabia is postponed because of a series of deadly attacks on the host country."
+},
+{
+"title": "Major test for Australia's social media ban begins in High Court",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+"summary": "Lawyers for Reddit and a digital rights group are arguing the world-leading policy robs children of their right to free communication."
+},
+{
+"title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
+"summary": "Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges."
+},
+{
+"title": "Why a US-Russia showdown left Morocco celebrating",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/cqp8genleg2ro?at_medium=RSS&at_campaign=rss",
+"summary": "An impasse between the US and Russia at the UN means its peacekeeping mission in Western Sahara has ended after 35 years."
+},
+{
+"title": "Indonesia's toxic haze is giving its neighbours a political headache",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
+"summary": "Governments in Singapore and Malaysia are split between anxious citizens and an irascible neighbour."
+},
+{
+"title": "US midterms campaign 'shattering' spending records to be most expensive ever",
+"date": "2026-11-03",
+"url": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+"summary": "The 2026 campaign is projected to cost nearly $12bn - BBC Verify looks into where all that money has come from."
+},
+{
 "title": "Five arrested after South African farmer shot and tortured",
 "date": "2026-11-02",
 "url": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss",
@@ -430,6 +478,18 @@
 "summary": "Both Ukraine and Russia say their air raid alert apps were cyber-attacked - Joe Tidy explains what we know so far."
 },
 {
+"title": "'I couldn't be silent': Iranian teen's mother seeking justice after daughter shot dead",
+"date": "2026-11-02",
+"url": "https://www.bbc.co.uk/news/videos/cwjdmp25mem9o?at_medium=RSS&at_campaign=rss",
+"summary": "BBC Panorama follows grieving Samira who - after the killing of Sevda - faces up to the Tehran regime."
+},
+{
+"title": "Democrats have high hopes for midterms - but are the polls right?",
+"date": "2026-11-02",
+"url": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
+"summary": "Polls have been predicting a Democratic surge, but last-minute deciders and sampling issues mean there's no guarantee."
+},
+{
 "title": "Shops looted as German cost-of-living protests turn violent",
 "date": "2026-11-01",
 "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
@@ -442,7 +502,7 @@
 "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
 }
 ],
-"lastOk": "2026-11-03 16:49"
+"lastOk": "2026-11-03 17:12"
 }
 }
 }
