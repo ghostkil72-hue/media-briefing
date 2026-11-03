@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -23,6 +24,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 HEADERS = {"User-Agent": UA}
 TIMEOUT = 25
 MAX_KEEP = 150  # 출처별 최대 보관 건수(오래된 것부터 제거)
+RETRIES = 3  # 연결 타임아웃 등 일시적 오류 재시도 횟수
 
 
 def now_kst():
@@ -33,103 +35,92 @@ def log(msg):
     print(f"[collector] {msg}", flush=True)
 
 
+def req(method, url, **kwargs):
+    """재시도(지수 백오프) 포함 요청 — 정부 사이트 쪽 일시적 연결 지연/차단에 대비."""
+    last_exc = None
+    for attempt in range(RETRIES):
+        try:
+            r = requests.request(method, url, headers=HEADERS, timeout=TIMEOUT, **kwargs)
+            r.raise_for_status()
+            return r
+        except Exception as e:
+            last_exc = e
+            if attempt < RETRIES - 1:
+                time.sleep(4 * (attempt + 1))
+    raise last_exc
+
+
 # ---------- 출처별 수집 함수 ----------
 # 각 함수는 [{title, date(YYYY-MM-DD), url, extra...}, ...] 를 반환한다 (최신순 아님 — merge 단계에서 정렬)
 
 def fetch_assembly():
-    """국회 홈페이지 공지사항"""
-    url = "https://assembly.go.kr/portal/bbs/B0000054/list.do?menuNo=600100"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    out = []
-    table = None
-    for t in soup.select("table"):
-        cap = t.select_one("caption")
-        if cap and "공지사항번호" in cap.get_text():
-            table = t
-            break
-    table = table or soup.select_one("table")
-    rows = table.select("tbody tr") if table else []
-    if not rows:
-        log(f"[진단] 국회: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} table개수={len(soup.select('table'))}")
-    for tr in rows:
-        tds = tr.select("td")
-        if len(tds) < 5:
-            continue
-        a = tds[2].select_one("a")  # 번호(0) 공지구분(1) 제목(2) 부서명(3) 작성일(4) ...
-        if not a:
-            continue
-        title = a.get_text(" ", strip=True)
-        if not title:
-            continue
-        href = a.get("href") or ""
-        link = requests.compat.urljoin(url, href) if href and not href.startswith("javascript") else url
-        date = ""
-        m = re.search(r"(20\d{2}-\d{2}-\d{2})", tds[4].get_text())
-        if m:
-            date = m.group(1)
-        dept = tds[3].get_text(" ", strip=True)[:40]
-        out.append({"title": title, "date": date or now_kst().strftime("%Y-%m-%d"), "url": link, "dept": dept})
-    return out
+    """국회 공지사항 — 공식 RSS 피드 사용 (HTML 목록 페이지는 GitHub Actions IP에서
+    연결 자체가 타임아웃되는 경우가 있어, 더 가볍고 공식 지원되는 RSS로 전환)"""
+    url = "https://www.assembly.go.kr/portal/rss/rss/meopenRss.do?brd_sctn=C1"
+    r = req("GET", url)
+    return _parse_rss(r.text, limit=40)
 
 
 def fetch_president_schedule():
-    """청와대 공개일정 — 이번 달 달력 페이지에서 날짜별 일정 추출"""
-    url = "https://www.president.go.kr/schedule"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    """청와대 공개일정 — 화면은 자바스크립트가 JSON을 받아와서 채우는 방식이라
+    HTML을 그대로 긁으면 항상 0건이 나온다. 실제 데이터를 주는 내부 API를 직접 호출한다."""
+    now = now_kst()
     out = []
-    links = soup.select("td.date a[data-dt]")
-    if not links:
-        log(f"[진단] 청와대일정: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} td.date개수={len(soup.select('td.date'))} a[data-dt]개수={len(soup.select('a[data-dt]'))}")
-    for a in links:
-        dt = a.get("data-dt", "").replace(".", "-")
-        if not re.match(r"^20\d{2}-\d{2}-\d{2}$", dt):
+    by_date = {}
+    for year, month in [(now.year, now.month)]:
+        url = f"https://www.president.go.kr/ajaxf/frSchedule/getSchedule.do?pSiteNo=2&pYear={year}&pMonth={month:02d}"
+        r = req("GET", url)
+        try:
+            data = r.json()
+        except ValueError:
+            log(f"[진단] 청와대일정: JSON 파싱 실패, len={len(r.text)}")
             continue
-        items = [li.get_text(" ", strip=True) for li in a.select("li")]
-        items = [t for t in items if t]
-        if not items:
-            continue
-        out.append({"title": " · ".join(items), "date": dt, "url": url, "items": items})
+        for row in (data.get("data", {}) or {}).get("list", []) or []:
+            dt = (row.get("SCH_DT") or "").replace(".", "-")
+            if not re.match(r"^20\d{2}-\d{2}-\d{2}$", dt):
+                continue
+            label = " ".join(x for x in [row.get("SCH_TIME"), row.get("SUBJECT")] if x)
+            by_date.setdefault(dt, []).append(label)
+    for dt, items in by_date.items():
+        out.append({"title": " · ".join(items), "date": dt, "url": "https://www.president.go.kr/schedule", "items": items})
     return out
 
 
 def fetch_president_briefings():
-    """청와대 브리핑(뉴스룸)"""
-    url = "https://www.president.go.kr/briefings"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    """청와대 브리핑(뉴스룸) — 목록 화면도 자바스크립트가 비동기로 채우므로,
+    실제 목록을 주는 내부 API(bbsViewGalleryList.do)를 직접 호출한다."""
+    url = "https://www.president.go.kr/ajaxf/frBoard/bbsViewGalleryList.do"
+    body = {
+        "pageNo": "1", "pagePerCnt": "30",
+        "MENU_CD": "nFSy219D", "CONTENTS_CD": "vqNUjDNc",
+        "pSiteNo": "2", "pBoardSeq": "2", "BBS_CD": "",
+        "SHORT_URL": "briefings", "sSearchGbn": "", "sSearchTxt": "",
+    }
+    r = req("POST", url, data=body)
+    try:
+        data = r.json()
+    except ValueError:
+        log(f"[진단] 청와대브리핑: JSON 파싱 실패, len={len(r.text)}")
+        return []
     out = []
-    cards = soup.select("ul.defulat > li")
-    if not cards:
-        log(f"[진단] 청와대브리핑: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} ul개수={len(soup.select('ul'))}")
-    for node in cards:
-        title_el = node.select_one(".noticeTitle")
-        if not title_el:
-            continue
-        title = title_el.get_text(" ", strip=True)
+    for row in (data.get("data", {}) or {}).get("list", []) or []:
+        title = (row.get("SUBJECT") or "").strip()
         if not title:
             continue
-        date_el = node.select_one(".date")
-        date_m = re.search(r"(20\d{2})\.(\d{2})\.(\d{2})", date_el.get_text()) if date_el else None
-        date = f"{date_m.group(1)}-{date_m.group(2)}-{date_m.group(3)}" if date_m else now_kst().strftime("%Y-%m-%d")
-        a = node.select_one("a")
-        href = a.get("href") if a else ""
-        link = requests.compat.urljoin(url, href) if href and not href.startswith("javascript") else url
-        summary_el = node.select_one(".noticeText")
-        summary = summary_el.get_text(" ", strip=True)[:160] if summary_el else ""
-        out.append({"title": title, "date": date, "url": link, "summary": summary})
+        wd = row.get("WRITE_DATE") or ""
+        m = re.search(r"(20\d{2})\.(\d{2})\.(\d{2})", wd)
+        date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else now_kst().strftime("%Y-%m-%d")
+        bbs_cd = row.get("BBS_CD") or ""
+        link = f"https://www.president.go.kr/briefings/{bbs_cd}" if bbs_cd else "https://www.president.go.kr/briefings"
+        content = re.sub(r"<[^>]+>", "", row.get("CONTENTS") or "").strip()
+        out.append({"title": title, "date": date, "url": link, "summary": content[:160]})
     return out[:40]
 
 
 def fetch_kmcc():
     """방미통위(KMCC) 공지사항"""
     url = "https://www.kmcc.go.kr/user.do?boardId=1112&page=A05020000&dc=K05020000"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = req("GET", url)
     soup = BeautifulSoup(r.text, "html.parser")
     out = []
     table = soup.select_one("table")
@@ -181,16 +172,14 @@ def _parse_rss(xml_text, limit=30):
 
 def fetch_bbc():
     url = "https://feeds.bbci.co.uk/news/world/rss.xml"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = req("GET", url)
     return _parse_rss(r.text)
 
 
 def fetch_cnn():
     # CNN 자체 RSS는 서비스 종료 — 구글 뉴스 RSS(출처 필터)로 대체, 제목+요약+원문 링크만 사용
     url = "https://news.google.com/rss/search?q=site:cnn.com%20when:1d&hl=en-US&gl=US&ceid=US:en"
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
+    r = req("GET", url)
     items = _parse_rss(r.text)
     for it in items:
         it["title"] = re.sub(r"\s*-\s*CNN$", "", it["title"]).strip()
