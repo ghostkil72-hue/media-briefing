@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: Check URLs
         run: |
+          set +e
           for u in \
             "https://assembly.go.kr/portal/bbs/B0000054/list.do?menuNo=600100" \
             "https://www.president.go.kr/schedule" \
@@ -14,5 +15,6 @@ jobs:
             "https://feeds.bbci.co.uk/news/rss.xml" \
             "https://rss.cnn.com/rss/edition.rss"; do
             code=$(curl -s -o /dev/null -m 20 -A "Mozilla/5.0" -w "%{http_code}" "$u")
-            echo "$code  $u"
+            echo "http=$code curl_rc=$?  $u"
           done
+          exit 0
