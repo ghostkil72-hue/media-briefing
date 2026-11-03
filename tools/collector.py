@@ -51,6 +51,8 @@ def fetch_assembly():
             break
     table = table or soup.select_one("table")
     rows = table.select("tbody tr") if table else []
+    if not rows:
+        log(f"[진단] 국회: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} table개수={len(soup.select('table'))}")
     for tr in rows:
         tds = tr.select("td")
         if len(tds) < 5:
@@ -79,7 +81,10 @@ def fetch_president_schedule():
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
     out = []
-    for a in soup.select("td.date a[data-dt]"):
+    links = soup.select("td.date a[data-dt]")
+    if not links:
+        log(f"[진단] 청와대일정: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} td.date개수={len(soup.select('td.date'))} a[data-dt]개수={len(soup.select('a[data-dt]'))}")
+    for a in links:
         dt = a.get("data-dt", "").replace(".", "-")
         if not re.match(r"^20\d{2}-\d{2}-\d{2}$", dt):
             continue
@@ -99,6 +104,8 @@ def fetch_president_briefings():
     soup = BeautifulSoup(r.text, "html.parser")
     out = []
     cards = soup.select("ul.defulat > li")
+    if not cards:
+        log(f"[진단] 청와대브리핑: status={r.status_code} len={len(r.text)} title={soup.title.get_text(strip=True) if soup.title else None!r} ul개수={len(soup.select('ul'))}")
     for node in cards:
         title_el = node.select_one(".noticeTitle")
         if not title_el:
