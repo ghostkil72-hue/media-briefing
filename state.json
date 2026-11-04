@@ -1,9 +1,15 @@
 {
-"updated": "2026-11-04 07:35",
+"updated": "2026-11-05 07:41",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
 "items": [
+{
+"title": "기자회견 일정(5일, 목)",
+"date": "2026-11-04",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5288968",
+"summary": ""
+},
 {
 "title": "기자회견 일정(4일, 수)",
 "date": "2026-11-03",
@@ -125,11 +131,20 @@
 "summary": ""
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 },
 "schedule": {
 "label": "청와대 공개일정",
 "items": [
+{
+"title": "15:00 공공재개발 현장 시찰 · 15:20 정비사업 현장간담회 ",
+"date": "2026-11-04",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"15:00 공공재개발 현장 시찰",
+"15:20 정비사업 현장간담회 "
+]
+},
 {
 "title": "10:00 제47회 국무회의 · 15:00 튀르키예 대통령 국빈 방한 - 공식환영식 · 16:00 튀르키예 대통령 국빈 방한-방명록 서명 및 기념촬영 · 16:05 한·튀르키예 정상회담 소인수회담 · 16:20 한·튀르키예 공동언론발표 · 16:50 한·튀르키예 정상회담 확대 회담 · 17:45 한·튀르키예 양해각서 체결식 · 19:05 튀르키예 대통령 국빈 방한 - 국빈만찬",
 "date": "2026-11-03",
@@ -138,6 +153,21 @@
 "10:00 제47회 국무회의",
 "15:00 튀르키예 대통령 국빈 방한 - 공식환영식",
 "16:00 튀르키예 대통령 국빈 방한-방명록 서명 및 기념촬영",
+"16:05 한·튀르키예 정상회담 소인수회담",
+"16:20 한·튀르키예 공동언론발표",
+"16:50 한·튀르키예 정상회담 확대 회담",
+"17:45 한·튀르키예 양해각서 체결식",
+"19:05 튀르키예 대통령 국빈 방한 - 국빈만찬"
+]
+},
+{
+"title": "10:00 제47회 국무회의 · 15:00 튀르키예 대통령 국빈 방한 - 공식환영식 · 16:00 튀르키예 대통령 국빈 방한 - 방명록 서명 및 기념촬영 · 16:05 한·튀르키예 정상회담 소인수회담 · 16:20 한·튀르키예 공동언론발표 · 16:50 한·튀르키예 정상회담 확대 회담 · 17:45 한·튀르키예 양해각서 체결식 · 19:05 튀르키예 대통령 국빈 방한 - 국빈만찬",
+"date": "2026-11-03",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"10:00 제47회 국무회의",
+"15:00 튀르키예 대통령 국빈 방한 - 공식환영식",
+"16:00 튀르키예 대통령 국빈 방한 - 방명록 서명 및 기념촬영",
 "16:05 한·튀르키예 정상회담 소인수회담",
 "16:20 한·튀르키예 공동언론발표",
 "16:50 한·튀르키예 정상회담 확대 회담",
@@ -155,11 +185,29 @@
 ]
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 },
 "briefing": {
 "label": "청와대 브리핑",
 "items": [
+{
+"title": "이재명 대통령, 공공재개발 현장시찰 및 정비사업 현장간담회 관련 안귀령 부대변인 서면브리핑",
+"date": "2026-11-04",
+"url": "https://www.president.go.kr/briefings/XvaHtZbh",
+"summary": "이재명 대통령은 오늘(4일) 오후 서울 성북구 장위9구역 공공재개발 정비사업 현장을 찾아 사업 추진 현황을 점검하고 주민, 전문가 등과 간담회를 가졌습니다. 이번 방문은 도심 주택공급의 핵심 수단인 정비사업의 현장 여건을 살펴보고, 사업 활성화와 주택공급 속도 제고 방안을 모색하기 위해"
+},
+{
+"title": "'대통령의 Y' 관련 성기홍 홍보소통수석 브리핑",
+"date": "2026-11-04",
+"url": "https://www.president.go.kr/briefings/nkjNy219",
+"summary": "대통령이 국민과 직접 소통하는 유튜브 프로그램을 새로 선보입니다. 대통령은 다양한 채널로 국민과 소통하고 있습니다. 대통령은 취임 후 그동안 여러 계기를 통해 청와대 출입기자단과의 기자회견 또는 기자간담회를 23회 가진 바 있고, SNS를 통해서 일상적으로 국민과 소통을 해 왔습니다. "
+},
+{
+"title": "이재명 대통령, 헌정회 회장·부회장단 오찬 간담회 관련 강유정 수석대변인 서면브리핑",
+"date": "2026-11-04",
+"url": "https://www.president.go.kr/briefings/WpS2H8yC",
+"summary": "이재명 대통령은 오늘(4일) 헌정회 회장단과 임원진을 청와대로 초청해 오찬 간담회를 가졌습니다. 헌정회 정대철 회장은 인사말을 통해 소통의 대통령이자 민주주의 대통령으로 일해주시는 것에 대해 감사를 표하며 더불어 네 가지 제언을 전했습니다. 정 회장은 먼저 상생, 협치, 통합의 정치를 "
+},
 {
 "title": "제47회 국무회의 결과 관련 김성완 대변인 서면 브리핑",
 "date": "2026-11-03",
@@ -353,7 +401,7 @@
 "summary": "이재명 대통령은 오늘 오후 청와대에서 장관급 인사 7명 및 중대범죄수사청장에게 임명장을 수여했습니다. 대상자는 아래와 같습니다. 1. 송두환 10·29 이태원참사 진상규명과 재발 방지를 위한 특별조사위원회 위원장(임명) 2. 이형일 부총리 겸 재정경제부 장관(임명) 3. 강신철 국방부 "
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -372,6 +420,11 @@
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
 "date": "2026-11-03",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
+},
+{
+"title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
+"date": "2026-11-03",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
 },
 {
 "title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
@@ -404,6 +457,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
 },
 {
+"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-10-30",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
@@ -434,6 +497,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-121호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
@@ -447,6 +520,11 @@
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
+"date": "2026-10-29",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -464,6 +542,11 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-28",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
 "date": "2026-10-26",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
@@ -477,6 +560,11 @@
 "title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
 "date": "2026-10-26",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
+"date": "2026-10-26",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
@@ -494,6 +582,11 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-23",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-10-22",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
@@ -507,13 +600,90 @@
 "title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-10-22",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-22",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 },
 "cnn": {
 "label": "CNN",
 "items": [
+{
+"title": "How Mississippi became an unlikely Senate battleground",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObzkxTjNWcmdKXzJycGtCaGhaazZxeDg2Y3VEdFJnWmJ3dFhnVVlGN05LcThCWS1UWFVNN2YwQWVzemdUblh4WTZGTnVDbTVhaDJ4RklrV2E0UllVcjFDU253OVF3UVdQOWlwZnRQaGFDNzg5LVI0Z2V4ZEpyaWZFR3ZfN0VPTXgxc1RVa3NGY1hUWGpNOGg5blplTktCMFp3Zndr?oc=5",
+"summary": "How Mississippi became an unlikely Senate battleground&nbsp;&nbsp;CNN"
+},
+{
+"title": "The biggest winners and losers of the 2026 midterm elections",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BOERhYzRtM1puWFc1QUg4czZIM0g3T3NBZ3lmZTk1U0h2Ym1hSXNoYWVJYTVscmNSOWFxZGlvdlNvSjRwdldtamJmOVd2RlNaelE4c1VBSFdPRHdZUm9ORXNvUk4xMEZqTFNvblJWbzVTY1RBLS1lN19aamRQdw?oc=5",
+"summary": "The biggest winners and losers of the 2026 midterm elections&nbsp;&nbsp;CNN"
+},
+{
+"title": "Security guard stops gunman who drove into Tampa-area Citibank Center and opened fire, killing a woman",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93RWRhUnlDS2FvdFRnNnNVMmdWRkU1RVNKTkZTR3BWRXVVNDQ5cDdzd3pDdFdUcXZfTlktS0xIcDJYUUxuWVAxVDFZUEdCa0w5Wk9DRnZtYXE1X3NKXzlRUTNjVXFJSFpqbkRuSUlVOW50Y1BKd0xV?oc=5",
+"summary": "Security guard stops gunman who drove into Tampa-area Citibank Center and opened fire, killing a woman&nbsp;&nbsp;CNN"
+},
+{
+"title": "Jeffries hasn’t talked to Trump and doesn’t list impeachment as top priority",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHhBcmJIMGtvY2doMHhEbkJKT1EteFB1OGdrUXZpSHotc1hlV2IyVHN1Wm51ODd5QzFOOGQ1QkR6M1IzcVZUcWlCamV1ZEl4dkwxazEta0RwZWRFYUJvOXJ5cHdkMDRMZXFkUUItM2h1WW96RHMxTmN2Wlp1QS1wSU4tTHE0SllEOHBkNmlqck9ZMDQ?oc=5",
+"summary": "Jeffries hasn’t talked to Trump and doesn’t list impeachment as top priority&nbsp;&nbsp;CNN"
+},
+{
+"title": "How Trump is expected to handle being a lame-duck president",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1JNZkxENzk2T0dQSUU1ZGdBM1YyYUxQSDZXN3U1ZWNLcDB3NnlkSjZsZF8wczFtdWdvUk83UXhQYWNVU0U4WHlaU014bkNCS3BObDNjeDFPTDJ2V0l4ZGg1LVJUYWpjYU5aUVZJWF9DeGRtRkFtWUJ4STk5dDdiTQ?oc=5",
+"summary": "How Trump is expected to handle being a lame-duck president&nbsp;&nbsp;CNN"
+},
+{
+"title": "Bob the poet, meet Bob the priest: Pope Leo receives Bob Dylan at the Vatican",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRU5ObEtwVHFXNnpsUzlpbWllRUE1b0wzZkxDRldxTzRpYkRvem1UMnkwa19nZzFfcjVtS28tS3NBN1F0bkprbWdUZ1Q3RlcydmVwMS1jOUhqVkFOMzVCNGFWcWtsSkg0aG54S0Y3Y0twTUhNOTdjVjI4SGRNVnBfaA?oc=5",
+"summary": "Bob the poet, meet Bob the priest: Pope Leo receives Bob Dylan at the Vatican&nbsp;&nbsp;CNN"
+},
+{
+"title": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmRtNUxIYTJJb2ZOaEtKMGMzbjRmX0hwSk5YNXpsbHdqSzluVW5udGFObGpuVnh1VGllcWVBdXlhZExtNlE0Mi1aY1V0MktvYkpCU3EwM0ZfS2d4Q0lNMGxrRG1kZzRYZEZoZkswS2Q0RGx6ZTczT3pkUXpCeV82VVZB?oc=5",
+"summary": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine&nbsp;&nbsp;CNN"
+},
+{
+"title": "Mississippi Democrat says he's \"confident\" he'll win razor-thin Senate race",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbldjak44TlFDdXVYeU5zNzRUcThDZ1o5SUZZdWxnNlFOWTJwQ0F3d1FPVF9rVW4tYU81RUp6Wkx4ZE13SVExSjJiMTByellIR2FuQkJoM3NoMFNWVmRzY3hqSDdRZ0lZbWdKWWJlV2RVdW1HRVZ2OXBNZ3pCQV91MVF4alZtS1YyUmVkSFc0UE5NM29sWUU3RWNlbkZXcjd2MGVKTjhB?oc=5",
+"summary": "Mississippi Democrat says he's \"confident\" he'll win razor-thin Senate race&nbsp;&nbsp;CNN"
+},
+{
+"title": "Talarico advocates for bipartisanship in first CNN interview after victory",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU20wZ2dmc3h4T1dHeEZhbVBuRlh5VVZsNmpONFRNTDJGWkdCYW1fUkNQQkhWNmJTUGFvR0tuMVc3YjhVVU5qUTFBcG5ENVcwQkVKYktDV1RhZFlDNHBObkxBeHkxRGRzQUp5UDJvV3NINXdLeFc3RGs1OGZMdWRaT0Vac2dZMlhaZ2tUY3IydVBMcmVZUjR6OEFibW9xeW5DZUE?oc=5",
+"summary": "Talarico advocates for bipartisanship in first CNN interview after victory&nbsp;&nbsp;CNN"
+},
+{
+"title": "Spot rare fireballs during the Southern Taurid meteor shower’s peak",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5cTdjbHY3UjBHMU5XNEJYdVd3UzRiMWJVODNnakxsTExDOEVENkJOVnp3dTRFdG5lNHJVLUFIeUFJbmp1cGtzZE5sX0dMeWxnX3lUZjliXzRDX1dpX0oxdjd4ZUsxUDE0cjRodzFsUHpzN0wtUVJHdw?oc=5",
+"summary": "Spot rare fireballs during the Southern Taurid meteor shower’s peak&nbsp;&nbsp;CNN"
+},
+{
+"title": "Jeffries tells Wolf Blitzer blue wave is ‘clear and direct repudiation of MAGA extremism’",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMjBubVZRVU8wTkp0Y1V5TjE2aFVDV1BIYjBVcnpxb0duY2lId3lBakY0YVVOYnhFRlR4LWNJMnF6REZYQUtmSmRrOGtUSUpJZDR3UUJCMkxYcDczNXBsQ2kyMWpqR01HXzRPOUJPMEVobGtGamYxMW1YVi0xT1hrR2c5anJwNGlpZlM3TTNtUlBUWXFndFlCWjBEaVBLdjd1YldVcUN4aXJKSlFl?oc=5",
+"summary": "Jeffries tells Wolf Blitzer blue wave is ‘clear and direct repudiation of MAGA extremism’&nbsp;&nbsp;CNN"
+},
+{
+"title": "1 killed and 2 hurt in small helicopter crash off Miami, officials say",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DLWVMUll2Yl81c2NVbVVaemk2bnhVdGdIdnFaQXZPdGtKb2FrTnFCZmxnRU5Fc1RUVkFsU1R6bGRLbHdMdlJJdlBxY21VQktTdzFhWGtTNnozNURkTE1NbVp3RjRRRE1hUUhfS2lCMWhBRkdzN29BN2gzQQ?oc=5",
+"summary": "1 killed and 2 hurt in small helicopter crash off Miami, officials say&nbsp;&nbsp;CNN"
+},
 {
 "title": "Trump’s Election Day bombshell on Israel points to historic shift in US politics",
 "date": "2026-11-04",
@@ -597,6 +767,114 @@
 "date": "2026-11-04",
 "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTU1ib1ZESk1Bc0JpMUdyNXVoM0hLT2ZrTnJveDBycDFpZWVyQnBXRnN3VllmZVVYeHI0ay1kemwtUWRjMzdWZm1wQUlOVmVCZlZCSUZLRVVMV3BHVDdPb2JQUGd3cjdIWVRBUFdUV1M1b3ZLakRHclZJU1JmOEdKNzJyaExTMXBkNGx5cHNfYjRuUDg1MUp4ejlOcEk5Tkl2S2JLRHQ5UnduNGlNUGJZQkhnSkFqdVk?oc=5",
 "summary": "GOP Rep. Mike Lawler tells Westchester County, NY voters 'do not leave the line' and assures them their vote will be counted&nbsp;&nbsp;CNN"
+},
+{
+"title": "Former federal prosecutor to lead Cornell sex assault investigation",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjJvQ0dqMTY4UlFLMlFHTTR1cDJqTVdNZGNmNkVsVVU2dXpXWEUtd21QbFFHUGpKc3pTWUtQdkhfbkFYTTkzQ1YyQ01weEkySzhLNWtHTzBsWXFoR29JVlNDSm9YdVZIV1UxcF9PNmE5VFY5SlI5bjhUR3VYX3hZblRpOV9SYm8?oc=5",
+"summary": "Former federal prosecutor to lead Cornell sex assault investigation&nbsp;&nbsp;CNN"
+},
+{
+"title": "Dow posts best post-midterm elections day in 44 years as Democrats take control of Congress",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vQVR4WDhsdUVseFU4eUgwa2c4aDRnWFFYV2p3X2o0OEJNbnEwUzl4dXdxd05rZHFXckg5TXB3X3YtX3pLbkxSUWJYdUlpb1NRSlhoRmMyMXd0WUJnNTN0c0hfS3M3SUI3dDJjT2N3VGpxXzdMdGctaQ?oc=5",
+"summary": "Dow posts best post-midterm elections day in 44 years as Democrats take control of Congress&nbsp;&nbsp;CNN"
+},
+{
+"title": "CVS to split into two companies, in major breakup of its $117 billion healthcare empire",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJMk5Hb0JPYzlTU0ZOay0wUzdOYnp6bm9Fdm9JclFnMjdfeEd1dXFJaTAxWmF4QnRzSnladmJvU0lTMVZ6ei1BUkg1dzE3ZjlfR2dhNTBmRER4dzc4bHJ0ajMwUHVQZ1YxWGZjM2lBSHNkYlA4SnVQcWs5UQ?oc=5",
+"summary": "CVS to split into two companies, in major breakup of its $117 billion healthcare empire&nbsp;&nbsp;CNN"
+},
+{
+"title": "A 24-year-old running the NYC marathon collapsed 2 miles from the finish line and died",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYTc1TExLYVJzLVJZeThZNFlDSF91Sl9DWFROSllZMUg4cVZFcEtvU1NXWk41RlhwRk9jRmFrbWZ1VWs1SXRSQjZ3VFFOdldOYzdjbFNuTU1EU0h2bE5SLUt0VXc5RDhHNkV4US1HQUhZSFRJRFQzNERwa01QV00yQzZ0aVItQUdhWVE?oc=5",
+"summary": "A 24-year-old running the NYC marathon collapsed 2 miles from the finish line and died&nbsp;&nbsp;CNN"
+},
+{
+"title": "A 3,200-pound telescope plunged out of orbit. How it unfolded",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUxvNmNJYkR6V1NaTl9MT2ZZMTgxZ3N3NWUyQzduVXl1NkVraU1lM2g2eVhzdm50OURQejhNczR3ZV9XaGpMck1TOXlwR3dvLUk0ZE9SdDV4LUMzNmZVTGJhcjhiemYzWWhkdS16eUl1WFBMLU9uc2lSeHM4Nk9fOHpOYw?oc=5",
+"summary": "A 3,200-pound telescope plunged out of orbit. How it unfolded&nbsp;&nbsp;CNN"
+},
+{
+"title": "Former Trump advisor says ‘we’re in the bad that gets worse stage’",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY0hNUjl1LVJIQy1OemFaUVZHU1BlQlJFUUlJQVZwdGtCRzJ4NXc0T2JiMFk4QXJPdHFkTXFGN2RmOWFvTndPc0ducnA4Qm42YzduejN0MkduWndQeGRHVGxRb3lXVlZ2cEViNFBjb0pka2Y0QXAtTW1TaU9fU0VyRC1VMHBCdl94Unc1LUNVQ1lKWVQwUlRiLTBfdWRocWhsWHdyZHljN3VablI4Q2hBc3hRODdpZHhyTXFKT2cwdnB4eEJlY3JuWTJ0cnhUOTQ?oc=5",
+"summary": "Former Trump advisor says ‘we’re in the bad that gets worse stage’&nbsp;&nbsp;CNN"
+},
+{
+"title": "Texans go honking to celebrate state turning blue",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVZxQmJxZ3RjSWV0WE44c2U3MXFVMkEwOHUwYkE1UlNpX2NSLVV0c19BbGROSnNfRFRpejBBUGFWTTlSYllzQzU4V1NsZ0g2blVlZkEzdV9KdUxfZ25jM3FBVy1zRVhuVzhBWmgzMW03U0F1cGFSeGRQOF84QUp4b0Zjb09oYTFGaDUyT2tQMTQ4R0Z4SzlsWUM1SQ?oc=5",
+"summary": "Texans go honking to celebrate state turning blue&nbsp;&nbsp;CNN"
+},
+{
+"title": "Why did America swing back to the Democrats? It was the economy all along",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbklXRWlINEh6bk4xdFJ3N2xkRzNIVU9ydkt0ejNFZVVDRFRncF93TWJ3NU5acERnbXlMNWYtSmVJbFlyZnZzcm5Oc1VSQTgzTG5JN3dlUmJuTjl1R3g3VXV0U1BTenlQT2IxM1FHa05HazZldWszbWhmZjlPOUJjX2p3d0FTVk1vbW1tWUZ0M1luUFU0bGl4NA?oc=5",
+"summary": "Why did America swing back to the Democrats? It was the economy all along&nbsp;&nbsp;CNN"
+},
+{
+"title": "Watch CNN’s coverage of Election Night in 5 minutes",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHBfYVpIcG5HTXE1QzR1LWVPYU5wOVI3YTFPN0wwQ0U0ZmVzOTNpQVRRUzZ4amZtaWFGWEdiVlNZbllTcTc3LUpsYTY1enQyV3R0N3JYQjhoaWpER0trTzQ2bmlsQ0FpMkhxTzJ5YWR0SWRaNm0xWnkwblA3ajRsRGw3eldjcnU5QWxaY1FlaHRTOVczcldocGl6ZG96WVJkNGc?oc=5",
+"summary": "Watch CNN’s coverage of Election Night in 5 minutes&nbsp;&nbsp;CNN"
+},
+{
+"title": "3 dead, including suspect, and 2 deputies critically injured in eastern Washington state",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTjVneDdqMkRIX0JELUdhanVxSkMzeUhRR0NwWC1kM0JuYmxraXJvbWM2LWUwZ080em5oaEN1RzQ2VHl5cGpLZWxXd0hGNjJpdllSeC04UDdBbFI3NkR4bVppZWZQSS03eC04MXdmcHExMzd1SjBBNlAyU3FWZ1BHREdoTnA0ai1SNnc?oc=5",
+"summary": "3 dead, including suspect, and 2 deputies critically injured in eastern Washington state&nbsp;&nbsp;CNN"
+},
+{
+"title": "Look of the Week: Glenn Close and her six-foot impersonator demand a double take",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4taVpNRVI5NE9xUlJLY2dSbWF3RHlwSUdoWjJoaWZCN2MtcmZpcGJ6OG13R1BoakpDU1BtYktiNWRpRzJyXy16U3k5YVd3V1VEY003elc3YzBaTHN2cW9JR2xTUlJEdVpSbUlBaUdQZm9Remsy?oc=5",
+"summary": "Look of the Week: Glenn Close and her six-foot impersonator demand a double take&nbsp;&nbsp;CNN"
+},
+{
+"title": "12,060 pieces - LEGO releases its largest ever set | CNN Business",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWXVEZEFLTm0tOTktcXBvNV9TR1h4dzcwQWY0R0psbG4ySFVVZEdMcXdhcGRUeEk2cThac3Vwak5aRFhlZTctR1MxUjZVUlYyN1h2dG41XzFIMXV2MzJBOWZwcDJ1WTBJUHVIclRjdjBHc2JPNjRUeHprbEtmZ2I3My1GMzhZZw?oc=5",
+"summary": "12,060 pieces - LEGO releases its largest ever set | CNN Business&nbsp;&nbsp;CNN"
+},
+{
+"title": "Iowa results underscore Trump backlash",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcmdCLUROMkUtN1pXOGpid3dISzdtVGVfbjFHQ29QYS1qMmllUjlWaWxWTFoxTmczX3J2TUJTbHZYdjl2X1U4a3lvUndkc3RjX0ExeFZ0V19vNkZmNXd5djBvNl9PRmxqM2l4cUxXN2VQcThLVHBxNXpjQl9KVmNqQWpOR2p6NzVqc2RVeUZ2NW9VUQ?oc=5",
+"summary": "Iowa results underscore Trump backlash&nbsp;&nbsp;CNN"
+},
+{
+"title": "Texas Democrats pull off the breakthrough they’ve chased for decades",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOckdkaFFaVXpyTmFRSnhRcFFPbDVlbExRTEZkYlNRbVowdHBPeUVqNk5UWmZUTktuNEswc0xOd1BoMjh1RGRTVkFtcGJBQk15aTZURjEtR0hOMVVOTl80Sm9iS1hQcHFSNmFyZExSOWlTZ1IzOTFwZVBqQk9QYUQxR0Y4S0ZJakxJRVBaYlBwbkliaVJma0E?oc=5",
+"summary": "Texas Democrats pull off the breakthrough they’ve chased for decades&nbsp;&nbsp;CNN"
+},
+{
+"title": "Trump is forced to face a damning reality",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MZEM0UF8wUXdzRWt1ZVNFYmxieTU4NmZRWnhyYnFtUlNXWFEzeG4tM21pWnFWSm9kM2ZRQXhDcWRBYjZIbFdqcHYzSGdRbjBuRlk3dVQ2ZTc2TDBXUkpLQUh4NHV5Q0pERHo5THdaTWlBMVFIRXRBMVQ1VQ?oc=5",
+"summary": "Trump is forced to face a damning reality&nbsp;&nbsp;CNN"
+},
+{
+"title": "Analysis: Trump is forced to face a damning reality | CNN Politics",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTk5VNVlHdmZpanJYNjlqRjFOT0s3bk01NldWYlR0N25oTXNkUlpkc0VJd3pmZW9JczF0TU5QRmdtU3VSNV9mV0VRMG9JZlEtUXFScktfYWYyQXhIZHVyMEllZjd6U3hsWDlLQnA3X2FSV2dZLXlrbVNDSWcxNFZBMg?oc=5",
+"summary": "Analysis: Trump is forced to face a damning reality | CNN Politics&nbsp;&nbsp;CNN"
+},
+{
+"title": "Trump hits worst midterm net approval rating of any president in voter poll era",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXROR29wN3k1bGVKTWR3RHdDNjBRd0J0VzlZcDlGbGRwQXpOYWlKYUVCWjZtV0U0bHNEMFNDdFEzZWdoVVJlRHBXSS1sRXh2RzAyU0hHVDFHY05nZ0RvLXp6NElNRUVnNmtnckVOa005ZUJ4Zm1YSF8yVHVld0d2QjZlLUlpWVQza2QxS3psck9nRTZV?oc=5",
+"summary": "Trump hits worst midterm net approval rating of any president in voter poll era&nbsp;&nbsp;CNN"
+},
+{
+"title": "Democrat Abdul El-Sayed projected to win Michigan and become nation’s first Muslim senator",
+"date": "2026-11-04",
+"url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdmJkeENXUmo2N215TU5RTGFBdHdSOHV4dHJTaGktVWpZZnpWbkc3MzRxV2FveGY0Z3I2RTIzT2daSUxUeTRtUmpVRUhydVdWQTBxdlcwbWNNRHNoMDR5T3RIZ3Bxd05MWUJ6VlVaZHVhQXlPNmNBV3ZIS3k1Y0RwMkwtNFdpSTNiTS1uVWdHaER6RGE0djJwME9vVVpVb0FCTFVNM3QzTmhRZWlGVjZYR2lHSkt4QQ?oc=5",
+"summary": "Democrat Abdul El-Sayed projected to win Michigan and become nation’s first Muslim senator&nbsp;&nbsp;CNN"
 },
 {
 "title": "Russian drone attacks turn the Black Sea into the world’s deadliest waterway",
@@ -893,11 +1171,59 @@
 "summary": "Lindsay Clancy’s judge eyes March 2027 for retrial – if there is one&nbsp;&nbsp;CNN"
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 },
 "bbc": {
 "label": "BBC",
 "items": [
+{
+"title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+"summary": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal."
+},
+{
+"title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+"summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says."
+},
+{
+"title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+"summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers."
+},
+{
+"title": "'Most difficult days of my life' for keeper Owono",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
+"summary": "FC Andorra goalkeeper Jesus Owono puts out a statement through his club, expressing his sorrow and pain after Tenerife forward Jesus de Miguel's death."
+},
+{
+"title": "Israel's president begins consultations with parties after election deadlock",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
+"summary": "Herzog warns politicians that \"not every commitment and promise can be fulfilled\" if they want to avoid another election."
+},
+{
+"title": "Secret police files released in Hungary, 37 years after fall of communism",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
+"summary": "Critics say the move comes too late, that the files themselves are incomplete, and the move risks sowing division and causing unnecessary anguish."
+},
+{
+"title": "Iran's chief negotiator says Americans voted 'no to war'",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+"summary": "\"We endorse this message,\" Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat."
+},
+{
+"title": "The young politicians with African roots making history in the US midterms",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cmrly6j6lpydo?at_medium=RSS&at_campaign=rss",
+"summary": "For some young Africans, these victories offer a glimpse of what a new generation of voters could do at home."
+},
 {
 "title": "Spanish transport minister resigns days after deadly train crash",
 "date": "2026-11-04",
@@ -939,6 +1265,72 @@
 "date": "2026-11-04",
 "url": "https://www.bbc.co.uk/news/articles/c3dxw8p99ervo?at_medium=RSS&at_campaign=rss",
 "summary": "Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region."
+},
+{
+"title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+"summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them."
+},
+{
+"title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+"summary": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category."
+},
+{
+"title": "ANC under pressure to reverse South Africa decline",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&at_campaign=rss",
+"summary": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get."
+},
+{
+"title": "Nadal set to join Real Madrid board of directors",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
+"summary": "Tennis great Rafael Nadal is set to join the board of Spanish football giants Real Madrid."
+},
+{
+"title": "Sharp objects found in Halloween sweets in three European nations",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cvglw7x239pwo?at_medium=RSS&at_campaign=rss",
+"summary": "Dozens of cases are reported in Austria, Germany and Hungary, including a nine-year-old girl hurting her tongue while eating chocolate containing a pin."
+},
+{
+"title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+"summary": "The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo."
+},
+{
+"title": "'I'm not a quitter': Kim Kardashian on retaking the bar exam",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/videos/cmy4x59kdknwo?at_medium=RSS&at_campaign=rss",
+"summary": "The All's Fair star tells the BBC she has not given up, but will be \"more quiet\" about her journey to become a lawyer."
+},
+{
+"title": "How America voted in maps and charts",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
+"summary": "See the maps and charts that show how America voted in the US midterm elections."
+},
+{
+"title": "Everything you need to know from the US midterm elections",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
+"summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump."
+},
+{
+"title": "Anthony Zurcher: Democrats push deep into Trump heartland on historic night",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
+"summary": "Two Senate races that a year ago were thought to be battlegrounds turned out to be slam-dunks for the Democrats."
+},
+{
+"title": "Tears, celebrations and selfies: US midterms in pictures",
+"date": "2026-11-04",
+"url": "https://www.bbc.co.uk/news/articles/cq74pexm44elo?at_medium=RSS&at_campaign=rss",
+"summary": "Democrats cheered as they picked up victories in Republican states. Tears were shed as Republican losses mounted."
 },
 {
 "title": "US strikes Iran ahead of midterm elections",
@@ -1229,7 +1621,7 @@
 "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
 }
 ],
-"lastOk": "2026-11-04 07:35"
+"lastOk": "2026-11-05 07:41"
 }
 }
 }
