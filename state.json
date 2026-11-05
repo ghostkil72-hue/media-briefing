@@ -1,9 +1,15 @@
 {
-"updated": "2026-11-05 07:41",
+"updated": "2026-11-06 07:42",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
 "items": [
+{
+"title": "기자회견 일정(6일, 금)",
+"date": "2026-11-05",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5292711",
+"summary": ""
+},
 {
 "title": "기자회견 일정(5일, 목)",
 "date": "2026-11-04",
@@ -131,11 +137,20 @@
 "summary": ""
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 },
 "schedule": {
 "label": "청와대 공개일정",
 "items": [
+{
+"title": "12:00 제48회 상하이 국제기능올림픽 선수단 격려 오찬 · 14:00 제51차 대통령 주재 수석·보좌관회의",
+"date": "2026-11-05",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"12:00 제48회 상하이 국제기능올림픽 선수단 격려 오찬",
+"14:00 제51차 대통령 주재 수석·보좌관회의"
+]
+},
 {
 "title": "15:00 공공재개발 현장 시찰 · 15:20 정비사업 현장간담회 ",
 "date": "2026-11-04",
@@ -185,11 +200,23 @@
 ]
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 },
 "briefing": {
 "label": "청와대 브리핑",
 "items": [
+{
+"title": "제51차 대통령 주재 수석보좌관회의 관련 강유정 수석대변인 브리핑",
+"date": "2026-11-05",
+"url": "https://www.president.go.kr/briefings/HI88YgN9",
+"summary": "이재명 대통령은 오늘 오후, 수석보좌관회의를 주재하고 국민 창업 활성화와 취약계층의 겨울철 안정 대책, 대학수학능력시험의 공정한 관리를 강조했습니다. 이 대통령은 오늘이 ‘소상공인의 날’임을 언급하며, 수출 증가와 대기업의 성장 성과가 중소기업과 소상공인에게까지 확산되는 ‘국민경제의 선"
+},
+{
+"title": "이재명 대통령 부부, 제48회 상하이 국제기능올림픽 선수단 격려 오찬 관련 김성완 대변인 서면 브리핑",
+"date": "2026-11-05",
+"url": "https://www.president.go.kr/briefings/BA7pajsK",
+"summary": "이재명 대통령과 김혜경 여사는 오늘(11.5, 목) 청와대 영빈관에서 제48회 중국 상하이 국제기능올림픽 대회에서 종합 2위를 달성한 국가대표 선수단을 초청해 격려 오찬을 가졌습니다. 우선 이 대통령은 오찬장 입장에 앞서 선수들이 직접 만든 작품들을 살펴봤습니다. 이 대통령은 선수들을 "
+},
 {
 "title": "이재명 대통령, 공공재개발 현장시찰 및 정비사업 현장간담회 관련 안귀령 부대변인 서면브리핑",
 "date": "2026-11-04",
@@ -401,7 +428,7 @@
 "summary": "이재명 대통령은 오늘 오후 청와대에서 장관급 인사 7명 및 중대범죄수사청장에게 임명장을 수여했습니다. 대상자는 아래와 같습니다. 1. 송두환 10·29 이태원참사 진상규명과 재발 방지를 위한 특별조사위원회 위원장(임명) 2. 이형일 부총리 겸 재정경제부 장관(임명) 3. 강신철 국방부 "
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -425,6 +452,11 @@
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
 "date": "2026-11-03",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
+},
+{
+"title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
+"date": "2026-11-03",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
 },
 {
 "title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
@@ -467,6 +499,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
 },
 {
+"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-10-30",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
@@ -507,6 +549,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-121호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
@@ -525,6 +577,11 @@
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
+"date": "2026-10-29",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -547,6 +604,11 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-28",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
 "date": "2026-10-26",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
@@ -565,6 +627,11 @@
 "title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
 "date": "2026-10-26",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-279호) 인터넷 멀티미디어 방송 제공사업·종합유선방송사업 변경허가 심사 관련 시청자 의견 접수",
+"date": "2026-10-26",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69611"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
@@ -587,6 +654,11 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-119호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-23",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69597"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-10-22",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
@@ -605,13 +677,138 @@
 "title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-10-22",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-118호)재산(자동차) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-10-22",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69601"
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 },
 "cnn": {
 "label": "CNN",
 "items": [
+{
+"title": "Sec. Hegseth issues defiant statement amid renewed calls for impeachment",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWozQl9IOTlzTVNwRGlwbHFDN1BYeThSSmZFbmQ2NFh3OE56T1d5Y081YkhJUXByWlMxZXpvbVRPVEpXdzhQOGFNbU16TzBKV1lua1dpR3gtVWttLWZkTU5KVkRxRmVjRWRHV2FJTVMyamx1cU8wNmdEclpPLUxKd2hLbXVyekk3c21SNnY1UmlYYS1hNVo0YlNrWjY?oc=5",
+"summary": "Sec. Hegseth issues defiant statement amid renewed calls for impeachment&nbsp;&nbsp;CNN"
+},
+{
+"title": "Newsom commutes sentences of all California death row prisoners",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52QUFQMHVjY2ltX3U0d1NpUUUteW01MlNEczJXQlpRM1hDalpGUWZzQ2xWdWR5d0M0TTBKZ3ItZmNSTHVlTW1TVlpKaXl0Qi1ZMzVleG9CdUk3TTdfTDRzQXdCRVczdEhIWDR1c1NfM2UzSUo3?oc=5",
+"summary": "Newsom commutes sentences of all California death row prisoners&nbsp;&nbsp;CNN"
+},
+{
+"title": "Wisconsin infant is US’ third measles-related death this week",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IWVozNlZDZEY3WEFSSVpnaGhjOHJ5Wmc0TXFISEpKdzhlXzJBeWZiYmh1dGVyTzZIaUJCYWhsYk1XUUw0eTVCRHBVVmI1RG5wWld0TDA3RWR4N05VSUZCandTRlpDNzZqLVNCaXZxMnoteGY5LTBr?oc=5",
+"summary": "Wisconsin infant is US’ third measles-related death this week&nbsp;&nbsp;CNN"
+},
+{
+"title": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdEJlSF9YOWxlZ2ljazBUa0pQWHhiYUxVT2Q4eU1CbUh4cU5pSVFLb09ib25VeDhpQS1kSmhaelpuN3BqVk4xR1VhMGJ0QzFjd2RHdkxwSTVsQUh1NUNwakduYXMwcXBrbEdVTWlnWGtrbko1R3pjVy1IcW9qLVpFb0xVUkU?oc=5",
+"summary": "‘Like a bolt from the blue’: Israel’s president shocked by Trump announcing end of aid&nbsp;&nbsp;CNN"
+},
+{
+"title": "Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race, CNN projects",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa05BZUdCNXQ2Um1BNEhQdjhNUEpSYkZGcnZMTHp2ZC1Xc0plVVJkZUp3N2J0VDZhb1VHV0YwSDJOZFctay0tSHFZbk9rTjJfQVJzMUsza2ZlUUdHWkxUR21uU2hac1Y1MHJqYUJkRVBaLWcyVkkwRFZLMVkyYWM5S1VvZXY5UG1Q?oc=5",
+"summary": "Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race, CNN projects&nbsp;&nbsp;CNN"
+},
+{
+"title": "Harmeet Dhillon, who ran the Justice Department’s Civil Rights division, resigns",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGhsaHZpX0FwZUlJOGVjSFpqU1B2NzN1WnRJTzEtbjZZd3FnNHVMV01janBCQVNwLXc4SUh4MTJxMGZzVXRIWUc0QTNYb0VqMzc3S3JqcTljRXc2VkwwYjlNVDhERWFVMDh0RHh1LXdEZ3NYYk8wc2RWeF9MVnZudkFyT0lPUk0yUldfbndTRGdSUkxaanJvNlJoN3M?oc=5",
+"summary": "Harmeet Dhillon, who ran the Justice Department’s Civil Rights division, resigns&nbsp;&nbsp;CNN"
+},
+{
+"title": "Earliest evidence of cannabis use found in ancient Siberian tomb",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pNmRPRzIwX2Z3NmZSblBrWU90NkJZSkxwSTdhX25vaFl2aGdVa3BlVUNDTnRydzQ1VlhhdjdQV0Zabks1MW5HQWgzNG8zX2hRMkxwSmpDcVdUWmc3N0hiNjN5Q2FweUxlTFRqRWJ4T1RPV1NPV1BOWVFYSHpwQQ?oc=5",
+"summary": "Earliest evidence of cannabis use found in ancient Siberian tomb&nbsp;&nbsp;CNN"
+},
+{
+"title": "Democrats’ House majority is trending toward historic",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeWpJOV93bnotTHZ2X01pT0pxcFZuNjR6QU1iazkzeTF5X3RYalpNeHkzSWE3Z3A3dUNDWjB1VWVIVU04bVUxTW0tdVk3SUwwbkFmVnVxdzJjUDFnbHBURnFrcU0wSGlhYmw3T3d6ekc3RXVkYV9lOU42OFY1MTFVZnJfUF9TUDZaWkE?oc=5",
+"summary": "Democrats’ House majority is trending toward historic&nbsp;&nbsp;CNN"
+},
+{
+"title": "President of Paraguay resigns amid crisis over bank collapse that left millions unable to access their money",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaVlqaXBtVmt2RkVpYU9PY3VtbTlEeWd0RWw1S3ZZQmp6MVV4TWNraGlMd3dqVHBrdWFWLTU2ZGFxcS1UR0VEQmNkcmVlSmFicm1aZkZCV29mNHgySUI2b2o1dElzb0hBckhLeDJFRlpLLXRKTkpIVmNGQ2xLSFgzb2hYVQ?oc=5",
+"summary": "President of Paraguay resigns amid crisis over bank collapse that left millions unable to access their money&nbsp;&nbsp;CNN"
+},
+{
+"title": "I don’t think this is the end of Donald Trump, says former campaign adviser",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORDZxeEhjU0l0Wnl5d1BUNzl5ZDRaMUNyV28tWkNIdHZTTmlQQV82NzhQWU9nQW1vQThLZV9EbHEtZ2dnbmlfNWNEdDlIMUJrcm9lUnBhQTZ4VWstRmt4OHdrVjh2U3RBUkxqVXVnWXVPTno2NXlQWTZKYmxtdzFrMlZHSGo?oc=5",
+"summary": "I don’t think this is the end of Donald Trump, says former campaign adviser&nbsp;&nbsp;CNN"
+},
+{
+"title": "Bomb threats have disrupted more than 20 flights across Europe this week. Here’s what we know",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBTHBJYzJqeGVaNUxfazRPMlFoTWJYdjQzamZIRnBDakZpWm1uUlpEN3VsX0QxUXlXUXJIQVpydzA3TWg4emlXMU9zc0c2ZjBTTGx3d2ZMdVR4ajdFbTlydzNULXhySGV5ZVlPNUpn?oc=5",
+"summary": "Bomb threats have disrupted more than 20 flights across Europe this week. Here’s what we know&nbsp;&nbsp;CNN"
+},
+{
+"title": "El-Sayed lays out priorities following historic midterm victory",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTNoX1gzRzNaTjQ0LVhhQzdFZkd2QU9BZGlaNGNSblJCMWRzY1kxN0ozT01mTnhUMm5hMVVZLWsxX1ZxVWppTWNvNWtfb1ZncmpaU3BWRE5sYVZTeVVvYnZ3WUlyZkhKYjhORTFHdlVweUJIRllValRTOGhSalNHUFNYRi1fZUZJUTdLNjM5NWVid0tXREpScDJlNHNxU1M1UmxYSlk0ckRFa2VpM3dseUJzSXJkdXc?oc=5",
+"summary": "El-Sayed lays out priorities following historic midterm victory&nbsp;&nbsp;CNN"
+},
+{
+"title": "Massive tech sell-off wipes $2.5 trillion from the stock market",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNUYxQ2c5VUJvNkd2RExjdVJ1YU5UNmpYYzh2dzgzT2FOZFFaNmlpd0ZUSVViTzZkRG91RmRad3MxNXdncmt4aFFuR2U5di11dmlYSG9hODllU2RNZXFTUHR1UlhpYzhESlpfMS15OVdETTNP?oc=5",
+"summary": "Massive tech sell-off wipes $2.5 trillion from the stock market&nbsp;&nbsp;CNN"
+},
+{
+"title": "How Cristiano Ronaldo’s extraordinary international career ended in anguish",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeFR0clhJSTVYTVFINVk1d2o0VHNuWDdPdlhWb2E0Zl9peUxsV0dVYjBQallpYk9palRrRnltUzVUTU5KNXJPbGxkc2FwRTlVLUprSFRpMlE4ejZZU1dEUkRJdjhRemZ4WjcyYy1hQkg2RkFqeFNxeTNwdFliU0p5SGQ2eFVxVy1PUWd3?oc=5",
+"summary": "How Cristiano Ronaldo’s extraordinary international career ended in anguish&nbsp;&nbsp;CNN"
+},
+{
+"title": "American man convicted of murdering his girlfriend and infant child in Rome",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFJWGFTNXJPcmxJVHhaemJPaE1yVzlLWEtqYkQwQnM2T014eXN5NlJibnZad2JDNTFFZkRGNGp3c3U5djlCZDc3Q2UxNlZfeGJCWndiQVd1b3k0ZENyQ09jMEg2UVllbzNfWGpsblVLak9lNHBweVQyMDNFRjE0THd3?oc=5",
+"summary": "American man convicted of murdering his girlfriend and infant child in Rome&nbsp;&nbsp;CNN"
+},
+{
+"title": "The Great Pacific Garbage Patch may now have so much plastic, it’s changing the color of the ocean",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNczQ0MlFpeUJVSkpjRUtMTU1EdVB2U0kyaXREbEJxcWxYcE8tNFlZb0d6NUk2d0hEVlhjNWRzY3BiQUNjVjdhNC05T3lpSGJUQTcwamo4SGk0eFhpWGZsREtfbURiR3V2Tlc4aTk0UFMwVy1TT3dIV2o0TzRxWEUtMmVGcm1fekh4ZVZlT0ZGZWlieURGa3htaWVDYjdZTzEyUFdRbV91NWE?oc=5",
+"summary": "The Great Pacific Garbage Patch may now have so much plastic, it’s changing the color of the ocean&nbsp;&nbsp;CNN"
+},
+{
+"title": "The Met Gala plays it safe with new exhibition theme",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qQ3J0SjA1V2lKN0o1VW1vTS1VMzlMNm8wbENhU2dDWjNROWJCSG95dlktaXh4dWo3YldBZXdFZ1ZuZU0wbFh6R25lNkY3N2xyUjE2UWJXbWxOTW1CZkRYZXViWmw2X0diU0pwbktaMnd4SlpKazJNUE1wSXRwUQ?oc=5",
+"summary": "The Met Gala plays it safe with new exhibition theme&nbsp;&nbsp;CNN"
+},
+{
+"title": "Postal worker accused of shooting 2 co-workers at Des Moines post office, police say",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZRmVQcFdPXzJYUGdOdmgzckpUUHlHN0ZaVFhQX3ZjODVpWVdoNVZ6MUNLWXA0NTdQcDc4Tkc5UTlUUUhuT3R6cU1NWURJaTNEcUxpRU1jQzVEYTR5SFZXM2p3bkFCVVpfS2pZeng1N1lmWDRsS2dDX3JR?oc=5",
+"summary": "Postal worker accused of shooting 2 co-workers at Des Moines post office, police say&nbsp;&nbsp;CNN"
+},
+{
+"title": "MAGA media is grappling with GOP’s crushing defeat — and tiptoeing around Trump",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcEw5SnRFZkVNcXBKc1JETHRFY3lhS250XzhfejVsMjNGemZXZW5YNTAzMnlRaUFBclBHSEZISW9XZlRHNGN5NFlZb3dRYmY5aGZKNTNjLWJYZllXR3BFYWJBaVlzYXF1ak85ODltSWczQ2ZhemcxRVhxZTZfaXV4QnZVc1loRUhoaTE2czBnRDQ?oc=5",
+"summary": "MAGA media is grappling with GOP’s crushing defeat — and tiptoeing around Trump&nbsp;&nbsp;CNN"
+},
+{
+"title": "Thicker bacon and ditching breakfast. Wendy’s hopes a menu shakeup can revive sales",
+"date": "2026-11-06",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0REMGlUckZrQW9kb3FqdW94UmRZZnBVa24xalc5UEhYcjQxdjB2YWk4ZlVTZlZtd2NqeGFOWF91OUhwMDlxTm5XaFZwcWZBWWM1TkxsVDJzdVNVY2ZOZ3cwLVlfdlV0ZlZCalQwTWhLNDhhVmRKeHFOVDhCbk5mSnNYNU5JLU5KVlFyb3BB?oc=5",
+"summary": "Thicker bacon and ditching breakfast. Wendy’s hopes a menu shakeup can revive sales&nbsp;&nbsp;CNN"
+},
 {
 "title": "How Mississippi became an unlikely Senate battleground",
 "date": "2026-11-05",
@@ -683,6 +880,66 @@
 "date": "2026-11-05",
 "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DLWVMUll2Yl81c2NVbVVaemk2bnhVdGdIdnFaQXZPdGtKb2FrTnFCZmxnRU5Fc1RUVkFsU1R6bGRLbHdMdlJJdlBxY21VQktTdzFhWGtTNnozNURkTE1NbVp3RjRRRE1hUUhfS2lCMWhBRkdzN29BN2gzQQ?oc=5",
 "summary": "1 killed and 2 hurt in small helicopter crash off Miami, officials say&nbsp;&nbsp;CNN"
+},
+{
+"title": "Actor and comedian Russell Brand found guilty of rape and sexual assault",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xdzZjX2RTQmxJTEVIelYxTjZnakoyUGk3X1FBVTc0NlFEUHEyNkYzemdRREs1cllkQTVuWng2eE1ydDZRRGdPOFNRaVl0dm1yS2dyZkFpREVpNEZydTg3c1R4TGRXcVRSYnJpRmVOR05WNW1jY3dmag?oc=5",
+"summary": "Actor and comedian Russell Brand found guilty of rape and sexual assault&nbsp;&nbsp;CNN"
+},
+{
+"title": "Batman’s bike could be yours, if you have a spare $1.2 million",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWnA2dHpDN2hVVFhlRHZyNFVGRU5URV9oOS0yOGQ1SWQtdW9XN09Sc0h5cHQxT1IxWGg1MVFoZjRLZUpSaEp1SEUxMDhRM1hiVllxZlNFSE9hMnUzUjU4YVk5TjFiNUN5RkFZcWtvemR1V1VZbXF4azE0WklJMTBHZWFn?oc=5",
+"summary": "Batman’s bike could be yours, if you have a spare $1.2 million&nbsp;&nbsp;CNN"
+},
+{
+"title": "‘Catastrophic’ flooding sets off rescues in North Georgia and southern Tennessee",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDNtNlZpbm5qeGpWWlRsZjhSRUJZT0VWblZjWGc3MjFFRHc3VndhV09GZ2dnem1BWUhVUmN2Z215ZjF4TEtQSkFYTGZoblRvdzBvaF9ZdmtrdDdhWFNlSDJmYVFZS2lEU1hCOWFnZ2JIajhHem5nRDlScmpsVnlWMTFuN2hHNXdUVDJOLXNTUnRYZ1dsNnJLeGUxNXE?oc=5",
+"summary": "‘Catastrophic’ flooding sets off rescues in North Georgia and southern Tennessee&nbsp;&nbsp;CNN"
+},
+{
+"title": "2 more executions set in Florida and Alabama, hours after lethal injection in Indiana",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmSk53MVQwNlQxeHg2S1NGX0FCbG9CSTBINWxfU1pmTGV1Vl91dEVndW1XRXQzWWJ4MXQyT0NPRHF1bng1elNPWjQ5SVVwQ1AzOERIUkRjNlgyazB2RHhHZTJsWEZXYUVpczN3ZjJtbTNpU1JrRldB?oc=5",
+"summary": "2 more executions set in Florida and Alabama, hours after lethal injection in Indiana&nbsp;&nbsp;CNN"
+},
+{
+"title": "Musk bet big on keeping Texas red. What happens to his business empire now?",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTFhLb0RrX0ZheVlPX2FST2QtcThFOHFEd1hQUmJRemp6ZUt2MUtOUzloMkFrRGh1SXVSWG9yOGxKZGYzT1phazVDVUc1Z203U3UxS28xU0w4dDJFenl0bmctLXk3cHlNN3pfblhkZGR1MTZtOGg3emxMc1NhT2Vpa0Itc1g4cG1iU3c?oc=5",
+"summary": "Musk bet big on keeping Texas red. What happens to his business empire now?&nbsp;&nbsp;CNN"
+},
+{
+"title": "Iranians burn Trump banner after US midterm results",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkJlc0FYSlY0WTJHNTItMk9WTGRMenUybF9MNlVVU2R3S0E3LU1iY0FwN2tLLXQ5cG9zT2RMVlhraDlRTmJCUmFWYVRrSmFaWHU2WW9WS0swWjVxeDg5WGlVRGRVWS1TOWpLX2s0UEJKTzFLbUs3NUNaWnJEX0RBRTVEbUNoT3MzaDF2UGpKbUt5NERRb3RBTWw2aDVmMFdRUEhiRmJQajBkZw?oc=5",
+"summary": "Iranians burn Trump banner after US midterm results&nbsp;&nbsp;CNN"
+},
+{
+"title": "America got the anti-data-center wave it voted for. Here come the economic consequences",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45eE5aUXhYMVFkZ0lRNzk1UTdrUkFYYkxGdHVVMlE3dm9OaXAyQ3ZSWGl5ZmZueUd3SXgxU1BLNUE4Zm1sUy1WaGdpb05aZDZHbHhmT2EteGRpWmFZdFJCUGxWSTQxWW90VEdVZVBHZDZUYWs?oc=5",
+"summary": "America got the anti-data-center wave it voted for. Here come the economic consequences&nbsp;&nbsp;CNN"
+},
+{
+"title": "CNN's Melissa Bell reports from the streets of Paris on a day that sees large amounts of people turning out",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdlFoZU01SWl1VjlCR2JsR3N4T0dEWExmS3h2VU1GdFM2MHNQNUh6akc4bWNtZGo3V002bnZBWmY2LU1pd1h6ZXpkN0JuS3Q4TEUyc2NrUkJHU1VFNGRPUGNNbzRhWTh2dFhVVWRMSHM3Y19hcjFVRjRDYWVZdC1xVU5IWTJHQlA5bFNwLXQ4Rk1MZjFteUpfNjhFOG9peG9sdWNRUV9zM3RGQQ?oc=5",
+"summary": "CNN's Melissa Bell reports from the streets of Paris on a day that sees large amounts of people turning out&nbsp;&nbsp;CNN"
+},
+{
+"title": "Why the Alaska Senate race could take a while",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWlYaHBKYjRVZlZvcXJISjJnUlZvWFU4N0lfSFJfY2ljOEpuQm5neWxaVnhWVGpsZF9OeUcwcXVfbW1qQzQxSktzUDZQWkUwNWNVR3RkSzQ0NDJTQkFMaDRXZ3gwTDhoZGRMWFdhbGtfNk9fQzU2ZlgxZmNDZHZXamFVOTRlRXdvTC0yVXZkZ2x2VkZvdHFvS3BpMWs?oc=5",
+"summary": "Why the Alaska Senate race could take a while&nbsp;&nbsp;CNN"
+},
+{
+"title": "Trump’s arch is poised for final approval two days after the president’s election drubbing",
+"date": "2026-11-05",
+"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnS1RRcUpXemd5OWthbElFRFM0Nk50R1h1ZDVncnFYdFdFMWNhcEJDUmpHV3FuWkdhZ0Vid25UUGtkNVFyZHRHX2J2Mmt2NmdFcTItWjh6bnU5M1cwbkV2dEJCV3dFVWxtNi0tcE00a3Nnb3ZJUGZ6TTd3?oc=5",
+"summary": "Trump’s arch is poised for final approval two days after the president’s election drubbing&nbsp;&nbsp;CNN"
 },
 {
 "title": "Trump’s Election Day bombshell on Israel points to historic shift in US politics",
@@ -1171,11 +1428,65 @@
 "summary": "Lindsay Clancy’s judge eyes March 2027 for retrial – if there is one&nbsp;&nbsp;CNN"
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 },
 "bbc": {
 "label": "BBC",
 "items": [
+{
+"title": "Hoax bomb threats target European airlines and airports for second time in a week",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+"summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\"."
+},
+{
+"title": "Who could be behind hoax bomb threats to European air travel?",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+"summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups."
+},
+{
+"title": "California governor commutes sentences for state's 548 death row inmates",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+"summary": "California has historically had the largest population of people on death row in the US."
+},
+{
+"title": "French protests see numbers surge as unions join strikes over high cost of living",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+"summary": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher."
+},
+{
+"title": "Paraguay President Santiago Peña resigns after bank collapse",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+"summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him."
+},
+{
+"title": "Eight killed in series of shootings in western Turkey",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+"summary": "Victims are found in several locations in three separate vehicles, according to local reports."
+},
+{
+"title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+"summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms"
+},
+{
+"title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+"summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire."
+},
+{
+"title": "Russell Brand is being investigated over two new rape complaints, police say",
+"date": "2026-11-06",
+"url": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss",
+"summary": "Det Supt Andy Furphy said he hoped other potential victims would gain \"courage\" and \"confidence\" from the guilty verdicts."
+},
 {
 "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
 "date": "2026-11-05",
@@ -1223,6 +1534,54 @@
 "date": "2026-11-05",
 "url": "https://www.bbc.co.uk/news/articles/cmrly6j6lpydo?at_medium=RSS&at_campaign=rss",
 "summary": "For some young Africans, these victories offer a glimpse of what a new generation of voters could do at home."
+},
+{
+"title": "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cq4g1r42jx00o?at_medium=RSS&at_campaign=rss",
+"summary": "The widow of ER creator Michael Crichton argues The Pitt is effectively a reboot of the 1990s series."
+},
+{
+"title": "Pope Leo hosts Bob Dylan at official residence in Rome",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+"summary": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament."
+},
+{
+"title": "Watch: How rapist Brand was never far from controversy",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/videos/c9dr8713zjgyo?at_medium=RSS&at_campaign=rss",
+"summary": "BBC correspondent Sima Kotecha explains how the trial unfolded."
+},
+{
+"title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+"summary": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\"."
+},
+{
+"title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+"summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory."
+},
+{
+"title": "Would you take a test to see if your life will be cut short? I did - and it changed me",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cw62yq9vp7yyo?at_medium=RSS&at_campaign=rss",
+"summary": "Laura Sides faced a dilemma of whether to find out if she would inherit her father's condition."
+},
+{
+"title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+"summary": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend."
+},
+{
+"title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
+"date": "2026-11-05",
+"url": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
+"summary": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine."
 },
 {
 "title": "Spanish transport minister resigns days after deadly train crash",
@@ -1621,7 +1980,7 @@
 "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
 }
 ],
-"lastOk": "2026-11-05 07:41"
+"lastOk": "2026-11-06 07:42"
 }
 }
 }
