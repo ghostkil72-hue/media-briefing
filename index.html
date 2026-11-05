@@ -1,273 +1,297 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MEDIA PULSE | 국내 언론·미디어·정책 동향 일일 브리핑</title>
-<meta name="theme-color" content="#0f172a">
-<link rel="manifest" href="manifest.webmanifest">
-<style>
-  :root {
-    --bg: #f5f6f8; --card: #ffffff; --ink: #0f172a; --muted: #64748b; --line: #e5e7eb;
-    --accent: #2563eb; --accent2: #7c3aed;
-    --c0: #2563eb; --c1: #7c3aed; --c2: #0891b2; --c3: #d97706; --c4: #16a34a; --c5: #dc2626;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #0b1220; --card: #121a2b; --ink: #e6e9f0; --muted: #94a3b8; --line: #263045; }
-  }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
-  a { color: inherit; }
-  .muted { color: var(--muted); }
-
-  .lock { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg, var(--bg) 0%, color-mix(in srgb, var(--accent) 6%, var(--bg)) 100%); padding: 24px; z-index: 50; }
-  .lock.off { display: none; }
-  .lock-box { width: 100%; max-width: 360px; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 2em 1.6em; display: flex; flex-direction: column; gap: .8em; align-items: center; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,.08); }
-  .lock-box h1 { font-size: 1.25em; margin: .2em 0 0; }
-  .lock-box input { width: 100%; font: inherit; font-size: 1.05em; min-height: 48px; padding: 0 1em; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); text-align: center; letter-spacing: .06em; }
-  .lock-box button { width: 100%; font: inherit; font-weight: 800; min-height: 48px; border-radius: 12px; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
-  .lock-err { color: #dc2626; font-size: .88em; min-height: 1.2em; margin: 0; }
-  .logo-big { font-size: 2.2em; }
-
-  .app { display: none; min-height: 100vh; padding-bottom: 72px; }
-  .app.on { display: block; }
-  header.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); padding: .9em 1.1em; display: flex; align-items: center; justify-content: space-between; gap: 1em; }
-  header.top h1 { font-size: 1.05em; margin: 0; }
-  header.top .sub { font-size: .78em; color: var(--muted); }
-  header.top button { font: inherit; font-size: .82em; font-weight: 700; border: 1px solid var(--line); background: var(--card); color: var(--muted); border-radius: 10px; padding: .4em .8em; cursor: pointer; }
-
-  main { max-width: 760px; margin: 0 auto; padding: 1em 1em 2em; }
-
-  .nav { display: flex; gap: .4em; overflow-x: auto; padding: .2em 0 .6em; -webkit-overflow-scrolling: touch; }
-  .nav button { flex: 0 0 auto; font: inherit; font-weight: 800; font-size: .88em; min-height: 40px; padding: 0 1.1em; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--muted); cursor: pointer; white-space: nowrap; }
-  .nav button[aria-selected="true"] { background: var(--tc, var(--accent)); border-color: var(--tc, var(--accent)); color: #fff; }
-
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1em 1.1em; margin-bottom: .7em; box-shadow: 0 1px 2px rgba(16,24,40,.04); }
-  .card .row1 { display: flex; align-items: baseline; gap: .6em; justify-content: space-between; }
-  .card .date { font-size: .78em; font-weight: 800; color: var(--tc, var(--accent)); white-space: nowrap; }
-  .card .title { font-weight: 800; font-size: 1.02em; line-height: 1.45; margin: .25em 0 0; }
-  .card .title a { text-decoration: none; }
-  .card .title a:hover { text-decoration: underline; }
-  .card .meta { font-size: .8em; color: var(--muted); margin-top: .3em; }
-  .card .summary { font-size: .88em; color: var(--muted); margin-top: .5em; line-height: 1.6; }
-  .card ul.sched { margin: .4em 0 0; padding-left: 1.1em; }
-  .card ul.sched li { margin: .15em 0; font-size: .92em; }
-  .card a.src { display: inline-block; margin-top: .5em; font-size: .8em; font-weight: 700; color: var(--tc, var(--accent)); text-decoration: none; }
-  .card a.src::after { content: ' →'; }
-
-  .empty { text-align: center; color: var(--muted); padding: 3em 1em; font-size: .92em; }
-  .lastok { font-size: .74em; color: var(--muted); margin-bottom: .6em; }
-
-  footer.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: none; background: color-mix(in srgb, var(--card) 96%, transparent); backdrop-filter: blur(10px); border-top: 1px solid var(--line); padding: .3em .2em calc(.3em + env(safe-area-inset-bottom)); }
-  @media (max-width: 720px) {
-    footer.bottom { display: flex; justify-content: space-around; }
-    footer.bottom button { flex: 1; display: flex; flex-direction: column; align-items: center; gap: .15em; font: inherit; font-size: .64em; font-weight: 700; color: var(--muted); background: transparent; border: 0; padding: .4em 0; cursor: pointer; }
-    footer.bottom button[aria-selected="true"] { color: var(--tc, var(--accent)); }
-    footer.bottom .ic { font-size: 1.25em; line-height: 1; }
-    .nav { display: none; }
-    main { padding-bottom: .5em; }
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="미디어동향포털" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <title>MEDIA PULSE | 국내 언론·미디어·정책 동향 일일 브리핑</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Noto Sans KR', sans-serif; }</style>
 </head>
-<body>
-
-<div class="lock" id="lock">
-  <form class="lock-box" id="lockForm" autocomplete="off">
-    <span class="logo-big" aria-hidden="true">🗞️</span>
-    <h1>매일 아침 브리핑</h1>
-    <p class="muted" style="margin:0">국회·청와대·방미통위·해외뉴스 통합 모니터링<br>비밀번호를 입력해 주세요.</p>
-    <input id="pw" type="password" aria-label="비밀번호" autofocus>
-    <button type="submit">들어가기</button>
-    <p class="lock-err" id="err" role="alert"></p>
-  </form>
-</div>
-
-<div class="app" id="app">
-  <header class="top">
-    <div>
-      <h1>매일 아침 브리핑</h1>
-      <div class="sub">마지막 갱신: <b id="updated">—</b></div>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col pb-20 md:pb-10">
+  <header id="appHeader" class="sticky top-0 z-30 bg-slate-900 text-white border-b border-slate-800 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 gap-3">
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center font-bold shadow shrink-0">MP</div>
+          <div class="truncate">
+            <h1 class="text-base sm:text-lg font-bold truncate">MEDIA PULSE 미디어 정책·동향 포털</h1>
+            <p class="text-xs text-slate-400 truncate">지상파·종편·대형PP 이사회 · 국회 과방위 · 청와대 · 방미통위 일일 브리핑</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <button id="openAddBtn" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700">+ 이슈/일정 등록</button>
+          <button id="openPwaBtn" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 hover:bg-blue-500 text-white">📲 바탕화면 앱 설치</button>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center space-x-1 border-t border-slate-800 pt-1">
+        <button type="button" data-tab="dashboard" class="tab-btn px-4 py-2.5 text-sm font-semibold border-b-2 border-blue-500 text-white">종합 대시보드</button>
+        <button type="button" data-tab="media" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-white">지상파·종편·PP 이사회 및 국회 이슈</button>
+        <button type="button" data-tab="calendar" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-white">국회·청와대·방미통위 일정 캘린더</button>
+        <button type="button" data-tab="notices" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-white">방미통위·청와대 공지사항</button>
+      </nav>
     </div>
-    <button id="logout" type="button">잠그기</button>
   </header>
-  <nav class="nav" id="nav"></nav>
-  <main id="main"></main>
-  <footer class="bottom" id="bottomNav"></footer>
-</div>
 
-<script>
-(() => {
-  const TABS = [
-    { id: 'home', label: '홈', icon: '🏠', color: '--accent' },
-    { id: 'assembly', label: '국회', icon: '🏛️', color: '--c0' },
-    { id: 'schedule', label: '청와대 일정', icon: '📅', color: '--c1' },
-    { id: 'briefing', label: '청와대 브리핑', icon: '📣', color: '--c2' },
-    { id: 'kmcc', label: '방미통위', icon: '📺', color: '--c3' },
-    { id: 'cnn', label: 'CNN', icon: '🌎', color: '--c5' },
-    { id: 'bbc', label: 'BBC', icon: '🌍', color: '--c4' },
-  ];
-  const STORE = 'mb-pass';
-  const $ = (id) => document.getElementById(id);
-  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
-  const store = { get: () => { try { return localStorage.getItem(STORE); } catch (e) { return null; } }, set: (v) => { try { localStorage.setItem(STORE, v); } catch (e) {} }, del: () => { try { localStorage.removeItem(STORE); } catch (e) {} } };
-  const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
-  const link = (u, t, cls) => { const a = el('a', cls, t); if (typeof u === 'string' && /^https?:\/\//.test(u)) { a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; } return a; };
-  const fmtDate = (s) => { const m = String(s || '').match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? `${Number(m[2])}.${Number(m[3])}` : (s || ''); };
+  <div class="bg-indigo-950 text-indigo-100 px-4 py-2 text-xs border-b border-indigo-900">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-2">
+      <div class="truncate"><span class="px-2 py-0.5 rounded bg-rose-600 text-white font-bold text-[10px] mr-2">LIVE</span>[방미통위] 제47차 위원회 결과 발표 · [청와대] 국무회의 결과 서면 브리핑 · [이사회] 지상파 재허가 노사동수 편성위 실적 반영 점검</div>
+      <span class="text-indigo-300 shrink-0">자동 최신화: 2026.11.05 KST</span>
+    </div>
+  </div>
 
-  async function decrypt(pw, file) {
-    const res = await fetch((file || 'data.enc.json') + '?t=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) throw new Error('load');
-    const enc = await res.json();
-    const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']);
-    const key = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
-    const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64(enc.iv) }, key, b64(enc.ct));
-    return JSON.parse(new TextDecoder().decode(plain));
-  }
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+    <div class="bg-white rounded-2xl p-4 shadow-sm border border-slate-200 flex flex-col sm:flex-row gap-3">
+      <input id="searchInput" type="text" placeholder="언론사(KBS, 방문진, 종편, PP), 국회 과방위, 방미통위, 청와대 키워드 검색..." class="flex-1 px-4 py-2 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <div class="flex items-center gap-1.5 overflow-x-auto">
+        <button type="button" data-q="" class="q-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-50 text-blue-700">전체</button>
+        <button type="button" data-q="방미통위" class="q-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 text-slate-700">방미통위</button>
+        <button type="button" data-q="이사회" class="q-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 text-slate-700">이사회·방문진</button>
+        <button type="button" data-q="국회" class="q-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 text-slate-700">국회 과방위</button>
+        <button type="button" data-q="청와대" class="q-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 text-slate-700">청와대</button>
+        <button type="button" data-q="종편" class="q-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 text-slate-700">지상파·종편·PP</button>
+      </div>
+    </div>
 
-  let PW = null, D = null, CUR = 'home';
-  const TR_CACHE = {};
-  const TR_TABS = new Set(['cnn', 'bbc']);
+    <section id="panel-dashboard" class="tab-panel space-y-6">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm"><span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg">지상파·종편·PP 이사회</span><div class="text-2xl font-bold mt-2">5건</div><p class="text-xs text-slate-500 mt-0.5">KBS·방문진·EBS 및 재허가·편성위</p></div>
+        <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm"><span class="text-xs font-semibold text-purple-600 bg-purple-50 px-2.5 py-1 rounded-lg">국회 과방위·입법</span><div class="text-2xl font-bold mt-2">4건</div><p class="text-xs text-slate-500 mt-0.5">법안소위·방송3법·수신료 현안</p></div>
+        <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm"><span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-lg">11월 주요 기관 일정</span><div class="text-2xl font-bold mt-2">8건</div><p class="text-xs text-slate-500 mt-0.5">국회·청와대·방미통위·이사회</p></div>
+        <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm"><span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-lg">방미통위·청와대 공지</span><div class="text-2xl font-bold mt-2">6건</div><p class="text-xs text-slate-500 mt-0.5">일일 자동 수집 브리핑·보도자료</p></div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div class="lg:col-span-7 space-y-6">
+          <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="px-5 py-4 border-b border-slate-100 flex justify-between items-center"><h2 class="text-base font-bold">지상파·종편·대형PP 이사회 및 국회 핵심 이슈</h2><button type="button" data-goto="media" class="goto-btn text-xs font-semibold text-blue-600">전체보기 →</button></div>
+            <div id="dashIssues" class="divide-y divide-slate-100"></div>
+          </div>
+          <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="px-5 py-4 border-b border-slate-100 flex justify-between items-center"><h2 class="text-base font-bold">방미통위 · 청와대 일일 공지 및 브리핑</h2><button type="button" data-goto="notices" class="goto-btn text-xs font-semibold text-emerald-600">전체보기 →</button></div>
+            <div id="dashNotices" class="divide-y divide-slate-100"></div>
+          </div>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="px-5 py-4 border-b border-slate-100 flex justify-between items-center"><h2 class="text-base font-bold">국회 · 청와대 · 방미통위 주요 일정</h2><button type="button" data-goto="calendar" class="goto-btn text-xs font-semibold text-blue-600">캘린더 열기 →</button></div>
+            <div id="dashSchedules" class="p-4 space-y-2.5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  async function translateText(text) {
-    if (!text) return '';
-    const res = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=' + encodeURIComponent(text));
-    if (!res.ok) throw new Error('fail');
-    const data = await res.json();
-    return (data[0] || []).map((seg) => seg[0]).join('');
-  }
+    <section id="panel-media" class="tab-panel hidden">
+      <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">
+        <h2 class="text-lg font-bold pb-4 border-b border-slate-100">지상파 · 종편 · 대형PP 이사회 및 국회 과방위 전체 이슈</h2>
+        <div id="mediaGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4"></div>
+      </div>
+    </section>
 
-  function renderNav() {
-    const nav = $('nav'); nav.replaceChildren();
-    const bn = $('bottomNav'); bn.replaceChildren();
-    TABS.forEach((t) => {
-      const cnt = (D && D.sources[t.id] && D.sources[t.id].items || []).length;
-      const b = el('button', '', t.label + (cnt ? ' ' + cnt : ''));
-      b.type = 'button'; b.style.setProperty('--tc', `var(${t.color})`);
-      b.setAttribute('aria-selected', String(CUR === t.id));
-      b.addEventListener('click', () => { CUR = t.id; render(); });
-      nav.append(b);
+    <section id="panel-calendar" class="tab-panel hidden">
+      <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">
+        <div class="flex justify-between items-center pb-4 border-b border-slate-100">
+          <h2 class="text-lg font-bold">국회 · 청와대 · 방미통위 · 이사회 일정 캘린더 (2026년 11월)</h2>
+          <button id="resetCalBtn" type="button" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-blue-50 text-blue-700">11월 전체 일정 보기</button>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-4">
+          <div class="lg:col-span-7">
+            <div class="grid grid-cols-7 text-center text-xs font-semibold text-slate-500 pb-2 border-b"><div class="text-rose-500">일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div class="text-blue-500">토</div></div>
+            <div id="calGrid" class="grid grid-cols-7 gap-1 mt-2"></div>
+          </div>
+          <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-4 border border-slate-200">
+            <h3 id="calDetailTitle" class="text-sm font-bold pb-2 border-b border-slate-200">11월 주요 일정 목록</h3>
+            <div id="calDetailList" class="space-y-2.5 mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      const bb = el('button'); bb.type = 'button'; bb.style.setProperty('--tc', `var(${t.color})`);
-      bb.setAttribute('aria-selected', String(CUR === t.id));
-      bb.append(el('span', 'ic', t.icon), el('span', '', t.label));
-      bb.addEventListener('click', () => { CUR = t.id; render(); });
-      bn.append(bb);
-    });
-  }
+    <section id="panel-notices" class="tab-panel hidden">
+      <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">
+        <h2 class="text-lg font-bold pb-4 border-b border-slate-100">방미통위 · 청와대 공지사항 및 브리핑 (매일 최신화)</h2>
+        <div id="noticesList" class="divide-y divide-slate-100 mt-2"></div>
+      </div>
+    </section>
+  </main>
 
-  function renderList(src) {
-    const main = $('main'); main.replaceChildren();
-    if (!src) { main.append(el('p', 'empty', '아직 수집된 자료가 없습니다.')); return; }
-    const tab = TABS.find((t) => t.id === CUR);
-    if (src.lastOk) main.append(el('p', 'lastok', '이 출처 마지막 수집: ' + src.lastOk));
-    else if (src.lastOk === null) main.append(el('p', 'lastok', '⚠ 최근 수집이 실패했습니다. 이전 자료만 표시됩니다.'));
-    const items = src.items || [];
-    if (!items.length) { main.append(el('p', 'empty', '표시할 항목이 없습니다.')); return; }
-    const canTranslate = TR_TABS.has(CUR);
-    items.forEach((it) => {
-      const card = el('div', 'card'); card.style.setProperty('--tc', `var(${tab.color})`);
-      const row1 = el('div', 'row1');
-      row1.append(el('span', 'date', fmtDate(it.date)));
-      row1.append(document.createTextNode(''));
-      card.append(row1);
-      const h = el('p', 'title'); h.append(link(it.url, it.title)); card.append(h);
-      if (it.items && it.items.length > 1) {
-        const ul = el('ul', 'sched'); it.items.forEach((x) => ul.append(el('li', '', x))); card.append(ul);
-      }
-      if (it.dept) card.append(el('p', 'meta', it.dept));
-      if (it.summary) card.append(el('p', 'summary', it.summary));
-      if (canTranslate) {
-        const trBox = el('p', 'summary tr-box');
-        trBox.style.display = 'none';
-        const trBtn = el('button', 'tr-btn', '한국어로 보기');
-        trBtn.type = 'button';
-        trBtn.style.cssText = 'margin-top:.5em;font:inherit;font-size:.8em;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--tc,var(--accent));border-radius:8px;padding:.3em .7em;cursor:pointer;';
-        const key = item_key_js(it);
-        trBtn.addEventListener('click', async () => {
-          if (trBox.style.display !== 'none') { trBox.style.display = 'none'; trBtn.textContent = '한국어로 보기'; return; }
-          trBox.style.display = 'block'; trBtn.textContent = '번역 중…'; trBtn.disabled = true;
-          try {
-            if (!TR_CACHE[key]) {
-              const [tTitle, tSummary] = await Promise.all([translateText(it.title), translateText(it.summary || '')]);
-              TR_CACHE[key] = tTitle + (tSummary ? '\n' + tSummary : '');
-            }
-            trBox.textContent = '🇰🇷 ' + TR_CACHE[key];
-            trBtn.textContent = '원문만 보기';
-          } catch (e) {
-            trBox.textContent = '번역에 실패했습니다. 잠시 후 다시 시도해 주세요.';
-            trBtn.textContent = '한국어로 보기';
-          }
-          trBtn.disabled = false;
-        });
-        card.append(trBtn, trBox);
-      }
-      if (it.url && /^https?:\/\//.test(it.url)) card.append(link(it.url, '원문 보기', 'src'));
-      main.append(card);
-    });
-  }
-  function item_key_js(it) { return (it.url || '') + '|' + (it.title || ''); }
+  <nav class="md:hidden fixed bottom-0 inset-x-0 z-30 bg-white border-t border-slate-200 flex justify-around py-2.5 text-xs font-semibold">
+    <button type="button" data-tab="dashboard" class="tab-btn text-blue-600">대시보드</button>
+    <button type="button" data-tab="media" class="tab-btn text-slate-500">언론·국회</button>
+    <button type="button" data-tab="calendar" class="tab-btn text-slate-500">캘린더</button>
+    <button type="button" data-tab="notices" class="tab-btn text-slate-500">공지사항</button>
+  </nav>
 
-  function renderHome() {
-    const main = $('main'); main.replaceChildren();
-    if (!D) { main.append(el('p', 'empty', '아직 수집된 자료가 없습니다.')); return; }
-    const grid = el('div', 'home-grid');
-    grid.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6em;margin-bottom:1.1em;';
-    TABS.filter((t) => t.id !== 'home').forEach((t) => {
-      const s = D.sources[t.id];
-      const cnt = (s && s.items || []).length;
-      const ok = s ? s.lastOk !== null : null;
-      const box = el('button', 'home-tile'); box.type = 'button';
-      box.style.cssText = `text-align:left;border:1px solid var(--line);border-radius:14px;padding:.8em .9em;background:var(--card);cursor:pointer;border-left:4px solid var(${t.color});`;
-      box.append(el('div', '', t.icon + ' ' + t.label));
-      box.append(el('div', 'muted', cnt + '건' + (ok === false ? ' · ⚠ 수집 실패' : '')));
-      box.addEventListener('click', () => { CUR = t.id; render(); });
-      grid.append(box);
-    });
-    main.append(grid);
-    main.append(el('p', 'lastok', '전체 마지막 갱신: ' + (D.updated || '—')));
-    main.append(el('h2', '', '최신 소식'));
-    const all = [];
-    TABS.filter((t) => t.id !== 'home').forEach((t) => {
-      const s = D.sources[t.id];
-      (s && s.items || []).forEach((it) => all.push({ ...it, _tab: t }));
-    });
-    all.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    if (!all.length) { main.append(el('p', 'empty', '표시할 항목이 없습니다.')); return; }
-    all.slice(0, 10).forEach((it) => {
-      const card = el('div', 'card'); card.style.setProperty('--tc', `var(${it._tab.color})`);
-      const row1 = el('div', 'row1');
-      row1.append(el('span', 'date', fmtDate(it.date)));
-      row1.append(el('span', 'meta', it._tab.icon + ' ' + it._tab.label));
-      card.append(row1);
-      const h = el('p', 'title'); h.append(link(it.url, it.title)); card.append(h);
-      main.append(card);
-    });
-  }
+  <div id="pwaModal" class="hidden fixed inset-0 z-50 bg-slate-900/60 flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 space-y-3 text-xs">
+      <div class="flex justify-between items-center border-b pb-2"><h3 class="text-base font-bold">바탕화면/홈 화면 어플 설치 안내</h3><button id="closePwaBtn" type="button" class="font-bold text-base">✕</button></div>
+      <p><strong>💻 PC (크롬/엣지):</strong> 주소창 오른쪽 끝 <strong>[앱 설치]</strong> 아이콘을 클릭하면 바탕화면에 단독 어플로 설치됩니다.</p>
+      <p><strong>📱 아이폰(Safari):</strong> 하단 <strong>[공유] → [홈 화면에 추가]</strong>를 누르면 바탕화면에 앱 아이콘이 생성됩니다.</p>
+      <p><strong>📱 갤럭시(Chrome):</strong> 우측 상단 메뉴 <strong>[점 3개] → [앱 설치 / 홈 화면에 추가]</strong>를 선택하세요.</p>
+    </div>
+  </div>
 
-  function render() {
-    renderNav();
-    if (CUR === 'home') renderHome();
-    else renderList(D && D.sources[CUR]);
-  }
+  <div id="addModal" class="hidden fixed inset-0 z-50 bg-slate-900/60 flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 space-y-3 text-xs">
+      <div class="flex justify-between items-center border-b pb-2"><h3 class="text-base font-bold">새 미디어 이슈 / 일정 등록</h3><button id="closeAddBtn" type="button" class="font-bold text-base">✕</button></div>
+      <form id="addForm" class="space-y-2.5">
+        <select id="addType" class="w-full p-2 border rounded-xl"><option value="issue">언론/국회 이슈</option><option value="schedule">캘린더 일정</option></select>
+        <select id="addOrg" class="w-full p-2 border rounded-xl"><option value="이사회·지배구조">이사회·지배구조</option><option value="지상파·종편·PP">지상파·종편·PP</option><option value="국회 과방위">국회 과방위</option><option value="방미통위">방미통위</option><option value="청와대">청와대</option></select>
+        <input id="addDate" type="date" value="2026-11-05" class="w-full p-2 border rounded-xl" required />
+        <input id="addTitle" type="text" placeholder="제목을 입력하세요" class="w-full p-2 border rounded-xl" required />
+        <textarea id="addSummary" rows="2" placeholder="요약 내용 또는 장소를 입력하세요" class="w-full p-2 border rounded-xl" required></textarea>
+        <button type="submit" class="w-full py-2 rounded-xl bg-blue-600 text-white font-bold">등록하기</button>
+      </form>
+    </div>
+  </div>
 
-  async function unlock(pw, silent) {
-    $('err').textContent = silent ? '' : '확인 중입니다…';
-    try {
-      D = await decrypt(pw);
-      PW = pw;
-      store.set(pw);
-      $('lock').classList.add('off'); $('app').classList.add('on');
-      $('updated').textContent = D.updated || '—';
-      render();
-    } catch (e) {
-      store.del();
-      $('err').textContent = silent ? '' : (e.message === 'load' ? '자료를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '비밀번호가 맞지 않습니다.');
+  <script>
+    const state = {
+      q: '', selectedDate: null,
+      issues: [
+        { category: '이사회·지배구조', org: '방미통위 · 지상파 3사', date: '2026-11-03', title: '지상파 재허가 심사에 노사동수 편성위원회 운영 실적 반영 점검', summary: '방송미디어통신위원회가 지상파 재허가 심사 항목에 노사동수 편성위원회 구성 및 운영 실적을 핵심 지표로 반영합니다.', url: 'https://www.mediaus.co.kr/news/articleView.html?idxno=317106' },
+        { category: '이사회·지배구조', org: 'KBS이사회 · 방문진 · EBS', date: '2026-10-28', title: '공영방송 3사(KBS·MBC 방문진·EBS) 이사회 재편 및 경영평가 안건 심의', summary: '방미통위 이사 추천단체 확정 및 임명 절차에 따라 재편된 공영방송 이사회가 하반기 예산 및 지배구조 현안을 심의합니다.', url: 'https://www.ddaily.co.kr/m/page/view/2026071608292766440' },
+        { category: '지상파·종편·PP', org: '지상파 · 종편4사 · 대형PP', date: '2026-10-30', title: '프로그램당 광고편성 총량규제 완화 및 중간광고 확대 시행', summary: '시행령 개정에 따라 지상파·종편·대형PP의 광고편성 자율성이 확대되어 약 500억 원 매출 증대 효과가 전망됩니다.', url: 'https://m.journalist.or.kr/m/m_article.html?no=61446' },
+        { category: '이사회·지배구조', org: '방미통위 · 공영방송', date: '2026-10-22', title: '방송3법 후속 규칙 시행 — 이사 추천 주체 다변화 및 사장후보국민추천위 운영', summary: '미디어학회·시청자위원회·직능단체 추천 및 100인 이상 사장후보국민추천위원회 구성 규칙이 적용됩니다.', url: 'https://journalist.or.kr/news/article.html?no=60855' },
+        { category: '지상파·종편·PP', org: '방미통위 · 유료방송/PP', date: '2026-11-02', title: '방미통위 1기 비전 미디어 기본사회 — 홈쇼핑 연계편성 및 AI 추천 투명성 강화', summary: '종편·PP 연계편성 점검과 함께 방송미디어 분야 AI 윤리 원칙 및 알고리즘 투명성 제도가 추진됩니다.', url: 'https://ichannela.com/news/detail/000000552964.do' },
+        { category: '국회 과방위', org: '국회 과학기술정보방송통신위원회', date: '2026-10-20', title: '2026년 국회 과방위 국정감사 종합 점검 및 방송·통신 현안 질의', summary: '방미통위 및 유관기관 대상 공영방송 재정 건전성, 망 이용대가, 미디어 정책 예산을 집중 점검했습니다.', url: 'https://www.mt.co.kr/index.php/politics/2026/10/20/2026102010570457157' },
+        { category: '국회 과방위', org: '국회 과방위 전체회의', date: '2026-09-08', title: '수신료 분리 고지 이후 공영방송 수지 및 지상파 광고 시장 대책 보고', summary: '수신료 분리 징수 이후 수입 감소 및 지상파 광고 위축에 따른 공영방송 재원 구조 개선안이 논의되었습니다.', url: 'https://www.youtube.com/watch?v=X6ckZtYLuDU' },
+        { category: '국회 과방위', org: '국회 과방위 법안소위', date: '2026-10-15', title: '방송미디어통신진흥원 신설 법안(방발기본법 개정안) 법안소위 통과 후속 점검', summary: '방송미디어통신진흥원 신설 관련 방송통신발전 기본법 일부개정안의 조직·예산 후속 절차가 진행 중입니다.', url: 'https://www.etnews.com/20260506000449' },
+        { category: '국회 과방위', org: '국회 과방위 법안소위', date: '2026-10-12', title: '통신·미디어 보안 해킹 재발 방지 및 이용자 보호 법안 37건 병합 심의', summary: '방송·통신 사업자 보안 사고 재발 방지 및 이용자 보호 책임을 강화하는 주요 개정안들이 심의 중입니다.', url: 'https://it.chosun.com/news/articleView.html?idxno=2023092158373' }
+      ],
+      notices: [
+        { org: '방미통위', date: '2026-11-03', title: '2026년 제47차 방송미디어통신위원회 위원회 결과 보도자료', summary: '제47차 방미통위 회의 의결 안건 및 방송·미디어 사업자 심의 결과 공식 발표 자료입니다.', url: 'https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787706&pWise=sub&pWiseSub=C2' },
+        { org: '청와대', date: '2026-11-03', title: '제47회 국무회의 결과 관련 대변인 서면 브리핑 및 청와대 일일 공지', summary: '청와대 브리핑룸에서 발표한 제47회 국무회의 주요 의결 법령안 및 현안 브리핑입니다.', url: 'https://www.president.go.kr/briefings' },
+        { org: '방미통위', date: '2026-11-03', title: '2차 중앙행정기관 세종 이전 계획 관련 방미통위 이전 일정 협의 동향', summary: '내년 상반기 세종 이전 대상 기관에 포함된 방미통위의 근무 여건 및 이전 일정 협의 현안입니다.', url: 'https://www.labortoday.co.kr/news/articleView.html?idxno=237540' },
+        { org: '방미통위', date: '2026-10-23', title: '2026년 제44차 방송미디어통신위원회 위원회 결과 보도자료', summary: '제44차 방미통위 회의 심의·의결 사항 및 이용자 보호 안건 결과입니다.', url: 'https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786256' },
+        { org: '방미통위', date: '2026-10-15', title: '제42차 방송미디어통신위원회 전체회의 공식 브리핑', summary: '정부과천청사에서 개최된 제42차 방미통위 전체회의 주요 의결 안건 브리핑 원문입니다.', url: 'https://www.korea.kr/briefing/policyBriefingView.do?newsId=156785345' },
+        { org: '청와대', date: '2026-09-15', title: '2026 대통령 기자회견 관련 성기홍 홍보소통수석 브리핑', summary: '청와대 출입기자단 질의응답 및 국정 현안 소통 관련 홍보소통수석 브리핑입니다.', url: 'https://www.president.go.kr/briefings/XvfotZbh' }
+      ],
+      schedules: [
+        { date: '2026-11-02', time: '10:00', org: '청와대', title: '수석·보좌관 회의 및 주간 홍보 현안 점검', location: '청와대 여민관', url: 'https://www.president.go.kr/briefings' },
+        { date: '2026-11-03', time: '10:00', org: '청와대', title: '제47회 국무회의 및 대변인 브리핑', location: '청와대 브리핑룸', url: 'https://www.president.go.kr/briefings' },
+        { date: '2026-11-03', time: '14:00', org: '방미통위', title: '제47차 방미통위 회의 결과 발표', location: '정부과천청사', url: 'https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787706&pWise=sub&pWiseSub=C2' },
+        { date: '2026-11-04', time: '10:00', org: '국회', title: '국회 과방위 예산결산심사소위 (2027년도 예산안)', location: '국회 본관 과방위', url: 'https://assembly.webcast.go.kr/' },
+        { date: '2026-11-04', time: '15:00', org: '이사회', title: 'KBS 정기이사회 — 예산안 및 편성위 현황 보고', location: '여의도 KBS 본관', url: 'https://www.mediatoday.co.kr/news/articleView.html?idxno=334791' },
+        { date: '2026-11-05', time: '14:00', org: '이사회', title: '방송문화진흥회(MBC) 정기이사회 안건 심의', location: '상암동 방문진', url: 'https://www.ddaily.co.kr/m/page/view/2026071608292766440' },
+        { date: '2026-11-06', time: '10:30', org: '방미통위', title: '제48차 방미통위 전체회의 (지상파·종편 재허가 점검)', location: '정부과천청사', url: 'https://www.kmcc.go.kr/user/openSchedule.do?page=A04020800&dc=K04020800' },
+        { date: '2026-11-12', time: '10:00', org: '국회', title: '국회 과학기술정보방송통신위원회 전체회의', location: '국회 본관', url: 'https://assembly.webcast.go.kr/' }
+      ]
+    };
+
+    function badge(org) {
+      if (org.includes('방미통위')) return 'bg-emerald-50 text-emerald-700 border-emerald-200';
+      if (org.includes('청와대')) return 'bg-blue-50 text-blue-700 border-blue-200';
+      if (org.includes('국회')) return 'bg-purple-50 text-purple-700 border-purple-200';
+      return 'bg-amber-50 text-amber-700 border-amber-200';
     }
-  }
-  $('lockForm').addEventListener('submit', (e) => { e.preventDefault(); unlock($('pw').value.trim(), false); });
-  $('logout').addEventListener('click', () => { store.del(); location.reload(); });
-  const saved = store.get(); if (saved) unlock(saved, true);
-})();
-</script>
+
+    function match(item) {
+      if (!state.q) return true;
+      const q = state.q.toLowerCase();
+      return [item.title, item.summary, item.org, item.category, item.location].filter(Boolean).join(' ').toLowerCase().includes(q);
+    }
+
+    function render() {
+      const issues = state.issues.filter(match);
+      const notices = state.notices.filter(match);
+      const schedules = state.schedules.filter(match);
+
+      document.getElementById('dashIssues').innerHTML = issues.slice(0, 5).map(i => `
+        <div class="p-4 hover:bg-slate-50">
+          <div class="flex items-center gap-2 text-xs mb-1"><span class="px-2 py-0.5 rounded border font-semibold ${badge(i.org)}">${i.category}</span><span class="font-medium text-slate-600">${i.org}</span><span class="text-slate-400">· ${i.date}</span></div>
+          <a href="${i.url}" target="_blank" class="block text-sm font-bold text-slate-900 hover:text-blue-600">${i.title} ↗</a>
+          <p class="text-xs text-slate-600 mt-1">${i.summary}</p>
+        </div>`).join('');
+
+      document.getElementById('dashNotices').innerHTML = notices.slice(0, 4).map(n => `
+        <div class="p-4 hover:bg-slate-50">
+          <div class="flex items-center gap-2 text-xs mb-1"><span class="px-2 py-0.5 rounded border font-semibold ${badge(n.org)}">${n.org}</span><span class="text-slate-400">${n.date}</span></div>
+          <a href="${n.url}" target="_blank" class="block text-sm font-bold text-slate-900 hover:text-emerald-600">${n.title} ↗</a>
+          <p class="text-xs text-slate-600 mt-1">${n.summary}</p>
+        </div>`).join('');
+
+      document.getElementById('dashSchedules').innerHTML = schedules.map(s => `
+        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs">
+          <div class="flex justify-between mb-1"><span class="px-2 py-0.5 rounded border font-bold ${badge(s.org)}">${s.org}</span><span class="font-bold text-slate-700">${s.date} (${s.time})</span></div>
+          <a href="${s.url}" target="_blank" class="font-bold text-slate-900 hover:text-blue-600 block">${s.title} ↗</a>
+          <span class="text-slate-500">장소: ${s.location}</span>
+        </div>`).join('');
+
+      document.getElementById('mediaGrid').innerHTML = issues.map(i => `
+        <div class="p-4 rounded-2xl border border-slate-200 bg-white space-y-2">
+          <div class="flex justify-between text-xs"><span class="px-2 py-0.5 rounded border font-semibold ${badge(i.org)}">${i.category}</span><span class="text-slate-400">${i.date}</span></div>
+          <a href="${i.url}" target="_blank" class="block text-sm font-bold text-slate-900 hover:text-blue-600">${i.title} ↗</a>
+          <p class="text-xs text-slate-600">${i.summary}</p>
+        </div>`).join('');
+
+      document.getElementById('noticesList').innerHTML = notices.map(n => `
+        <div class="py-4 px-2 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <div class="flex items-center gap-2 text-xs mb-1"><span class="px-2 py-0.5 rounded border font-semibold ${badge(n.org)}">${n.org}</span><span class="text-slate-400">${n.date}</span></div>
+            <a href="${n.url}" target="_blank" class="text-sm font-bold text-slate-900 hover:text-blue-600">${n.title}</a>
+            <p class="text-xs text-slate-600 mt-0.5">${n.summary}</p>
+          </div>
+          <a href="${n.url}" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-semibold shrink-0">원문 보기 ↗</a>
+        </div>`).join('');
+
+      let cells = '';
+      for (let d = 1; d <= 30; d++) {
+        const ds = `2026-11-${String(d).padStart(2, '0')}`;
+        const evs = schedules.filter(s => s.date === ds);
+        const sel = state.selectedDate === ds;
+        cells += `<button type="button" data-date="${ds}" class="cal-cell h-16 p-1.5 rounded-xl border text-left flex flex-col justify-between ${sel ? 'ring-2 ring-blue-600 bg-blue-50' : 'bg-white hover:bg-slate-50'}">
+          <span class="text-xs font-bold">${d}</span>
+          ${evs.length ? `<span class="text-[10px] font-bold text-blue-600">${evs.length}건</span>` : ''}
+        </button>`;
+      }
+      document.getElementById('calGrid').innerHTML = cells;
+
+      const calEvs = state.selectedDate ? schedules.filter(s => s.date === state.selectedDate) : schedules;
+      document.getElementById('calDetailTitle').textContent = state.selectedDate ? `${state.selectedDate} 일정 (${calEvs.length}건)` : `2026년 11월 전체 일정 (${calEvs.length}건)`;
+      document.getElementById('calDetailList').innerHTML = calEvs.map(s => `
+        <div class="p-3 bg-white rounded-xl border text-xs space-y-1">
+          <div class="flex justify-between"><span class="px-2 py-0.5 rounded border font-bold ${badge(s.org)}">${s.org}</span><span class="font-bold">${s.date} ${s.time}</span></div>
+          <a href="${s.url}" target="_blank" class="block font-bold text-slate-900 hover:text-blue-600">${s.title} ↗</a>
+          <div class="text-slate-500">장소: ${s.location}</div>
+        </div>`).join('');
+    }
+
+    function switchTab(t) {
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('hidden', p.id !== `panel-${t}`));
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      render();
+      document.querySelectorAll('.tab-btn').forEach(b => b.addEventListener('click', () => switchTab(b.getAttribute('data-tab'))));
+      document.querySelectorAll('.goto-btn').forEach(b => b.addEventListener('click', () => switchTab(b.getAttribute('data-goto'))));
+      document.getElementById('searchInput').addEventListener('input', e => { state.q = e.target.value; render(); });
+      document.querySelectorAll('.q-btn').forEach(b => b.addEventListener('click', () => { state.q = b.getAttribute('data-q'); document.getElementById('searchInput').value = state.q; render(); }));
+      document.getElementById('resetCalBtn').addEventListener('click', () => { state.selectedDate = null; render(); });
+      document.body.addEventListener('click', e => {
+        const cell = e.target.closest('.cal-cell');
+        if (cell) { state.selectedDate = cell.getAttribute('data-date'); render(); }
+      });
+      document.getElementById('openPwaBtn').addEventListener('click', () => document.getElementById('pwaModal').classList.remove('hidden'));
+      document.getElementById('closePwaBtn').addEventListener('click', () => document.getElementById('pwaModal').classList.add('hidden'));
+      document.getElementById('openAddBtn').addEventListener('click', () => document.getElementById('addModal').classList.remove('hidden'));
+      document.getElementById('closeAddBtn').addEventListener('click', () => document.getElementById('addModal').classList.add('hidden'));
+      document.getElementById('addForm').addEventListener('submit', e => {
+        e.preventDefault();
+        const type = document.getElementById('addType').value;
+        const org = document.getElementById('addOrg').value;
+        const date = document.getElementById('addDate').value;
+        const title = document.getElementById('addTitle').value;
+        const summary = document.getElementById('addSummary').value;
+        if (type === 'issue') state.issues.unshift({ category: org, org, date, title, summary, url: 'https://www.kmcc.go.kr/user.do' });
+        else state.schedules.push({ date, time: '10:00', org: org.split('·')[0], title, location: summary, url: 'https://www.kmcc.go.kr/user.do' });
+        document.getElementById('addModal').classList.add('hidden');
+        render();
+      });
+    });
+  </script>
 </body>
 </html>
