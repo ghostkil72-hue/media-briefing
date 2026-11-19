@@ -1,9 +1,15 @@
 {
-"updated": "2026-11-19 07:46",
+"updated": "2026-11-20 07:44",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
 "items": [
+{
+"title": "기자회견 일정(20일, 금)",
+"date": "2026-11-19",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5318796",
+"summary": ""
+},
 {
 "title": "기자회견 일정(19일, 목)",
 "date": "2026-11-18",
@@ -233,11 +239,35 @@
 "summary": ""
 }
 ],
-"lastOk": "2026-11-19 07:46"
+"lastOk": "2026-11-20 07:43"
 },
 "schedule": {
 "label": "청와대 공개일정",
 "items": [
+{
+"title": "00:00 APEC 정상 기념촬영 · 00:00 APEC 정상회의 세션 · 00:00 공항 출발 행사 · 20:10 공항 도착 행사",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"00:00 APEC 정상 기념촬영",
+"00:00 APEC 정상회의 세션",
+"00:00 공항 출발 행사",
+"20:10 공항 도착 행사"
+]
+},
+{
+"title": "00:00 공항 도착 행사 · 00:00 한-중국 정상회담 · 00:00 중국 화남지역 한국인 오찬 간담회 · 00:00 APEC CEO 서밋 연설 · 00:00 시진핑 중국 국가주석 주최 APEC 정상회의 환영만찬 · 00:00 한-베트남 정상회담",
+"date": "2026-11-18",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"00:00 공항 도착 행사",
+"00:00 한-중국 정상회담",
+"00:00 중국 화남지역 한국인 오찬 간담회",
+"00:00 APEC CEO 서밋 연설",
+"00:00 시진핑 중국 국가주석 주최 APEC 정상회의 환영만찬",
+"00:00 한-베트남 정상회담"
+]
+},
 {
 "title": "00:00 제29차 아세안+3 정상회의 · 00:00 동아시아 정상회의(EAS) · 00:00 한-일본 정상회담 · 00:00 필리핀 대통령 주최 트럼프 대통령 초청 만찬 · 00:00 공항 출발 행사",
 "date": "2026-11-17",
@@ -369,11 +399,41 @@
 ]
 }
 ],
-"lastOk": "2026-11-19 07:46"
+"lastOk": "2026-11-20 07:43"
 },
 "briefing": {
 "label": "청와대 브리핑",
 "items": [
+{
+"title": "김혜경 여사, APEC 정상회의 배우자 프로그램 참석 관련 안귀령 부대변인 서면 브리핑",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/briefings/vrXwNUjD",
+"summary": "APEC 정상회의 참석을 계기로 이재명 대통령과 함께 중국 선전을 방문 중인 김혜경 여사는 오늘(19일) 오전 시진핑 중국 국가주석 부인 펑리위안 여사의 초청으로 열린 배우자 프로그램에 참석했습니다. 이번 배우자 프로그램은 선전의 새로운 랜드마크인 선전만 문화광장에서 열렸습니다. 지난해"
+},
+{
+"title": "이재명 대통령, 한-캐나다 정상 회동 관련 김성완 대변인 서면 브리핑",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/briefings/IfHRnUog",
+"summary": "이재명 대통령은 11월 19일(목) 오전, APEC 정상회의 행사장의 정상 라운지에서 「마크 카니(Mark Carney)」 캐나다 총리와 회동을 가졌습니다. 양 정상의 회동은 2026년 7월 NATO 정상회의 계기 회동 이후 4개월 만입니다. 양 정상은 ‘포괄적 전략 동반자’인 한국과 "
+},
+{
+"title": "이재명 대통령, 2026 APEC 정상회의 참석 관련 김성완 대변인 서면 브리핑",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/briefings/MK1IT9SG",
+"summary": "이재명 대통령은 11월 19일(목) 오전, 중국 선전에서 개최된 제33차 APEC 정상회의에 참석했습니다. 이날 회의에서 이 대통령은 “함께 번영하는 아시아 태평양 공동체 구축”을 주제로 APEC 회원 정상들과 아태지역 내 회복력 강화, AI 분야 혁신, 포용적 미래 협력을 위한 구체적"
+},
+{
+"title": "순방 3일 차 하준경 정책실장 브리핑",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/briefings/Ynes3lTe",
+"summary": "APEC 계기 중국 방문 첫날인 오늘의 경제 분야 성과에 대해서 말씀드리겠습니다. 먼저 한중 정상회담입니다. 오늘 오전 11시 5분부터 35분간 진행된 한중 정상회담 경제 분야의 가장 큰 성과는 한-중 FTA 서비스․투자 후속 협상의 실질 타결 선언입니다. 2015년 양국이 FTA를 체"
+},
+{
+"title": "순방 3일 차 위성락 국가안보실장 브리핑",
+"date": "2026-11-19",
+"url": "https://www.president.go.kr/briefings/cm4PXOZ1",
+"summary": "아세안 관련 정상회의 및 APEC 정상회의 참석 중간결과 브리핑을 시작하겠습니다. 먼저 이번 순방의 주요 일정입니다. 이재명 대통령은 11월 16일부터 양일 간 필리핀 마닐라에서 아세안 관련 정상회의에 참석하고 오늘부터 이곳 선전에서 APEC 정상회의 일정에 참석 중입니다. 이 대통령은"
+},
 {
 "title": "이재명 대통령, 중국 화남지역 한국인 간담회 개최 관련 김성완 대변인 서면브리핑",
 "date": "2026-11-18",
@@ -759,7 +819,7 @@
 "summary": "이재명 대통령은 오늘 오후 청와대에서 장관급 인사 7명 및 중대범죄수사청장에게 임명장을 수여했습니다. 대상자는 아래와 같습니다. 1. 송두환 10·29 이태원참사 진상규명과 재발 방지를 위한 특별조사위원회 위원장(임명) 2. 이형일 부총리 겸 재정경제부 장관(임명) 3. 강신철 국방부 "
 }
 ],
-"lastOk": "2026-11-19 07:46"
+"lastOk": "2026-11-20 07:43"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -805,6 +865,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69743"
 },
 {
+"title": "(방송미디어통신위원회 공고 제2026-290호) 상품판매형 방송채널사용사업 변경승인 심사 관련 시청자 의견 반영 여부 및 심사 결과 공표",
+"date": "2026-11-16",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69749"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-126호) 과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-16",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69743"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-11-12",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=g6SVdD-rlvUe9dti8l7EplZYDhwZgkYVIg30KCcw.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
@@ -843,6 +913,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-11-12",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-11-12",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -888,6 +963,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-11-10",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69670"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-10",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69670"
 },
 {
 "title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
@@ -938,6 +1018,11 @@
 "title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
 "date": "2026-11-09",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69666"
+},
+{
+"title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
+"date": "2026-11-09",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69666"
 },
 {
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
@@ -1028,6 +1113,11 @@
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
 "date": "2026-11-03",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
+},
+{
+"title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
+"date": "2026-11-03",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69661"
 },
 {
 "title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
@@ -1210,6 +1300,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
 },
 {
+"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
+},
+{
+"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
+"date": "2026-11-02",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-10-30",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
@@ -1380,6 +1480,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-122호)분할납부 취소 통지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69619"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-121호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-10-30",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69621"
+},
+{
 "title": "(방송미디어통신위원회 공고 제2026-280호) 장애인방송 고시지정사업자('27~'28년) 지정 공고",
 "date": "2026-10-29",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=An7FU55vz_CulKoN7ia3eHlVktr1PAEuduBzGbAP.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69628"
@@ -1463,59 +1573,9 @@
 "title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-10-28",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=VbCb_yteqmmtR9cWxhH5QiK7ve04bUmq7L1qKrga.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=Tc23bzgDvWBIBhWbH2jKW4KSfB-2UHG83h8tibTQ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=xfoqoMPgDim2HEsOTKUfEZpdqgCSf3TJGzBhE7XZ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=NWdCz9JXM1hq5uqBwhB9A5UgsoKntXEq3t56qINQ.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=fcj3kmURyRokD_iJT6eXjuKmVfvyjcGQO6k7iUPv.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=fF13Cojocek2IcIlewWrTm1TvJzdQmWXHoswUeb6.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=EYwangqdhKfTC5BYB5zxRRX1lFIy9yspRn95dcPZ.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=_AmXtWck7WRjK1fOV7NtjQKZCvgLaSqmAa-NVZBW.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=mz7SU-vmwUaAxIyqH-sNcK0TkvizHW2CqlLlmV_A.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=g6SVdD-rlvUe9dti8l7EplZYDhwZgkYVIg30KCcw.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
-},
-{
-"title": "(방송미디어통신사무소 공고 제2026-120호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
-"date": "2026-10-28",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=zRViFApmQXuO6GFxh2FCOnldf5UYHDLE-cJCzcDA.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69606"
 }
 ],
-"lastOk": "2026-11-19 07:46"
+"lastOk": "2026-11-20 07:43"
 },
 "cnn": {
 "label": "CNN",
@@ -2427,6 +2487,66 @@
 "label": "BBC",
 "items": [
 {
+"title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+"summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry."
+},
+{
+"title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+"summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands."
+},
+{
+"title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+"summary": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion."
+},
+{
+"title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+"summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin."
+},
+{
+"title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+"summary": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people."
+},
+{
+"title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+"summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says."
+},
+{
+"title": "Susan Smith denied parole again 32 years after drowning her two sons",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+"summary": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\"."
+},
+{
+"title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+"summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation."
+},
+{
+"title": "Rohingya genocide: What was said in court and what happens now?",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
+"summary": "The verdict marks the first time a state has ever been found to have committed genocide by an international court."
+},
+{
+"title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
+"date": "2026-11-20",
+"url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
+"summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?"
+},
+{
 "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
 "date": "2026-11-19",
 "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
@@ -2491,6 +2611,66 @@
 "date": "2026-11-19",
 "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
 "summary": "Zookeepers say she cannot have surgery but are providing fluids and supportive care to help her pass the hat."
+},
+{
+"title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+"summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week."
+},
+{
+"title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+"summary": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life."
+},
+{
+"title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+"summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\"."
+},
+{
+"title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+"summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn)."
+},
+{
+"title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+"summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods."
+},
+{
+"title": "Florida pastor found guilty over role in assassination of Haitian president",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+"summary": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse."
+},
+{
+"title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+"summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump."
+},
+{
+"title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+"summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say."
+},
+{
+"title": "Indian driver wins $1.3m in life-changing lottery prize",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+"summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab."
+},
+{
+"title": "Trump greets 'my friend' Putin as pair shake hands",
+"date": "2026-11-19",
+"url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o?at_medium=RSS&at_campaign=rss",
+"summary": "The pair met ahead of a trilateral meeting later with Chinese leader Xi Jinping."
 },
 {
 "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
@@ -3205,129 +3385,9 @@
 "date": "2026-11-13",
 "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
 "summary": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back."
-},
-{
-"title": "Whatever happened to the $300,000 diamond that went missing in F1 crash?",
-"date": "2026-11-13",
-"url": "https://www.bbc.co.uk/sport/formula1/articles/c60735md0jrpo?at_medium=RSS&at_campaign=rss",
-"summary": "Whatever happened to the diamond that went missing after the Formula 1 car it was attached to crashed?"
-},
-{
-"title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-"summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living."
-},
-{
-"title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-"summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday."
-},
-{
-"title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-"summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns."
-},
-{
-"title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-"summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public."
-},
-{
-"title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-"summary": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo."
-},
-{
-"title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-"summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital."
-},
-{
-"title": "African writing award probe finds 'no evidence' winning story was AI generated",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
-"summary": "Zimbabwean writer Simbarashe Kundizeza has also vehemently denied the allegation made in a US magazine."
-},
-{
-"title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-"summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces."
-},
-{
-"title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-"summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate."
-},
-{
-"title": "Five new miniature frog species found in eastern Himalayas",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/c8kgkw7dr5rko?at_medium=RSS&at_campaign=rss",
-"summary": "Scientists say the frogs evolved as the Himalayas rose and the Asian monsoon took shape."
-},
-{
-"title": "Oranges investigated after four girls die in suspected Uganda school poisoning",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/ck9d71wyn7wwo?at_medium=RSS&at_campaign=rss",
-"summary": "The girls started vomiting after eating oranges brought in by a fellow pupil - police are travelling to the village they came from."
-},
-{
-"title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-"summary": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says."
-},
-{
-"title": "Australian teen missing in bush for six days rescued alive",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
-"summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\"."
-},
-{
-"title": "Indonesia's vice-president resigns amid signs ruling alliance is fraying",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-"summary": "The news comes at a turbulent time for President Prabowo, who faces a growing rift with his predecessor Joko Widodo."
-},
-{
-"title": "Famed ship SS United States deliberately sunk off Florida coast to become a reef",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
-"summary": "Activists wanted the historic liner to be turned into a museum, but it will instead become the world's largest artificial ocean reef."
-},
-{
-"title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-"summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital."
-},
-{
-"title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-"summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia."
-},
-{
-"title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
-"summary": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet."
-},
-{
-"title": "Before Scott Colom, these two men were the last black US senators from Mississippi",
-"date": "2026-11-12",
-"url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
-"summary": "The Democratic candidate won in a southern state that had not seated a black senator since 1874."
 }
 ],
-"lastOk": "2026-11-19 07:46"
+"lastOk": "2026-11-20 07:44"
 }
 }
 }
