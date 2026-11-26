@@ -1,9 +1,15 @@
 {
-"updated": "2026-11-26 07:50",
+"updated": "2026-11-27 07:51",
 "sources": {
 "assembly": {
 "label": "국회 공지사항",
 "items": [
+{
+"title": "기자회견 일정(27일, 금)",
+"date": "2026-11-26",
+"url": "https://www.assembly.go.kr/portal/bbs/B0000054/view.do?menuNo=600100&pageIndex=1&pageUnit=20&nttId=5337213",
+"summary": ""
+},
 {
 "title": "기자회견 일정(26일, 목)",
 "date": "2026-11-25",
@@ -275,11 +281,19 @@
 "summary": ""
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 },
 "schedule": {
 "label": "청와대 공개일정",
 "items": [
+{
+"title": "14:00 제54차 대통령 주재 수석·보좌관회의",
+"date": "2026-11-26",
+"url": "https://www.president.go.kr/schedule",
+"items": [
+"14:00 제54차 대통령 주재 수석·보좌관회의"
+]
+},
 {
 "title": "15:35 공적주택 제대로 알리기 현장 방문 및 소통 간담회",
 "date": "2026-11-25",
@@ -467,11 +481,17 @@
 ]
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 },
 "briefing": {
 "label": "청와대 브리핑",
 "items": [
+{
+"title": "제54차 대통령 주재 수석 보좌관회의 관련 김성완 대변인 서면 브리핑",
+"date": "2026-11-26",
+"url": "https://www.president.go.kr/briefings/WpeiH8yC",
+"summary": "이재명 대통령은 오늘 오후 청와대에서 제54차 수석보좌관회의를 주재했습니다. 이 대통령은 여는 발언에서 “2026년은 경제, 산업, 외교, 문화 등 많은 분야에서 글로벌 선도국가로서 대한민국의 위상을 확고하게 다진 한 해로 기억될 것”이라면서 “국정성과가 국민의 일상에 제대로 닿고 있는"
+},
 {
 "title": "이재명 대통령, 서울 은평구 대림골목시장 방문 관련 안귀령 부대변인 서면 브리핑",
 "date": "2026-11-25",
@@ -965,7 +985,7 @@
 "summary": "이재명 대통령은 오늘 오후 청와대에서 장관급 인사 7명 및 중대범죄수사청장에게 임명장을 수여했습니다. 대상자는 아래와 같습니다. 1. 송두환 10·29 이태원참사 진상규명과 재발 방지를 위한 특별조사위원회 위원장(임명) 2. 이형일 부총리 겸 재정경제부 장관(임명) 3. 강신철 국방부 "
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 },
 "kmcc": {
 "label": "방미통위 공지사항",
@@ -974,6 +994,11 @@
 "title": "방송미디어통신위원회 자율기구 운영성과",
 "date": "2026-11-25",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69837"
+},
+{
+"title": "방송미디어통신위원회 자율기구 운영성과",
+"date": "2026-11-25",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69837"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-132호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -1001,6 +1026,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69773"
 },
 {
+"title": "(방송미디어통신사무소 공고 제2026-131호)정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달",
+"date": "2026-11-24",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69771"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-132호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-24",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69773"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-130호) 과태료 고지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-11-23",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=qmkBjHM5zah8Z_U47wbDhwXUGODskJBJxPIK7yhs.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69761"
@@ -1014,6 +1049,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-130호) 과태료 고지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-11-23",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69761"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-130호) 과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-23",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69761"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-128호)재산(예금) 압류 통지서 반송에 따른 공시송달",
@@ -1044,6 +1084,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-128호)재산(예금) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-11-20",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69775"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-128호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-11-20",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69775"
 },
 {
 "title": "(방송미디어통신위원회 공고 제2026-290호) 상품판매형 방송채널사용사업 변경승인 심사 관련 시청자 의견 반영 여부 및 심사 결과 공표",
@@ -1156,6 +1201,16 @@
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69743"
 },
 {
+"title": "(방송미디어통신위원회 공고 제2026-290호) 상품판매형 방송채널사용사업 변경승인 심사 관련 시청자 의견 반영 여부 및 심사 결과 공표",
+"date": "2026-11-16",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69749"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-126호) 과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-16",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69743"
+},
+{
 "title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-11-12",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=g6SVdD-rlvUe9dti8l7EplZYDhwZgkYVIg30KCcw.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
@@ -1229,6 +1284,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
 "date": "2026-11-12",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-125호)재산(예금) 압류 통지서 반송에 따른 공시송달",
+"date": "2026-11-12",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69711"
 },
 {
 "title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
@@ -1309,6 +1369,11 @@
 "title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
 "date": "2026-11-10",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69670"
+},
+{
+"title": "(방송미디어통신사무소 공고 제2026-124호)과태료 고지서 및 독촉장 반송에 따른 공시송달",
+"date": "2026-11-10",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69670"
 },
 {
 "title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
@@ -1394,6 +1459,11 @@
 "title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
 "date": "2026-11-09",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=W2D4JmmI30wVIO2SFPBj5cWAU0m6ZydYuzTYftsj.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69666"
+},
+{
+"title": "정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달(방송미디어통신사무고 공고 제2026-123호)",
+"date": "2026-11-09",
+"url": "https://www.kmcc.go.kr/user.do;jsessionid=29h2OAf6Fnol2tSWk877jXEAhoesWij0YC2nH8fH.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69666"
 },
 {
 "title": "2026 디지털윤리대전 정부시상 후보자 공개검증",
@@ -1669,63 +1739,31 @@
 "title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
 "date": "2026-11-02",
 "url": "https://www.kmcc.go.kr/user.do;jsessionid=XPs14cbUxKiLmVaXmW1n4mLkLj2qQo6Yz8NaWsos.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
-},
-{
-"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=XPs14cbUxKiLmVaXmW1n4mLkLj2qQo6Yz8NaWsos.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
-},
-{
-"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=bxHIaNDzM183NREO7zWSXLzkPXptabVf8Srg8H64.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
-},
-{
-"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=bxHIaNDzM183NREO7zWSXLzkPXptabVf8Srg8H64.servlet-aihgcldhome20?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
-},
-{
-"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
-},
-{
-"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=EqU69oiwLQrS0YeiLyc_Qx3Hx77aqMhk0nNfSVqS.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
-},
-{
-"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
-},
-{
-"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=bn5HjUX8R589uDxtkmz_Xf_gPIYzcG5iekO3OHuU.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
-},
-{
-"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=xHzOQrpI3HU4g5AINeSODpvQHKijIwxZWOkD3fZX.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
-},
-{
-"title": "(방송미디어통신위원회 공고 제2026-284호)「2026 방송미디어통신위원회 방송대상」 정부시상 후보작 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=xHzOQrpI3HU4g5AINeSODpvQHKijIwxZWOkD3fZX.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69651"
-},
-{
-"title": "2026년 하반기 모범공무원(일반직) 정부포상 추천후보자 공개검증",
-"date": "2026-11-02",
-"url": "https://www.kmcc.go.kr/user.do;jsessionid=wqDBFxa66mC0c-JVKmGVnhtq5LkT1nSzWNHsJToB.servlet-aihgcldhome10?mode=view&page=A05020000&dc=K05020000&boardId=1112&cp=1&nop=10&boardSeq=69653"
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 },
 "cnn": {
 "label": "CNN",
 "items": [
+{
+"title": "European Central Bank set to appoint its first Spanish leader",
+"date": "2026-11-27",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOXzZnS2tTME93WGtEeHFtb3VqQVBTb3g0eWFoa19jV3ByclEwTjh0em8wZC1OLXgxWVJ6WWlPV1BMVkRoeERyMU41Q2FuMi1QdV9Cd3JXS1k5VDVmV0kzLVV3QjdFXzhtbEM4S2NWZzhEUVl5cjVlazVwRjVxNTlzd2tzbHR3T3lp?oc=5",
+"summary": "European Central Bank set to appoint its first Spanish leader&nbsp;&nbsp;CNN"
+},
+{
+"title": "Ancient Egyptian structure hidden beneath Nile mud detected from space",
+"date": "2026-11-27",
+"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHR2dVlYeEdGUldYeXdwbHBLV3Z2RmxTWWxjYzBLcno0bDR1UU9oN3VWTWtIVTF4QVFGOTJEVmFNM2xqb093Ni10ZE5UREpCRDB0czJLRGJHWXRMREJQRjNVdEE2Vm8wTkxXNUxrYmpqUS1GQ1cyM0RSb0F1SDk1TWo0ME1Nb29TYlUtT3JNUFU?oc=5",
+"summary": "Ancient Egyptian structure hidden beneath Nile mud detected from space&nbsp;&nbsp;CNN"
+},
+{
+"title": "In pictures: Thanksgiving week in America",
+"date": "2026-11-27",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ON3FMZVRPalFyc0ZoQ1JkaEZ0eEFPY1RPTUxWUlhxc3lqTTQ4ZVpONzJVQW5KYWh0Mkk2cGR0SWhVRDVNcXA1clQ0QkdNMHdnZGpxZ2t4c1k1VzF6bVJEcUs5b2Q?oc=5",
+"summary": "In pictures: Thanksgiving week in America&nbsp;&nbsp;CNN"
+},
 {
 "title": "100th Macy’s Thanksgiving Day Parade moved to Saturday due to projected storm",
 "date": "2026-11-26",
@@ -1791,6 +1829,168 @@
 "date": "2026-11-26",
 "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMG9kMm96Z1BLODJDdUhTdE5EcWxmUHAzUjhGcXdVTURPWFlxb29obEg4ZmxlcFBUSkVOT0F5djdBcTVFV3g2R2RINnY4NTJKZ1pyWTR0Umdtd25PenFNZWNoYU1jcTRVMnNWNUN3bUlnQzd5X3lFdjJ0TjN4dDNaS1BHazV3Mk1F?oc=5",
 "summary": "British woman, whose husband drugged and raped her for decades, testifies in mass sexual assault trial&nbsp;&nbsp;CNN"
+},
+{
+"title": "Putin showed ‘restraint’ by not using nuclear weapons, Kushner says",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcmxHNG8yMUYwNjBTRjdFV3ROOWdqaWgzWDQwNER5YXVUSW9VYjIwM2lmMld0U045S1NodU53OE9rb085dzVYR2ZPYlZ5TGhScXFUajE3VVpJY2hpcWF3empNMTl2ZnNGbm9YX3FxalJCbHdjaEFXQUdfRkl1NkFkZy1Ca3I0aHdP?oc=5",
+"summary": "Putin showed ‘restraint’ by not using nuclear weapons, Kushner says&nbsp;&nbsp;CNN"
+},
+{
+"title": "French actor Gerard Depardieu to face trial for rape, his lawyer says",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oY1l0clY4RWlFcUJnajJNRGUyaHBXYXJ6MENWTnpGZk1LLUx5dUpZQ3ZPc2VGZ0hjMXVvalpTMlNBZFN2X3JlTDlfeEtTZ3NlN0k0SmxQNnhFU3M5SXUxWDBYRU1Xa2lDcTVLZHBON3laMWN3?oc=5",
+"summary": "French actor Gerard Depardieu to face trial for rape, his lawyer says&nbsp;&nbsp;CNN"
+},
+{
+"title": "Alleged Russia-directed sabotage in Europe risks mass-casualty event, think tank warns",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSFJvYmFza1JfRk9CbGpTSmc5cXg1VnNMeXBCb2JIeVhEc1Bvbkk5ZnV5RmhVMlgwbFd4R0g3YVRRZERfVzJ0Tjh1dDE5N28tVFd4V2tuWndjSVdJMEhKTlhIQkdwdFlKM3FnUGhsbk1oTnZkT3ViVUtBdlRzNXBJWVNvdUJDckx5XzFfVA?oc=5",
+"summary": "Alleged Russia-directed sabotage in Europe risks mass-casualty event, think tank warns&nbsp;&nbsp;CNN"
+},
+{
+"title": "US authorizes SpaceX to deploy 1 million satellites for AI data centers in space",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0x2cTY1eldxQW5lTHFueTItMEJDQXlWYXJSLWQzWVdKV3Y5UVNSd2dwMUNCcVNtTTZWLVBZSklFcm11X0JtczRyQzJzV0huclBsZzdKQWJTLUxlOEhxU0tlUndoTFlyWkxIVTF4bGxwM1FWbTBEWjlpTk9oZ1RIaGtmdXVUbjFG?oc=5",
+"summary": "US authorizes SpaceX to deploy 1 million satellites for AI data centers in space&nbsp;&nbsp;CNN"
+},
+{
+"title": "Jared Kushner praises Putin’s ‘restraint’ with nuclear weapons",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlVwc0xFMkx5c0JNdFZtUXBJOGxsTzRqV0pYTG1NR1Vib0pza0UyODZUQ0c4bk9pdXdKcFA0US1wR3RFdHQwRXMwYVVfVmtVbWF4bUJ4VlRSVllzNHVYLVl4MlpHR2xqRkJybWcxcjhyaHNoY0JXeE9GUExlaGl4OUUwdkJjWm4xMGt6Sk1paTRFa0x4WURibUhUT0FYczQyWW15MXRZVGNCVXFVeTAw?oc=5",
+"summary": "Jared Kushner praises Putin’s ‘restraint’ with nuclear weapons&nbsp;&nbsp;CNN"
+},
+{
+"title": "Huge plume of black smoke seen from space after Houthis claim strike on Saudi’s biggest oil refinery",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZjNLUU9yN2QyU29UOFo5WmxpbEZTdVVPM1BkNnZ4TUQxRmhXYmFsNDRWQlFVQ1dubzA0ZURTMFpzakMzLVk3eE4xeXVhRGxVa19GU3ZRTE5zUl9pXy1PNzIyZ01PdXBiZGZ4OUM0YjNSeVlXaHhXT2FONS1aRl8weTJ0VUw2c3ZJTkFHSlhlbExSdTlQTEhOcVB5b0dZbEZiUUww?oc=5",
+"summary": "Huge plume of black smoke seen from space after Houthis claim strike on Saudi’s biggest oil refinery&nbsp;&nbsp;CNN"
+},
+{
+"title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EdnBYZWpScENrWUdWM09rby05RGZ5dk1yVmc5SjZrUDdfWGJicE5yd255eDNyRWhBaTV5dkpBRmwwdUg0dk9XZ08zQk1MOEVpbzJWMXhORXJiaHRSNFNfTlo5TTR1UW9CQkJmNWlnWGxCVDczUldJMFZDNE0?oc=5",
+"summary": "At least 9 injured by large explosion and fire at major oil facility in Bangkok&nbsp;&nbsp;CNN"
+},
+{
+"title": "Aaron Rodgers’ strange NFL trip may be over. The incendiary final act is a fitting last chapter",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYUozc211ZGR4aml0YzY1YkhCNVVsT2xPRFI5QzVPa05ScWZUOVRTcVh4QXhlRUF4aEo2djg5LVpMMlBVWjFNaEF4WFpRenpRMnFIZEUycUtvNTlKdGJBMENnLXV1X2NyWXBtR0xWYlBxclUyLXVDSm5SSm15Q1Qyd1YyRkxJQQ?oc=5",
+"summary": "Aaron Rodgers’ strange NFL trip may be over. The incendiary final act is a fitting last chapter&nbsp;&nbsp;CNN"
+},
+{
+"title": "Houthis strike Saudi oil infrastructure as Riyadh intensifies attacks on Yemen",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUFJKcTlSNmZHYWt2WWZqdWxWTzhVX3Vqakhma0tlMlhBOWMtczBfOHdlMllydUdjTldlTlZwcFk3UmJNMGVqaHk3NzUyUEpKTGIzaVJOb0FZN3VBSzAtcW1hT3RCcE1hU1o4bmEwb1B6aGxpa0Q1QUFCbGJIbVdTdUpmcGhCcWZLdzl1OVlCQ0JHVHk2UzMzMl9YOGoxZw?oc=5",
+"summary": "Houthis strike Saudi oil infrastructure as Riyadh intensifies attacks on Yemen&nbsp;&nbsp;CNN"
+},
+{
+"title": "At the gym with the CEO who made us wait 13 years for GTA VI",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ncVlCY1gweDdIUkFLM3luWThNdGtIbHFlMDRPWTc3X2lpQ2hVbncxTzRheVVxY2RPX1k2aFpNS2Mxdkx0RjRuYUlWeUFQUFY2Wi1Hcjk2WTRmWThlbW5pRm9ZeXpTbzNLVE5Pc01Za19iMGREc0R5Y1hNckY3R2M?oc=5",
+"summary": "At the gym with the CEO who made us wait 13 years for GTA VI&nbsp;&nbsp;CNN"
+},
+{
+"title": "Iowa detonation cleanup",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWjlSVUIxLWFwS0lSTzgyRUo3SHF2ZGwxdWZYSE1ZdFBTYVZQLVJoQldLcVJkcC1TMnlVZldCdExNeVVmdkJOYVp2ZWxUcHNBalRpeDRkVU9OVU85ZGlXUmd1QzhnNFhlTWZZMmp2ZnE2RDZxeHFlUmZTbnlxNXNreQ?oc=5",
+"summary": "Iowa detonation cleanup&nbsp;&nbsp;CNN"
+},
+{
+"title": "A doctor’s guide to surviving — and enjoying — holiday feasting while on GLP‑1 medication",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFRzhnNnM2bVJUS2w2cGkxUlZaU282UnZNdTdNZm05VjVZT1V1ME1GbTdHczFzd1lVRVczNDB0T0lrZXFobnNiTkgtQnQ5dkxud1ZiNFMtellvZXQ1NzFWcVVyX0N6NV9RWXc?oc=5",
+"summary": "A doctor’s guide to surviving — and enjoying — holiday feasting while on GLP‑1 medication&nbsp;&nbsp;CNN"
+},
+{
+"title": "Angelina Jolie and Brad Pitt settle years-long legal battle over French winery",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVjFhNW9adGRteU9MMnprMlF1bDBKTER4dzVJYTd1QmFiQmZnQ2hyeUhrMjNqRnpiLXlQcWFnb3JmX29tTEdhWkRVem1BS09rNTVCejcxbkZLYnNTcVJRdThYcEJTQ3Qxc2lOb3VoWmpqSWZXT09hVmVkQ2Etc1dnU0dDN1l1VTNzRFNBUExLYk53VzB4SjBFckhR?oc=5",
+"summary": "Angelina Jolie and Brad Pitt settle years-long legal battle over French winery&nbsp;&nbsp;CNN"
+},
+{
+"title": "Two Italians killed in alleged Iranian drone attack on Kuwait; Tehran denies involvement",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUdlenhjamNKTzFaUG9EMVdzb0wwbmlNd1dYLU15Q2xDWDVuYVN6cWtrZlUyRTMxeGdKbVMzaXh0SXNRS1RGUUd1bnhIS3dtYXpLTi1BQkJjSm5SaUhWcENBTlRyZ2dlNEFnbUFOWkdxYlBYUC1sN2NUR0pDc2hDNjR3SF91ODVpOHRCUw?oc=5",
+"summary": "Two Italians killed in alleged Iranian drone attack on Kuwait; Tehran denies involvement&nbsp;&nbsp;CNN"
+},
+{
+"title": "He built a shrine to China’s national liquor, with one catch: He’s allergic",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDQ2ltb3ZNTUJDcDBiR3FKdUNkQVVSb3YwUTBJOUI0V3lWY1lRN1ZQcGVvNk9VWFMwbHBMc1l1RFhCVDZtSlVUX2V3RXFka2d4cnJtWHBHVHJZalBzSUU2MUpRZFlfMnF1ZkZueEZyNTdCSVFyZ0k0?oc=5",
+"summary": "He built a shrine to China’s national liquor, with one catch: He’s allergic&nbsp;&nbsp;CNN"
+},
+{
+"title": "Artists are quitting Instagram and Facebook over fears AI will steal their work",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUXNFeVY3UFR6eFlYQ0xBc21CSGs3S25xN21IYUxSbzZrdF9rMGV2WXRGMG9GeUIzSmUwTFp0VVl3bmxEa01lZXM3TXdSM0lEdnhKd0RRM0VzS0FmZk1ZWWtzaTBNQndRdkxyaDUxVlZ0Q1pqMk9NVVVLekkycTNGUg?oc=5",
+"summary": "Artists are quitting Instagram and Facebook over fears AI will steal their work&nbsp;&nbsp;CNN"
+},
+{
+"title": "Charities help SNAP enrollees find volunteer gigs so they don’t lose benefits",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CMzJ1QXBXZktjcTBkMkRrMS1qaVBBeGdSa19YUzVXMzhZN0dJVUtLTWlNTTNMOGo1bU5zNndraGt0U2lITkRrTzAtVUxTTkFvZ1FwaEhmdG1paTdqd3ozSWRFMGJlYjIwSk9LVGdkR0VlVUVPS25yX1hpNA?oc=5",
+"summary": "Charities help SNAP enrollees find volunteer gigs so they don’t lose benefits&nbsp;&nbsp;CNN"
+},
+{
+"title": "California hit by record tides and massive waves",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUJtT3pPU2hNUVFrRkJMUjZUcUVwSHd4aDdFc1YwV1l6aUVMdEJvMnZ3ZXhmNUswbFNXOXpEZDQwamEzOGVYYUtNMV9yWVE3S25KLVViODY2UjhUenhkZVVrcFFEeVE4cTVsYTN3UU8tekYxbF9MN0wzd3ltOFhTT3c2SU0xVnZvUmY5VTVwQWRLZUtMaDBoOGlFOXAxVndRU0FheE1ibTR1QQ?oc=5",
+"summary": "California hit by record tides and massive waves&nbsp;&nbsp;CNN"
+},
+{
+"title": "What to know about fire safety during the holidays",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13U29jWWZONG4tOTRaYmVwYzZ3RGE2LTJJT3I3d3JpU042WUd2WmxFRTQwbDlYalg2Q3ZqemNBMWFSX0haNzQ4UmlQR3JqYVg1RU16NTM0ZDhMZm5ta3Q3UENFOW54SUdTQmN2d0RCclc3c3BUb3g4dWFTdzk?oc=5",
+"summary": "What to know about fire safety during the holidays&nbsp;&nbsp;CNN"
+},
+{
+"title": "Trump’s midterms debacle hasn’t dimmed his designs on Cuba. Or those of ‘President’ Rubio",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZEVoSHBXNGhMTGNBZmRWbEdLOTczSHlmWmJfU3hITm03dkR4N0dVN1Npb0VTRXhTMGI5elI3VjNRV2NSeXNTTXBHQjBNaFpvUmpxRnhxUzRDdGtfX2FVT0RucENabDhOci1WTVp6OHRIYlpyNHVnOXZQNXQwWlJ5YXhncWVVeHNGSVJjZEVR?oc=5",
+"summary": "Trump’s midterms debacle hasn’t dimmed his designs on Cuba. Or those of ‘President’ Rubio&nbsp;&nbsp;CNN"
+},
+{
+"title": "The story of America’s favorite Thanksgiving duo is being adapted for a Lifetime movie",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbG90TVgxYUhyTFV4UVQwbDNRX2hxM25qTGE2NjJuWjc1cm5jQzV6a0w4NHN0VThJN1VZbXh5cjZNN2IyRlFaM09zYVNQS2QtSVhSSHBGQU1hMUYxcC1XXzhRaElKSER0WTJZUHl5SG1zRzZxbGRHMlczSXVGekE5QTF3?oc=5",
+"summary": "The story of America’s favorite Thanksgiving duo is being adapted for a Lifetime movie&nbsp;&nbsp;CNN"
+},
+{
+"title": "Veruschka, one of world’s first supermodels, dies at 87",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGYXZiblhCN2tfdkxVTHF4clRoazVTazZyZG81UFRrcTVBZEpvVkJ1U1ZiVjE2eVlfQkF4N3VwT2FiWVg5Zkxuclp3MDFIQzlvc2I0MEtmOEUxVHhuazF6cWRPWVdzcWxGNUVrLTV2cWJHWUhkdkNQWkxYWQ?oc=5",
+"summary": "Veruschka, one of world’s first supermodels, dies at 87&nbsp;&nbsp;CNN"
+},
+{
+"title": "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56RW9JUlN2bDJLSHRKcU1Wa3prb0pqZDZTYUF4NDQwQXlQWUVXSlMzeTZGWXQ4bnJ4MnlMSVRtZG1XQVBTWmIwcUNGVnBYRV82RHhjczNJc1p5V2p5VEd2NDIyTGVmQjV3NVRkT2VQS3JkV0N4VWJobHdVSzRSUQ?oc=5",
+"summary": "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan&nbsp;&nbsp;CNN"
+},
+{
+"title": "Their mother awoke from a coma and told her children they needed surgery next",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwaEFXV1lUMm1OU1V4bi1QOE1wVkxyZ0w1NVp2TWpGQnhSZlV4dXd3a3NqVWhCYzZfc3Zla3F1T0ljWkJnMDdVZG16WkNyamxPRFVFXzNHX2txOTl2dzduX3B6QnlNaFpVYzh1SW1LMkFaN2d5SXM4dGVrYw?oc=5",
+"summary": "Their mother awoke from a coma and told her children they needed surgery next&nbsp;&nbsp;CNN"
+},
+{
+"title": "Iranian attack on Kuwait kills two Italians, Italy’s foreign minister says",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOHctV19hTWstZkJNSmxndEtnajFUeWItMWZFTzNFY0swaUdRQ3kyd0lCclg4SXBlUi1pQlNuY2NVeXRGRjFPTndPcWdlemNmY3hLem01VjdETlU2QTdodGlTZ2YwbGdMbHBJUzhZVEI4RkFtRXFWUTJwSEltLTBVUkdkUjVsZVJDekJLX2t5X3l3UQ?oc=5",
+"summary": "Iranian attack on Kuwait kills two Italians, Italy’s foreign minister says&nbsp;&nbsp;CNN"
+},
+{
+"title": "Were the oldest cave paintings made by spitting?",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd05fR2RzNURNemtCSGc2R0hIWG1ldktiMTQyS2RGeG9waXdaXzlMSXlUQm1ONC1aY3RManVjaW4xOFZIOG5FT21xQ0dBVlI5VGVNcnFpdE0xQ2wyaVRZYVhwN1ZsY2ZndTdpZlEtWFdrSEpmNXJFUjNlR1A3eXgwSWpnX1hzR0FySk0yX0ZkTzM3YkFJWkdDXw?oc=5",
+"summary": "Were the oldest cave paintings made by spitting?&nbsp;&nbsp;CNN"
+},
+{
+"title": "Judge blocks Trump’s FCC from targeting ABC stations: ‘This is not a close case’",
+"date": "2026-11-26",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVd6SmZMLUpRRjdUcmpPeWVwRGRIbV85M3lxREZ4cmtwMzFKSy12RWVHcWFHQ1Q0Y2Y5aG1fME9kbkZ6eFRMdE0yUm1QMWEwZEJ1VExhWS1kVlRPakU0Q1F4dlh6WE81MnUyQnpUd1pweGFOZ25RMDgzMkRFUC02Vkk3aVlKTV9jdXNBd3Rn?oc=5",
+"summary": "Judge blocks Trump’s FCC from targeting ABC stations: ‘This is not a close case’&nbsp;&nbsp;CNN"
 },
 {
 "title": "CIA hit by hack impacting unclassified information",
@@ -2445,193 +2645,43 @@
 "date": "2026-11-22",
 "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ096cllIck0zdE1MWXF6cHM0V21YaTlPSzJtWWNoX1VvRmc1NDJXbkN1QkZwVll6OERZb0N6V2ZwTXJnbTRyMnlkUGlJQjFKcjhvbFk4SVJvazVSb2NEdVFuZlFXbmtfWHVuTmg1QWxDcnV6R1lfem5UenoxTVdZc21RSHM?oc=5",
 "summary": "Police investigating whether Titans’ Jaylen Harrell assaulted driver before Florida crash&nbsp;&nbsp;CNN"
-},
-{
-"title": "Immigration officers make arrests at Seattle airport in ‘distressing’ scene, delaying flight",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQmN2WGowYmtXVnBSRWtCYW5ROTRlOW91ZXBLd043aEVDU1lHMkEzSDJ0d01rN0Y0UDI1ZFE4RnFUWGVxbXdVM3UxMWdTUDVwSC1SS0JTbVZYck1fRzA2bzBKc0wtMWxtRExtTGxBUkxiSWM0NlhFdmNlcVVPU1Y5OU5KWWg?oc=5",
-"summary": "Immigration officers make arrests at Seattle airport in ‘distressing’ scene, delaying flight&nbsp;&nbsp;CNN"
-},
-{
-"title": "Thousands of Gen Z protesters flood the streets of Europe",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vcGMyREN3VW5DbWhWQm4zYmpDN2VOS0N3MFR2ZGVHWUItU002dDByM1gxckQ1VXFoMWRaamZNaTZuODQ3VDFwRmEtWVN3aEtVOGJxOFo3ckMyTFV6U1Q0bEFmbXFIT0ZCdXUxWERUaVQ1MWpVbGtOdw?oc=5",
-"summary": "Thousands of Gen Z protesters flood the streets of Europe&nbsp;&nbsp;CNN"
-},
-{
-"title": "Gods, royalty and a ‘bride to be’: Bolivia’s guinea pig costume fair",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXFuNXNaOFo5ZmE3aHhReVIzbjZnLW1HMHJra1EyQzlSUk5ka2hNbjY4eGJORGwtY1hfeHdfblM3SHNaOUswOFhvNUlZTzdIR2s3aUJuRTdWaDNFZWxUdk9qeGVacjlxVW1WVVEyc0ZZREZ1YmRYSjU3RERwMVRyb0lxX21nbTY1Y3dHSk5ocUdxU1FoX091aVM3MzdQeW50ZEw4VENXaER4UTNYdFJwSGdWRnFsRm5Ib0E?oc=5",
-"summary": "Gods, royalty and a ‘bride to be’: Bolivia’s guinea pig costume fair&nbsp;&nbsp;CNN"
-},
-{
-"title": "FL Rep. Wasserman Schultz says 'making life more affordable' is the near singular focus of new congress",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNUVKYzczVGFwMnlzdjNuaFRIekdJQTZJSGNpdlFMN3ZTRFlWbXBJMkpKR0xYZ0ZNbjNnQ0g1T2daSzdvS0xxcEpjRE5FVlFoSVkyaEFzS2NuLXl4LVZMbDF1VmJYZTdGWXlUcDVpZUtCY3hEU0x5S1BWQXdLVzJoZmdZalYtV2dWaS1SQWI3WDhJT1VJakZ2d3JUWHZEYUMtNjZyQVhzTVdiOGlpRzJiV2RmbFhkd21ibk5zemFvOE56REZHbkVBV3Aya2hJMHBRUVZBUWpJTUhUMGNha1lv?oc=5",
-"summary": "FL Rep. Wasserman Schultz says 'making life more affordable' is the near singular focus of new congress&nbsp;&nbsp;CNN"
-},
-{
-"title": "Tech outages: \"I hope the bridge doesn't burn before we get to the other side\"",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVlJqOXg2R2M3TjNLYkVOalVCeG9pNkxBRVZLNVgydE0za0RjamJpdXVHUEZvQjlrSzBybkVSUmZLN3FQMk5aaVJrWF90cFZya2FKM21mWXg4R3pMeG5BLTU5OVh2S29HVVRPLWc2MmtzWWpOVkVGSG0zd19zS2NJU05HNy1PYkVDZEJZamRST1RuWnZpTlFBZ1ZCNEFCb2djR3VOM3JqenhZSGNmQ0JzX0N4UnU?oc=5",
-"summary": "Tech outages: \"I hope the bridge doesn't burn before we get to the other side\"&nbsp;&nbsp;CNN"
-},
-{
-"title": "PMOS periods: What’s really happening?",
-"date": "2026-11-22",
-"url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSmk3N3VtVzNTVy0tSVdEdnR5cENCb3NkV3JMQlhDREdJUnJ5MVJ5UlVkRkFlYXVUS1VjTmxMTDBnVVVYanROZTBJV3RkZDkxMjViZElvOHNETllreVhQOWZnRFpuVlRqSnJ6aU82U2lXN0FmODFFUWowUFUyYlBGZXRURUxaWXV0WkxNdmI2R2JmcjRrZFA3N0NKTHZ1LWtFblZ1ZlFmZ2c0ckNw?oc=5",
-"summary": "PMOS periods: What’s really happening?&nbsp;&nbsp;CNN"
-},
-{
-"title": "Former plastic surgeon who defended himself in capital murder case ‘forfeited his right to live,’ judge says",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91Und1aW5rQzBSQVRVUmZTc25kOVBBUm9ZRWdqM2g3Sk9xNHU3NlZqUHVrMUVFY3V1N1B0d2VEaFl6UWMzTkt0T1U4eHBWTUlFUzYySUNqR1R6UHZPakQ4cVluYVIzSWRxR1pSTE9kNTlMUjdZVExzQmQ1OUw5QQ?oc=5",
-"summary": "Former plastic surgeon who defended himself in capital murder case ‘forfeited his right to live,’ judge says&nbsp;&nbsp;CNN"
-},
-{
-"title": "Trump intel chief warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NVVhZRExTWWpGYWVac3VkQ3Bsa2dpNndVUnV3NzFmV08zbFNlTUhodUNHcFQwYU1tdDRfT3RwX2Ntd1EtU096ME80cXhHSUhyRGU3SWpVMS1lb01NRkNWNWJwcWJCVUJ5Vk8yOGE2VTZxamVNZjVMeVhCOA?oc=5",
-"summary": "Trump intel chief warned no funding for Musk’s SpaceX without answers on Ukraine Starshield slowdown&nbsp;&nbsp;CNN"
-},
-{
-"title": "Security officials warn the US aviation industry of recent calls for attack by Al Qaeda",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNnNkQWYyRV80Mk52ZW9UYTh2Zk85T0ZycndqNGNvb2cwVDAwNDVISmxVaXdFbDdGQ25WcGxQUWo2bVBHbm5kMG8wMURvVUl6M01xS0Y2VGw4NXJueHlmenpwODNWQVZtVlpKbFBwRV91ZzR5SVY0T1JPOUpTejh5WVRWbnppSk5nQWs5ag?oc=5",
-"summary": "Security officials warn the US aviation industry of recent calls for attack by Al Qaeda&nbsp;&nbsp;CNN"
-},
-{
-"title": "Second judge blocks Trump’s triumphal arch, saying it lacks congressional approval",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sak5Db1JtQW1xOEl1MnNUMm9UMXZDSUVMQi1ERkRYQ1hmSlZUUW9wdkg5R1BETjJEZktsYU00TGl6Zl9jNWJYSnA2T09xZDMxZTRwNm9PMHpWS21YbkJVZ0RjVGxIN2lfUXNUajVFRGVJbHYwZGpucmZn?oc=5",
-"summary": "Second judge blocks Trump’s triumphal arch, saying it lacks congressional approval&nbsp;&nbsp;CNN"
-},
-{
-"title": "Trump calls Stephen Miller ‘the most powerful man in the world’",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdTJudUwzVHZtRFQ2M3k1RjEzMmdTeFR1bEREb2x5OFBKZnZabDExZmpkRXFxRHlHZ1MxenZERWNOX3RMT2FiRnhrRnhZMlpkVkdhaVZXczB0dmVZX3VpSkZ4OVVna3RUTjBodlNrdkRabW52a3B3djRvZERmRkdxaTYyaVk?oc=5",
-"summary": "Trump calls Stephen Miller ‘the most powerful man in the world’&nbsp;&nbsp;CNN"
-},
-{
-"title": "Judge halts Army’s plan to detonate 5 tons of bomb-making material as Iowa residents worry about lead exposure",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDQWRMaWZFc3hfZ3VNV2MzNlNYcFJVSXJYNnJfUGtEUmYxYzE5ckpqOWVmelBNLV81Snp2N2ZaSDB5NDAwRlJuQVFMUTNCRVZwUmc0MkpVdmJxUjNiQXFyUm5LRUJHWWdLRnF2eUFaZUw1c28?oc=5",
-"summary": "Judge halts Army’s plan to detonate 5 tons of bomb-making material as Iowa residents worry about lead exposure&nbsp;&nbsp;CNN"
-},
-{
-"title": "Zelensky reacts to Trump calling Putin a friend: ‘For us, he is a killer’",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeTlIRk5ZQ3lKUjZtel85MEFfd3IxcHFFa3VCaU8xSENReVZ3MDR1X2NIRWN1SXFDRDR6c1hkbUVDX19RaHVrOVR4Y1ZoTm1lWEEyTVhUci1aTWJBT04xMmtfRnlKYjc1Tk5fMFZkVzNld3JONU9zemZyOVdQbndkZmk1MHVsZDgyXzE1cUdWWnZFdEF0?oc=5",
-"summary": "Zelensky reacts to Trump calling Putin a friend: ‘For us, he is a killer’&nbsp;&nbsp;CNN"
-},
-{
-"title": "Exclusive: American detained in Cuba for nearly a decade quietly released",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnpObDVmREFnaXRWdlJNYVJRTE5HdE5QMTZJRHYtWEF6VDBETVgzUzY1ak9jSUJWOEdCYjkwcUZPTXd2ZGJKc3pnRFl0NDFtd3JQVEdwdlJsbGdLeUI4cVVXZ3RuUFh2aHBQcWQ2ZlhuWnBWT3IxWGZjYnhTTFV0SFppa0pvTkdF?oc=5",
-"summary": "Exclusive: American detained in Cuba for nearly a decade quietly released&nbsp;&nbsp;CNN"
-},
-{
-"title": "Trump admin official jailed for driving 109 mph",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckN0UzV4WnpBN09NUHROSE1zeW9JY1FfeEpINUJLQ0hDNlBPZjRWdmR3TzQ2RmFyTTVmMzFWd1ZDM215RWljUjdiTUNxZE5lX0ZfYTB2Z2ZLZWcyNGRzWlNnR0J4YXltNnVOdnlhN2hMcDViVFlFMlpPcXd5cFo1aG94Zk5sTXc?oc=5",
-"summary": "Trump admin official jailed for driving 109 mph&nbsp;&nbsp;CNN"
-},
-{
-"title": "Why surgery wasn’t an option to save Fiona the hippo",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QOUNIaDJiYVdoMU1ieU8yMVpFcW1pVXlkQ0lPR3h0MWRub1Z4SWU1d1hmaDZCSFU3YnVtSUxnWXJTX2hoOVBvMDRBWEh2TmxZYnh3Tkh1T0hqdzd2dENJMi1HR1ZRQQ?oc=5",
-"summary": "Why surgery wasn’t an option to save Fiona the hippo&nbsp;&nbsp;CNN"
-},
-{
-"title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdllsNUVFYnVqeDVsNWpGX1U5ckw2RURWWUc0ZDdaWksyYzF0c3JJUjAxaHRCbFR2a3F6R1RsLVhSRjBoTngtZWNSRHVybWd4cUN0STB2VWhQSDVtZTBIVG9jMFp0WHBrSGpydlhNTWI?oc=5",
-"summary": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves&nbsp;&nbsp;CNN"
-},
-{
-"title": "‘No shortage of depraved men’ willing to kill British woman on porn site Motherless, US court hears",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xWTRMMVRLWlJTa05fZEJNcHNzZ0ZhbTh3UUpMMEI0TlBza3p2cFVYQzlmZnZaa29wX2szalJWV1k0Y1hNX041RUlmM1cwMXhlVDN2U3pLSHVScWd3RWtpbHRoYXduelB3QWJSenhQci12WUhpVE13NA?oc=5",
-"summary": "‘No shortage of depraved men’ willing to kill British woman on porn site Motherless, US court hears&nbsp;&nbsp;CNN"
-},
-{
-"title": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTEN2TTJ4ejYzaE85ZktzVzBrRVFDSVZoc3pYWlpWQjdmYmExNDVyTjAxZmU3NjU5UkZpYnd2MjlfM0VHeDhVb3V4VDhJdTVaT1J4RjlJZGVKZGlqVXVoQ21zcWJuVmsyTXJSeU9fbFBYUWVOSW1ZcV9kWkVZSkQ4bHZCSldGXzVJeWpDVjlVQ3Y?oc=5",
-"summary": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper&nbsp;&nbsp;CNN"
-},
-{
-"title": "AI may eliminate jobs, but today’s children can still thrive in an uncertain future",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQzdLU3p3dUY2cmppZXpFTXJ2Q3NKUEphT2NhTkJUbzlDSEx3bEZtemgyMGtjdndCNlFCekNFZlYtVmZLaE9PVzRJM3dBUlFPN1B6S1lrSkVYOGNGOGJXSk1jQ1gwRmlGdFk0T2tJSHRIQXVLU3Z3RnI0dThBcGtxMTB3?oc=5",
-"summary": "AI may eliminate jobs, but today’s children can still thrive in an uncertain future&nbsp;&nbsp;CNN"
-},
-{
-"title": "‘GTA VI’ sales blew past $3 billion in its first day, making it one of the biggest entertainment launches ever",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0UTkyUDY0Q3dVYjlJZzRSVVVOeWhaSTZvVmoyZlRKeEFBUzFJNDZJR1RlSm1YSW5GM3VBRjhFc29LSVRURUdsYnZ4LVd2STgtNlZyT0M2aXU1UFVfbGVVeXVudVdKb3NOZjNGRlAxY0pkUQ?oc=5",
-"summary": "‘GTA VI’ sales blew past $3 billion in its first day, making it one of the biggest entertainment launches ever&nbsp;&nbsp;CNN"
-},
-{
-"title": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzZfZGtacHBWRmlaM3ViTFJHYzRHQ2g5TUZVOEdqOUdKWW5DaDg0OHBmU3hpOEFISFdqeUhXR1JVNjlYcktrYWJ3aTNlaF91ajhNcXJhVXJ5TFFWSVh5NmtsWk9VN2M4N3F3M0ZacVVmZC1YTDFFRlpLRlVhcTBnMlBR?oc=5",
-"summary": "Brazil’s former president Jair Bolsonaro has been hospitalized again, son says&nbsp;&nbsp;CNN"
-},
-{
-"title": "An extra ‘mini-moon’ will orbit Earth for the next months",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mWWRCUUxlSEVXWFpDU1NXTnFoSDBnaGxSOTdYMmUwZTBrODFsY2FBX211VVZjQWpTd0JpLUc0ZkJaLU5uYWNIblNzVE5UNG1DZXo4dUM3aFI3YnNLb2NNQk5SOXpPcUdQaHp1MnltakI?oc=5",
-"summary": "An extra ‘mini-moon’ will orbit Earth for the next months&nbsp;&nbsp;CNN"
-},
-{
-"title": "The Democrats’ top 9 targets for investigations next Congress",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYkJ5QVdwenZXMFVLSE80Y2hzYkwzaXhZNmtYa2VCTFdpYkItZ0tXQnpRaU91TFd1VGMzNzFBeE8zNFJUM3FDNzNRRURHU25RdVM5VnNxNkdFaGkxMHhzTmh3Rzg3ZUNvcTRJLWNNWFlrdUlsNkwtaDRPQVNaNkpvSk43aw?oc=5",
-"summary": "The Democrats’ top 9 targets for investigations next Congress&nbsp;&nbsp;CNN"
-},
-{
-"title": "‘Cancer does change you’: Princess of Wales talks candidly about her experience in new documentary",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMZ1JVNmxhdEo0NGNPV2RSTWdHenVFcFllMmVHMEV2WVRTSlB6MU1CYXdTeGxFUmJwMFZUejgyc29LMW0tb1Q4eFVRaEJuckJXYlFsTU1qNE92MEZiU0JjRkh6Tm1YQ01hbnNjTXU0cw?oc=5",
-"summary": "‘Cancer does change you’: Princess of Wales talks candidly about her experience in new documentary&nbsp;&nbsp;CNN"
-},
-{
-"title": "A capsizing cruise ship and a gutsy risk: How a quick-thinking police chief turned a looming tragedy into a miracle",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvNkNKU2RwWHFZQlJVLUxMNUllNUJlS1BucGNtTkc1b3J3Vl8xQWphdjhnU1RnekRLdDdnRkJPV2ktWGtfS1ltUFJmUk00bkFVbWFPOTEtTlFMZUJhSzN6Q3ptX3lCWXZSS2p5cFFvYVpYQQ?oc=5",
-"summary": "A capsizing cruise ship and a gutsy risk: How a quick-thinking police chief turned a looming tragedy into a miracle&nbsp;&nbsp;CNN"
-},
-{
-"title": "Russian ‘triple-tap’ attack in Ukraine kills emergency worker and 7-year-old in Zelensky’s home city",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRVFENUFiWHpVUERfMGl2ZDViQ2NXUExGZWItNUFEVWJ6b1hDX05rRERkR2VaUWJ0dVhRSGRua2N6SFJTaWU0MXRzYVFWdENPVVNKRmkxUDR6LWNNZzE1SDA4QnJWVURhcUVjam56aDdUS1BRQ09nWjBtSHA1ZDk0Tg?oc=5",
-"summary": "Russian ‘triple-tap’ attack in Ukraine kills emergency worker and 7-year-old in Zelensky’s home city&nbsp;&nbsp;CNN"
-},
-{
-"title": "Fears about toxic lead dust spur battle over US Army plan to detonate bomb-making material in Iowa",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13ZGhGOVZ3Y1dvb2FocF9uUnRWcHlsNWJYQXNHbU9yT2VOLTh6VzRwOGxhOFgzOVVWM0xkdlFYR1dVZHhsYVZRU1paM2JXZjA3MEFZMnRRTkhFZWZnUUFYSU15VkRpbWVmYUlnUThEMmZkbWtqWWc?oc=5",
-"summary": "Fears about toxic lead dust spur battle over US Army plan to detonate bomb-making material in Iowa&nbsp;&nbsp;CNN"
-},
-{
-"title": "French police officers convicted of racist assault on Black music producer",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vOHhhWHVjakpKdDV6V2VQVm5xRFVMWHZ0c2JIYktIcmN1ckgtaWdxUmoycGxGYTFKSWJweld1bWtqVmFVWVc3Q0RDNER4bDNvcDh4R09NZi1ydU1nQ1JSSS1LMlU0VzBGSkg3NDc4Y2xGX2RPZzBRN25scGlPUUk?oc=5",
-"summary": "French police officers convicted of racist assault on Black music producer&nbsp;&nbsp;CNN"
-},
-{
-"title": "Texas says an execution went as planned. A witness says screams showed ‘tremendous distress’",
-"date": "2026-11-21",
-"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNHhnLVdLeVFrNWppS0drbjlzdE00TlBEUzl0cmJEaEJwOGpvM0I4SGRQcUh0S3EtZ2tELVAtaWtjNk82aGd2djFJUHQwX2lnT3RsenF6TmJnZEZXU1NVN1d5Z25XWVFZTUcydG1Ub2pkZ012TkUtQ3VYWFZHUFNiOE1saw?oc=5",
-"summary": "Texas says an execution went as planned. A witness says screams showed ‘tremendous distress’&nbsp;&nbsp;CNN"
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 },
 "bbc": {
 "label": "BBC",
 "items": [
+{
+"title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+"date": "2026-11-27",
+"url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+"summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins."
+},
+{
+"title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+"date": "2026-11-27",
+"url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+"summary": "The possible environmental damage is still being assessed by Spain's sea rescue service."
+},
+{
+"title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+"date": "2026-11-27",
+"url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+"summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry."
+},
+{
+"title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+"date": "2026-11-27",
+"url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+"summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area."
+},
+{
+"title": "New UK-EU treaty has 10-year termination clause",
+"date": "2026-11-27",
+"url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+"summary": "Text of the treaties was published this afternoon, alongside legislation designed to enact the bulk of the deal."
+},
 {
 "title": "US announces new tariffs on host of countries including China",
 "date": "2026-11-26",
@@ -2697,6 +2747,144 @@
 "date": "2026-11-26",
 "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
 "summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm."
+},
+{
+"title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
+"summary": "Nearly a third of crossings in early 2026 allegedly involved boats or engines from the German man's firm."
+},
+{
+"title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss",
+"summary": "Marvin Reuter is contesting extradition to France, where he could face smuggling, criminal conspiracy and involuntary manslaughter charges."
+},
+{
+"title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+"summary": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould."
+},
+{
+"title": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+"summary": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges."
+},
+{
+"title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+"summary": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic."
+},
+{
+"title": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
+"summary": "Lenacapavir, administered as an injection twice a year, is nearly 100% effective at preventing HIV infection."
+},
+{
+"title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
+"summary": "A landmark ruling by the International Court of Justice (ICJ) convicted Myanmar of genocide against its Rohingya minority."
+},
+{
+"title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+"summary": "Simon Le Bon and his other bandmates say Taylor \"brought an indelible fire and swagger to our music\"."
+},
+{
+"title": "Politics and peek-a-boo in Australian parliament as senator brings baby to work",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/videos/cmvg23djw8v9o?at_medium=RSS&at_campaign=rss",
+"summary": "Senator Lidia Thorpe kept 6-month-old Aaliyah entertained, as her mum Senator Fatima Payman, participated in an online safety bill debate."
+},
+{
+"title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+"summary": "The killings are the latest from a series of near daily attacks by Israel against what it says are Hamas targets."
+},
+{
+"title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+"summary": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday."
+},
+{
+"title": "DR Congo demands answers over Ugandan general's threats",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cwz0k90rgpm8o?at_medium=RSS&at_campaign=rss",
+"summary": "Gen Kainerugaba threatened a rebel takeover of a mineral-rich area in DR Congo in controversial X posts."
+},
+{
+"title": "Guinea orders residents to clean up the capital months after deadly rubbish dump collapse",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cqwy4377yxnlo?at_medium=RSS&at_campaign=rss",
+"summary": "The capital's main rubbish dump has been closed since the disaster, leading to rubbish piling up in the streets."
+},
+{
+"title": "Musk's plan to send a million SpaceX data satellites into space approved",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+"summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power."
+},
+{
+"title": "Watch: Alaskan flying team airdrops Thanksgiving turkeys to remote communities",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/videos/cvze7yk7dy5lo?at_medium=RSS&at_campaign=rss",
+"summary": "For the last few years, the \"turkey bombers\" have taken to the skies for the benefit of residents in off-grid communities."
+},
+{
+"title": "Deadly fire erupts near Cairo killing dozens of people",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
+"summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry."
+},
+{
+"title": "Moment Nasa spacecraft hit asteroid - and what happened next",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/videos/cwe9kxpgz2kpo?at_medium=RSS&at_campaign=rss",
+"summary": "The crash was \"like something out of a disaster movie\", the BBC's science editor Rebecca Morelle says."
+},
+{
+"title": "Greatest catch ever? Man on motorbike takes incredible grab",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/sport/cricket/videos/cwx2e0g93l3eo?at_medium=RSS&at_campaign=rss",
+"summary": "A passenger on a motorbike pulled off a remarkable one-handed catch after the ball was hit out of the ground for six in the Swat Premier League in Pakistan."
+},
+{
+"title": "Desperate appeals from women on death row in Iran after protests",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+"summary": "Female protesters and dissidents are being sentenced to death in numbers not seen for decades, a rights group says."
+},
+{
+"title": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+"summary": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice."
+},
+{
+"title": "France's political mainstream risks presidential vote debacle with no clear candidate",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
+"summary": "Hard-right and hard-left candidates dominate the polls ahead of next year's presidential election."
+},
+{
+"title": "Has global jihadism failed, or is it simply changing shape?",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
+"summary": "Jihadist groups appear to be focusing on local issues rather than global terror. Does it signify a real change?"
+},
+{
+"title": "Two screenings of Pakistani TV show cancelled in India after backlash",
+"date": "2026-11-26",
+"url": "https://www.bbc.co.uk/news/articles/cky97x7delz9o?at_medium=RSS&at_campaign=rss",
+"summary": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row."
 },
 {
 "title": "US attorney general dodges questions about Nvidia investigation",
@@ -3363,177 +3551,9 @@
 "date": "2026-11-20",
 "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
 "summary": "The verdict marks the first time a state has ever been found to have committed genocide by an international court."
-},
-{
-"title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
-"summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?"
-},
-{
-"title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-"summary": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine."
-},
-{
-"title": "Texas death-row inmate screams as execution takes more than one hour",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
-"summary": "This prolonged execution comes weeks after Christa Pike survived the lethal injection of the same drug."
-},
-{
-"title": "South Korea catches 111 students with new measures against exam cheating",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
-"summary": "The students were caught with banned smart devices while taking the high-stakes Suneung exam."
-},
-{
-"title": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss",
-"summary": "Daily pill daraxonrasib appears to shrink and possibly even eliminate tumours in some patients with one of the deadliest cancers."
-},
-{
-"title": "Nigeria moves to end jail terms for attempted suicide",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
-"summary": "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill."
-},
-{
-"title": "From premature baby to social media star - Famed hippo Fiona dies",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
-"summary": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo."
-},
-{
-"title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
-"summary": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun."
-},
-{
-"title": "Why Canada is embracing AI data centres while the US pushes back",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
-"summary": "Shark Tank's Kevin O'Leary is among the big investors looking to Canada as a data centre development destination, while his US project faces local opposition."
-},
-{
-"title": "More climate money for Africa? Europe says use what's already pledged",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-"summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change."
-},
-{
-"title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
-"date": "2026-11-20",
-"url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
-"summary": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up."
-},
-{
-"title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-"summary": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones."
-},
-{
-"title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-"summary": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region."
-},
-{
-"title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-"summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit."
-},
-{
-"title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-"summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation."
-},
-{
-"title": "Grand Theft Auto 6 is a masterpiece, say critics",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-"summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype."
-},
-{
-"title": "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/c6lyw490z14jo?at_medium=RSS&at_campaign=rss",
-"summary": "Inass Touloub's body was found along the A10 road in 1987, bearing marks of abuse, and was not identified until 2018."
-},
-{
-"title": "William and Kate meet PM Modi as they wrap up India tour",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-"summary": "The meeting in New Delhi was a late addition to the royal couple's India visit, which also included their appearance at the annual Earthshot Prize"
-},
-{
-"title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-"summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January."
-},
-{
-"title": "Julio Iglesias facing court investigation over alleged sexual offences",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
-"summary": "The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021."
-},
-{
-"title": "New video shows explosions moments before part of Crimea Bridge collapses",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-"summary": "BBC Verify analyses footage showing the final moments before part of the bridge fell and videos showing the scale of destruction."
-},
-{
-"title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
-"summary": "Zookeepers say she cannot have surgery but are providing fluids and supportive care to help her pass the hat."
-},
-{
-"title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-"summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week."
-},
-{
-"title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
-"summary": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life."
-},
-{
-"title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
-"summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\"."
-},
-{
-"title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
-"summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn)."
-},
-{
-"title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-"summary": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods."
-},
-{
-"title": "Florida pastor found guilty over role in assassination of Haitian president",
-"date": "2026-11-19",
-"url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
-"summary": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse."
 }
 ],
-"lastOk": "2026-11-26 07:50"
+"lastOk": "2026-11-27 07:51"
 }
 }
 }
